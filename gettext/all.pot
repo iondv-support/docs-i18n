@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  1_system_deployment.pot (IONDV rest module )  #-#-#-#-#\n"
 "Project-Id-Version: IONDV rest module \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-17 17:52+1000\n"
+"POT-Creation-Date: 2020-02-18 16:06+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "#-#-#-#-#  2_system_description.pot (IONDV rest module )  #-#-#-#-#\n"
 "Project-Id-Version: IONDV rest module \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-17 17:52+1000\n"
+"POT-Creation-Date: 2020-02-18 16:06+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr ""
 "#-#-#-#-#  3_modules_description.pot (IONDV rest module )  #-#-#-#-#\n"
 "Project-Id-Version: IONDV rest module \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-17 17:52+1000\n"
+"POT-Creation-Date: 2020-02-18 16:06+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,7 @@ msgstr ""
 "#-#-#-#-#  4_ion_model.pot (IONDV rest module )  #-#-#-#-#\n"
 "Project-Id-Version: IONDV rest module \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-17 17:52+1000\n"
+"POT-Creation-Date: 2020-02-18 16:06+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgstr ""
 "#-#-#-#-#  7_develop.pot (IONDV rest module )  #-#-#-#-#\n"
 "Project-Id-Version: IONDV rest module \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-17 17:52+1000\n"
+"POT-Creation-Date: 2020-02-18 16:06+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,10 +66,20 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  docs-i18n.pot (IONDV rest module )  #-#-#-#-#\n"
+"Project-Id-Version: IONDV rest module \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-18 16:06+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "#-#-#-#-#  index.pot (IONDV rest module )  #-#-#-#-#\n"
 "Project-Id-Version: IONDV rest module \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-17 17:52+1000\n"
+"POT-Creation-Date: 2020-02-18 16:06+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,7 +89,7 @@ msgstr ""
 "#-#-#-#-#  key_features.pot (IONDV rest module )  #-#-#-#-#\n"
 "Project-Id-Version: IONDV rest module \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-17 17:52+1000\n"
+"POT-Creation-Date: 2020-02-18 16:06+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,40 +98,48 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:3
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:3
 msgid "Файлы в папке \"bin\""
 msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:5
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:5
 msgid ""
 "В папке содержаться скрипты запуска приложения, реализованного на IONDV. "
 "Framework, такие как:"
 msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:8
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:8
 msgid "`acl.js </docs/ru/1_system_deployment/files_in_folder_bin.md#acljs>`_"
 msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:9
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:9
 msgid ""
 "`export.js </docs/ru/1_system_deployment/files_in_folder_bin.md#exportjs>`_"
 msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:10
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:10
 msgid ""
 "`import.js и import-data.js </docs/ru/1_system_deployment/"
 "files_in_folder_bin.md#importjs-%D0%B8-import-datajs>`_"
 msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:11
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:11
 msgid ""
 "`setup.js </docs/ru/1_system_deployment/files_in_folder_bin.md#setupjs>`_"
 msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:18
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:18
 msgid "acl.js"
 msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:20
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:20
 msgid ""
 "Шаблон команды запуска: ``node %NODE_PATH%\\bin\\acl.js --d %NODE_PATH%"
 "\\applications\\%IONAPP%\\acl`` где, ``NODE_PATH`` - путь к директории "
@@ -129,38 +147,45 @@ msgid ""
 msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:23
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:23
 msgid "Добавляет права на объекты системы, указанные в папке acl."
 msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:25
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:25
 msgid ""
 "Так же доступны команды для создания роли и прав для нее в системе, в случае "
 "если в приложении отсутствуют настройки в папке **acl**\\ :"
 msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:29
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:29
 msgid ""
 "[x] Настройка логина и пароль - ``node bin/adduser.js --name admin --pwd "
 "123``"
 msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:32
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:32
 msgid ""
 "[x] Настройка доступа - ``node bin/acl.js --u admin@local --role admin --p "
 "full``"
 msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:35
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:35
 msgid ""
 "[x] Права на генерацию токена для сервиса rest/token - ``node bin/acl.js --"
 "role admin --p USE --res ws:::gen-ws-token``"
 msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:42
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:42
 msgid "export.js"
 msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:44
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:44
 msgid ""
 "Шаблон команды запуска: ``node bin/export --ns %IONAPP%`` где, ``NODE_PATH`` "
 "- путь к директории платформы, ``%IONAPP%`` - наименование приложения "
@@ -168,6 +193,7 @@ msgid ""
 msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:47
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:47
 msgid ""
 "Выполняет экспорт данных и меты из приложения, которое в данный момент "
 "собрано и запущено локально. Файлы экспорта формируются в структуру папок, "
@@ -175,16 +201,19 @@ msgid ""
 msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:51
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:51
 msgid "import.js и import-data.js"
 msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:53
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:53
 msgid ""
 "При импорте меты, по умолчанию, импорт данных не выполняется. Поэтому, для "
 "импорта меты вместе с данными вызываем команду:"
 msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:56
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:56
 msgid ""
 "``node bin/import.js --src %NODE_PATH%/applications/%IONAPP% --with-data --"
 "ns %IONAPP%`` где, ``NODE_PATH`` - путь к директории платформы, ``%IONAPP%`` "
@@ -192,16 +221,19 @@ msgid ""
 msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:59
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:59
 msgid "А для импорта непосредственно данных вызываем:"
 msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:61
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:61
 msgid ""
 "``node %NODE_PATH%/bin/import-data.js --src %NODE_PATH%/applications/%IONAPP"
 "%/data --ns %IONAPP%``"
 msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:63
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:63
 msgid ""
 "При этом, если импортируем мету и данные, указываем директорию приложения "
 "(при этом данные для импорта будут искаться в поддиректории data), если "
@@ -209,10 +241,12 @@ msgid ""
 msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:66
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:66
 msgid "setup.js"
 msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:68
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:68
 msgid ""
 "Шаблон команды запуска: ``node %NODE_PATH%\\bin\\setup %IONAPP%`` где, "
 "``NODE_PATH`` - путь к директории платформы, ``%IONAPP%`` - наименование "
@@ -220,52 +254,63 @@ msgid ""
 msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:71
+#: ../../docs-i18n/1_system_deployment/files_in_folder_bin.rst:71
 msgid ""
 "Выполняет установку приложения, запускает скрипт развертывания приложения, "
 "что включает в себя импорт и запись в базу данных меты модулей приложения."
 msgstr ""
 
 #: ../../1_system_deployment/index.rst:2
+#: ../../docs-i18n/1_system_deployment/index.rst:2
 msgid "1. Развертывание системы"
 msgstr ""
 
 #: ../../1_system_deployment/step1_installing_environment.rst:5
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:5
 msgid "Шаг 1 Установка окружения"
 msgstr ""
 
 #: ../../1_system_deployment/step1_installing_environment.rst:7
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:7
 msgid "Предыдущая страница: :doc:`Оглавление <../index>`"
 msgstr ""
 
 #: ../../1_system_deployment/step1_installing_environment.rst:9
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:9
 msgid ""
 "Окружение - это список программ необходимых для запуска платформы с "
 "приложением:"
 msgstr ""
 
 #: ../../1_system_deployment/step1_installing_environment.rst:12
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:12
 msgid "СУБД `MongoDb <https://www.mongodb.org/>`_ версии 3.6."
 msgstr ""
 
 #: ../../1_system_deployment/step1_installing_environment.rst:13
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:13
 msgid "Среда разработки `Node.js <https://nodejs.org/en/>`_ версии 10.x.x."
 msgstr ""
 
 #: ../../1_system_deployment/step1_installing_environment.rst:16
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:16
 msgid "СУБД"
 msgstr ""
 
 #: ../../1_system_deployment/step1_installing_environment.rst:20
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:20
 msgid ""
 "Необходимо установить СУБД `MongoDB <https://www.mongodb.org/>`_. "
 "Проверенная версия ``3.6.9`` и ``4.0.0``."
 msgstr ""
 
 #: ../../1_system_deployment/step1_installing_environment.rst:23
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:23
 msgid "Далее создаем папку ``data`` на диске C: и в ней подпапку ``db``."
 msgstr ""
 
 #: ../../1_system_deployment/step1_installing_environment.rst:26
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:26
 msgid ""
 "Для запуска базы данных переходим в папку расположения ``MongoDb``\\ , далее "
 "в папку ``server\\bin`` и запускаем файл ``mongod.exe``. Если есть "
@@ -275,45 +320,54 @@ msgid ""
 msgstr ""
 
 #: ../../1_system_deployment/step1_installing_environment.rst:31
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:31
 msgid "Среда выполнения Node.js"
 msgstr ""
 
 #: ../../1_system_deployment/step1_installing_environment.rst:33
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:33
 msgid ""
 "Node.js - является средой, в которой осуществляется выполнение компонентов."
 msgstr ""
 
 #: ../../1_system_deployment/step1_installing_environment.rst:37
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:37
 msgid ""
 "Необходимо установить среду разработки `Node.js <https://nodejs.org/>`_. "
 "Проверенная версия node.JS ``10.14.2``."
 msgstr ""
 
 #: ../../1_system_deployment/step1_installing_environment.rst:40
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:40
 msgid ""
 "По умолчанию установщик сам прописывает пути к Node.js в PATH, а также "
 "устанавливает менеджер пакетов ``npm``."
 msgstr ""
 
 #: ../../1_system_deployment/step1_installing_environment.rst:43
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:43
 msgid "Установка глобальных зависимостей"
 msgstr ""
 
 #: ../../1_system_deployment/step1_installing_environment.rst:45
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:45
 msgid ""
 "Установливайте глобальные зависимости в командной строке ``cmd.exe``\\ , "
 "запущенной от имени администратора, после установки ``node.js``."
 msgstr ""
 
 #: ../../1_system_deployment/step1_installing_environment.rst:47
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:47
 msgid "**NB:** команда ``node -v`` - показывает версию node.js."
 msgstr ""
 
 #: ../../1_system_deployment/step1_installing_environment.rst:50
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:50
 msgid "Установка среды сборки под Windows"
 msgstr ""
 
 #: ../../1_system_deployment/step1_installing_environment.rst:54
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:54
 msgid ""
 "Установите глобально пакет `node-gyp <https://github.com/nodejs/node-gyp>`_ "
 "командой ``npm install -g node-gyp`` необходимый для сборки различных "
@@ -321,6 +375,7 @@ msgid ""
 msgstr ""
 
 #: ../../1_system_deployment/step1_installing_environment.rst:57
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:57
 msgid ""
 "Для работы библиотеки под операционной системой семейства Windows "
 "дополнительно необходимо установить пакет windows-build-tools - ``npm "
@@ -328,10 +383,12 @@ msgid ""
 msgstr ""
 
 #: ../../1_system_deployment/step1_installing_environment.rst:60
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:60
 msgid "Пакет сборщика проектов"
 msgstr ""
 
 #: ../../1_system_deployment/step1_installing_environment.rst:62
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:62
 msgid ""
 "Для организации тестирования и сборки дистрибутивов при разработке "
 "используется `Gulp <http://gulpjs.com/>`_. Установите глобально командой "
@@ -339,16 +396,19 @@ msgid ""
 msgstr ""
 
 #: ../../1_system_deployment/step1_installing_environment.rst:65
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:65
 msgid "Установщик фронтенд библиотек"
 msgstr ""
 
 #: ../../1_system_deployment/step1_installing_environment.rst:67
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:67
 msgid ""
 "Для установки библиотек фронтенд используется `bower <https://bower.io>`_. "
 "Установите глобально командой ``npm install -g bower``."
 msgstr ""
 
 #: ../../1_system_deployment/step1_installing_environment.rst:70
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:70
 msgid ""
 "Следующая страница: `Установка ядра, модулей и приложения "
 "<step2_project_with_modules.md>`_"
@@ -434,90 +494,110 @@ msgstr ""
 #: ../../2_system_description/platform_configuration/package.rst:121
 #: ../../3_modules_description/rest/rest.rst:900 ../../index.rst:338
 #: ../../key_features.rst:137
+#: ../../docs-i18n/1_system_deployment/step1_installing_environment.rst:85
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:156
+#: ../../docs-i18n/1_system_deployment/step3_building_and_running.rst:59
 msgid ""
 "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights "
 "reserved."
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:5
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:5
 msgid "Шаг 2 Установка ядра, модулей и приложения"
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:7
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:7
 msgid ":doc:`Оглавление <../index>`"
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:9
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:9
 msgid ""
 "Предыдущая страница: :doc:`Установка окружения "
 "<step1_installing_environment>`"
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:12
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:12
 msgid "Клонирование приложения и его компонентов"
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:14
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:14
 msgid ""
 "**NB:** пути не должны содержать русских букв и пробелов. Мы советуем "
 "размещать приложение в ``c:\\workspace``."
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:16
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:16
 msgid ""
 "Рассматриваем формирование проекта с модулями на примере приложения "
 "``develop-and-test``."
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:20
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:20
 msgid ""
 "Находим приложение в репозитории github. Набираем искомое приложение "
 "``develop-and-test`` в поле поиска и переходим на него."
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:23
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:23
 msgid "Переходим в репозиторий файлов на ветку версии."
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:26
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:26
 msgid "Открываем файл ``package.json`` в котором смотрим зависимости."
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:48
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:48
 msgid "``engines\": \"ion\": 3.0.0`` - версия ядра ``3.0.0``."
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:51
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:51
 msgid "``ionModulesDependencies`` - список модулей и их версий."
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:54
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:54
 msgid ""
 "``ionMetaDependencies`` - список других метаданных, необходимых для проекта, "
 "в данном случае исключение ``viewlib`` - библиотека представлений."
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:56
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:56
 msgid ""
 "**NB:** для переключения на tag номера версии - смотрите версии в файле "
 "``package.json``."
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:59
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:59
 msgid "Получение репозитория ядра"
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:61
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:61
 msgid ""
 "Ядро находится в репозитории `framework` <https://github.com/iondv/"
 "framework>`. На главной странице есть поле с путем к репозиторию."
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:65
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:65
 msgid "Запустите командную строку от имени администратора."
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:68
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:68
 msgid ""
 "Скопируйте адрес репозитория, перейдите в папку workspace командой  ``cd c:"
 "\\workspace`` и выполните команду ``git clone https://github.com/iondv/"
@@ -526,14 +606,17 @@ msgid ""
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:71
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:71
 msgid "Получение модулей"
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:75
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:75
 msgid "Переходим в папку модулей командой ``cd framework\\modules``."
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:78
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:78
 msgid ""
 "Для каждого модуля из списка ``package.json`` в свойстве "
 "``ionModulesDependencies`` - находим репозиторий модуля среди группы модулей "
@@ -541,12 +624,14 @@ msgid ""
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:81
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:81
 msgid ""
 "Клонируйте все модули из списка ``ionModulesDependencies`` командой ``git "
 "clone https://github.com/iondv/registry``."
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:84
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:84
 msgid ""
 "Перейдите в папку установленного модуля, переключитесь на tag номера версии "
 "``git checkout tags/v1.27.1``. Например ``1.27.1`` - это номер версии модуля "
@@ -554,20 +639,24 @@ msgid ""
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:87
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:87
 msgid "Повторите для всех модулей."
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:90
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:90
 msgid "Получение приложения"
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:94
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:94
 msgid ""
 "Переходим в папку приложения. Если вы находитесь в папке модулей выполните "
 "команду ``cd ..\\applications``."
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:97
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:97
 msgid ""
 "Далее вернитесь на страницу репозитория ``develop-and-test``\\ , скопируйте "
 "путь и клонируйте его командой ``git clone https://github.com/iondv/develop-"
@@ -575,12 +664,14 @@ msgid ""
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:101
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:101
 msgid ""
 "Перейдите в папку установленного приложения, переключитесь на tag номера "
 "версии ``git checkout tags/v1.17.0``."
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:104
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:104
 msgid ""
 "Установка зависимостей в ``ionMetaDependencies`` осуществляется в папку "
 "``applications``\\ , для установки необходимо убедиться, что находитесь в "
@@ -590,42 +681,50 @@ msgid ""
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:107
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:107
 msgid ""
 "Перейдите в папку установленного приложения, переключитесь на tag номера "
 "версии ``git checkout tags/v0.9.1``. Повторите для каждого приложения."
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:110
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:110
 msgid "Приложение скомпоновано."
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:112
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:112
 msgid ""
 "**NB:** мы советуем создать для него проект в IDE, например Visual Studio "
 "Code и в нём создать конфигурациионный файл."
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:115
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:115
 msgid "Конфигурациионный файл"
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:117
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:117
 msgid ""
 "Конфигурационный файл служит для задания основных параметров окружения "
 "приложения и настройки дополнительных параметров запуска."
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:121
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:121
 msgid ""
 "Создайте конфигурационный файл ``setup`` с расширением ``ini`` в папке "
 "``config``."
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:124
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:124
 msgid "Открываем файл в редакторе и вставляем содержимое."
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:138
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:138
 msgid ""
 "Самый главный параметр - ``db.uri=mongodb://127.0.0.1:27017/db``. Он "
 "указывает на название базы которую мы будем использовать для приложения. "
@@ -633,17 +732,20 @@ msgid ""
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:141
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:141
 msgid ""
 "Следующая страница: `Шаг 3 Сборка, развертывание и запуск "
 "<step3_building_and_running.md>`"
 msgstr ""
 
 #: ../../1_system_deployment/step2_project_with_modules.rst:146
+#: ../../docs-i18n/1_system_deployment/step2_project_with_modules.rst:146
 msgid ""
 "`Licence </LICENSE>`;  `Contact us <https://iondv.com/portal/contacts>`;"
 msgstr ""
 
 #: ../../1_system_deployment/step3_building_and_running.rst:5
+#: ../../docs-i18n/1_system_deployment/step3_building_and_running.rst:5
 msgid "Шаг 3 Cборка и запуск приложения"
 msgstr ""
 
@@ -738,22 +840,26 @@ msgstr ""
 #: ../../3_modules_description/registry_treegrid.rst:6
 #: ../../3_modules_description/report.rst:7
 #: ../../3_modules_description/soap.rst:7
+#: ../../docs-i18n/1_system_deployment/step3_building_and_running.rst:7
 msgid "`Оглавление </docs/ru/index.md>`_"
 msgstr ""
 
 #: ../../1_system_deployment/step3_building_and_running.rst:9
+#: ../../docs-i18n/1_system_deployment/step3_building_and_running.rst:9
 msgid ""
 "Предыдущая страница: `Шаг 2 Установка ядра, модулей и приложения "
 "<step2_project_with_modules.md>`_"
 msgstr ""
 
 #: ../../1_system_deployment/step3_building_and_running.rst:11
+#: ../../docs-i18n/1_system_deployment/step3_building_and_running.rst:11
 msgid ""
 "Для всех дальнейших команд, необходимо запустить командную строку от имени "
 "администратора."
 msgstr ""
 
 #: ../../1_system_deployment/step3_building_and_running.rst:13
+#: ../../docs-i18n/1_system_deployment/step3_building_and_running.rst:13
 msgid ""
 "Перейдите в папку приложения ``cd c:\\workspace\\framework`` и задайте "
 "переменную окружения  ``NODE_PATH`` равной пути к приложению. Для Windows "
@@ -762,16 +868,19 @@ msgid ""
 msgstr ""
 
 #: ../../1_system_deployment/step3_building_and_running.rst:17
+#: ../../docs-i18n/1_system_deployment/step3_building_and_running.rst:17
 msgid "Сборка приложения"
 msgstr ""
 
 #: ../../1_system_deployment/step3_building_and_running.rst:19
+#: ../../docs-i18n/1_system_deployment/step3_building_and_running.rst:19
 msgid ""
 "Сборка приложения обеспечивает установку всех библиотек, импорт данных в "
 "базу данных и подготовку приложения для запуска."
 msgstr ""
 
 #: ../../1_system_deployment/step3_building_and_running.rst:23
+#: ../../docs-i18n/1_system_deployment/step3_building_and_running.rst:23
 msgid ""
 "При первом запуске необходимо выполнить ``npm install`` - она поставит "
 "ключевые зависимости, в том числе локально сборщик ``gulp``. Убедитесь, что "
@@ -780,12 +889,14 @@ msgid ""
 msgstr ""
 
 #: ../../1_system_deployment/step3_building_and_running.rst:26
+#: ../../docs-i18n/1_system_deployment/step3_building_and_running.rst:26
 msgid ""
 "После этого, а также все последующие разы выполняйте команду сборки "
 "приложения ``gulp assemble``."
 msgstr ""
 
 #: ../../1_system_deployment/step3_building_and_running.rst:28
+#: ../../docs-i18n/1_system_deployment/step3_building_and_running.rst:28
 msgid ""
 "**NB:** Убедитесь, что стоит переменная окружения ``NODE_PATH``\\ , запущена "
 "база ``MongoDB``\\ , ``Gulp`` установлен глобально и локально и его версия "
@@ -793,6 +904,7 @@ msgid ""
 msgstr ""
 
 #: ../../1_system_deployment/step3_building_and_running.rst:31
+#: ../../docs-i18n/1_system_deployment/step3_building_and_running.rst:31
 msgid ""
 "Перед непосредственным запуском приложения необходимо добавить базового "
 "пользователя для входа. Откройте программу ``Mongo Compass`` и в базе данных "
@@ -804,10 +916,12 @@ msgid ""
 msgstr ""
 
 #: ../../1_system_deployment/step3_building_and_running.rst:35
+#: ../../docs-i18n/1_system_deployment/step3_building_and_running.rst:35
 msgid "Запуск приложения"
 msgstr ""
 
 #: ../../1_system_deployment/step3_building_and_running.rst:37
+#: ../../docs-i18n/1_system_deployment/step3_building_and_running.rst:37
 msgid ""
 "После окончания сборки можно запускать приложение. Убедитесь, что стоит "
 "переменная окружения ``NODE_PATH``. Без этого система выдаст ошибку, об "
@@ -815,12 +929,14 @@ msgid ""
 msgstr ""
 
 #: ../../1_system_deployment/step3_building_and_running.rst:39
+#: ../../docs-i18n/1_system_deployment/step3_building_and_running.rst:39
 msgid ""
 "Запуск системы осуществляется командой ``npm start``\\ , альтерантивой "
 "является запуск ``node bin/www``."
 msgstr ""
 
 #: ../../1_system_deployment/step3_building_and_running.rst:41
+#: ../../docs-i18n/1_system_deployment/step3_building_and_running.rst:41
 msgid ""
 "После запуска системы, откройте браузер с адресом ``http://localhost:8888`` "
 "и авторизуйтесь в приложении, где ``8888`` - порт указанный в параметре "
@@ -828,12 +944,14 @@ msgid ""
 msgstr ""
 
 #: ../../1_system_deployment/step3_building_and_running.rst:44
+#: ../../docs-i18n/1_system_deployment/step3_building_and_running.rst:44
 msgid ""
 "Следующая страница: `Описание системы - схема метаданных </docs/"
 "ru/2_system_description/metadata_structure/meta_scheme.md>`_"
 msgstr ""
 
 #: ../../1_system_deployment/step3_building_and_running.rst:49
+#: ../../docs-i18n/1_system_deployment/step3_building_and_running.rst:49
 msgid ""
 "`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
 "contacts>`_ &ensp;  `English </docs/en/1_system_deployment/"
@@ -5366,7 +5484,7 @@ msgid "``\"isStruct\"``      &ensp;"
 msgstr ""
 
 #: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:48
-msgid "`\\ **Является структурой** <isstruct.md>`_"
+msgid "`\\ **Является структурой** <type_isstruct16.rst>`_"
 msgstr ""
 
 #: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:49
@@ -10689,14 +10807,17 @@ msgid ""
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:2
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:2
 msgid "Настройки авторизации и безопасности"
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:5
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:5
 msgid "Параметры конфигруации приложения, файл ``deploy.json``"
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:7
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:7
 msgid ""
 "Параметры конфигурации приложения предназначены для определения ключевых "
 "возможностей системы при работе приложения на этапе проектирования и "
@@ -10704,16 +10825,19 @@ msgid ""
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:11
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:11
 msgid "Настройка параметров авторизации при работе с паролем"
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:13
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:13
 msgid ""
 "Параметры и требования работы с паролем задаются в ``di`` в конфиграции "
 "компонента ``auth`` модуля. Но в большинстве настройки задаются глобально."
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:46
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:46
 msgid ""
 "При этом значения обозначенные ``[[auth.passwordLifeTime]]`` могут быть "
 "переконфигурированы в файле настроек приложения ``/config/setup.ini``. Но "
@@ -10722,48 +10846,59 @@ msgid ""
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:49
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:49
 msgid ""
 "Время жизни задается в формает ``[длительность][ед. изм]``\\ , при этом "
 "единицы измерения:"
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:52
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:52
 msgid "y - год"
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:53
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:53
 msgid "d - день"
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:54
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:54
 msgid "h - час"
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:55
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:55
 msgid "m - минута"
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:56
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:56
 msgid "s - секунда"
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:58
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:58
 msgid "По умолчанию значения ключевых параметров:"
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:61
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:61
 msgid "passwordLifetime = 100y"
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:62
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:62
 msgid "passwordMinPeriod = 0d"
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:63
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:63
 msgid "passwordMinLength = 8"
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:65
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:65
 msgid ""
 "Все создаваемые пароли в системе, в том числе импортированные, автоматически "
 "проставляются как требуемые к смене. Чтобы при импорте пароли не "
@@ -10772,29 +10907,35 @@ msgid ""
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:69
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:69
 msgid "Настройка минимальной длины пароля для входа в систему"
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:71
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:71
 msgid ""
 "Для указания минимальной длины пароля для входа в систему используем "
 "свойство ``\"passwordMinLength\"``"
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:84
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:84
 msgid "Настройка прав доступа \"aclProvider\""
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:86
 #: ../../2_system_description/platform_configuration/deploy_globals.rst:191
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:86
 msgid "``\"plugins\":{``"
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:102
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:102
 msgid "Параметры настроек фреймворка и приложения в файле `config/setup.ini"
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:104
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:104
 msgid ""
 "Настройки предназначены для уточнения и изменения параметров приложения и "
 "инициализируются при запуске. Настройки имеют более высокий приоритет чем "
@@ -10802,16 +10943,19 @@ msgid ""
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:107
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:107
 msgid ""
 "Настройки приложения могут быть также заданы в переменных окружения при этом "
 "переменные окружения имеют более высокий приоритет перед настройками."
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:111
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:111
 msgid "Переопределение параметров конфигурации паролей"
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:113
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:113
 msgid ""
 "Параметры работы с паролями, заданные в ``deploy.json`` проекта, если "
 "включена параметризация и указан код параметр, можно переопределить через "
@@ -10819,51 +10963,61 @@ msgid ""
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:115
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:115
 msgid ""
 "Пример файла настроек ``/config/setup.ini`` в котором переопределяются "
 "значения, указанные в примере файла ``deploy.json``."
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:137
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:137
 msgid "Настройка параметров сессии в системе"
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:139
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:139
 msgid ""
 "Длина сессии задается в config/config.json в ``sessionHandler``\\ , с "
 "применением плейсхолдеров для параметра ``cookie.maxAge``\\ :"
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:163
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:163
 msgid ""
 "Добавляем настройку в ini-файл проекта. Формат задания аналогичен настройкам "
 "периодов в ``auth``\\ :"
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:172
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:172
 msgid ""
 "Также можно задавать просто числом, тогда это будет задание в миллисекундах."
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:175
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:175
 msgid "Настройка отключения формы авторизации для перехода на страницу модуля"
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:177
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:177
 msgid "В конфиге ядра у поля *\"auth\"* есть настройка ``exclude``\\ :"
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:196
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:196
 msgid "То есть прописываем в ini-файле проекта:"
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:206
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:206
 msgid ""
 "При переходе на страницу указанного в настройке модуля - данные отображаются "
 "без необходимости авторизации."
 msgstr ""
 
 #: ../../2_system_description/platform_configuration/auth.rst:209
+#: ../../docs-i18n/2_system_description/platform_configuration/auth.rst:209
 msgid ""
 "Отключение авторизации для статичных путей на примере проекта develop-and-"
 "test:"
@@ -14967,6 +15121,10 @@ msgstr ""
 
 #: ../../7_develop/index.rst:2
 msgid "7. Расширение стандартной функциональности и разработка"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:48
+msgid "`\\ **Является структурой** <isstruct.md>`_"
 msgstr ""
 
 #: ../../index.rst:7
