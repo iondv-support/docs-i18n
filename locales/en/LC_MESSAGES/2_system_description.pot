@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-02-18 16:07+1000\n"
-"PO-Revision-Date: 2020-02-18 06:03+0000\n"
+"POT-Creation-Date: 2020-02-18 16:13+1000\n"
+"PO-Revision-Date: 2020-02-18 06:12+0000\n"
 "Last-Translator: IONDV Weblate Admin <weblate@iondv.com>\n"
 "Language: en\n"
 "Language-Team: English <http://weblate.iondv.com/projects/iondv/iondv-"
@@ -13783,7 +13783,7 @@ msgstr ""
 
 #: ../../3_modules_description/rest/rest.rst:41
 msgid "`Дополнительные сервисы модуля <#дополнительные-сервисы>`_"
-msgstr ""
+msgstr "`Additional services <#additional-services>`_"
 
 #: ../../3_modules_description/rest/rest.rst:44
 msgid "Регистрация сервиса в конфигурации приложения"
