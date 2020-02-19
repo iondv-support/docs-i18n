@@ -1,0 +1,318 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:9
+msgid "Назад: `Конфигурационный файл - deploy.json <deploy.md>`_"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:12
+msgid "Глобальные настройки в ``deploy.json``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:14
+msgid ""
+"Глобальные настройки конфигурации приложения включает в себя следующие "
+"разделы:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:17
+msgid "[x] Пространство имен приложния ``\"namespace\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:18
+msgid "[x] Параметризация ``\"parametrised\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:19
+msgid "[x] Путь к шаблонам ``\"theme\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:20
+msgid "[x] Максимальный размер ``\"staticOptions\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:21
+msgid "[x] Наименование вкладки в браузере\\ ``\"pageTitle\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:22
+msgid ""
+"[x] `Модули приложения ``\"moduleTitles\"`` "
+"</docs/ru/2_system_description/platform_configuration/deploy_globals.md#модули-приложения>`_"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:23
+msgid ""
+"[x] `Настройка отображения общего системного меню для всех модулей "
+"проекта ``\"explicitTopMenu\"`` "
+"</docs/ru/2_system_description/platform_configuration/deploy_globals.md#настройка-отображения-общего-системного-меню-для-всех-модулей-проекта>`_"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:24
+msgid "[x] Переопределение настроек хранилища сессий ``\"sessionHandler\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:25
+msgid "[x] ``\"actualAclProvider\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:26
+msgid "[x] ``\"aclProvider\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:27
+msgid ""
+"[x] `Настройка HTML атрибутов для отображения и сохранения картинок в "
+"атрибуте ``\"fileStorage\"`` "
+"</docs/ru/2_system_description/platform_configuration/deploy_globals.md#настройка-html-атрибутов-для-отображения-и-сохранения-картинок-в-атрибуте>`_"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:28
+msgid ""
+"[x] `Настройки отображения имени пользователя и аватара во всех модулях "
+"проекта ``\"customProfile\"`` "
+"</docs/ru/2_system_description/platform_configuration/deploy_globals.md#настройки-отображения-имени-пользователя-и-аватара-во-всех-модулях-проекта>`_"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:29
+msgid ""
+"[x] `Настройка глубины жадной загрузки ``\"dataRepo\"`` "
+"</docs/ru/2_system_description/platform_configuration/deploy_globals.md#настройка-глубины-жадной-загрузки>`_"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:30
+msgid "[x] ``\"accounts\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:31
+msgid "[x] ``\"securedDataRepo\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:32
+msgid "[x] ``\"ldap\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:33
+msgid "[x] ``\"auth\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:34
+msgid "[x] ``\"sendmail\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:35
+msgid "[x] ``\"nodemailer\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:36
+msgid "[x] ``\"emailNotifier\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:37
+msgid "[x] ``\"notifier\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:38
+msgid "[x] ``\"eventNotifier\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:39
+msgid ""
+"[x] `Настройки интеграции с календарем ``\"icsMailer\"`` "
+"</docs/ru/2_system_description/platform_configuration/deploy_globals.md#настройки-интеграции-с-календарем>`_"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:40
+msgid "[x] ``\"recache\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:41
+msgid "[x] ``\"fact-creator\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:42
+msgid "[x] ``\"report-builder\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:43
+msgid "[x] ``\"projectReportCreator\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:45
+msgid "Структура которых строится следующим образом:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:86
+msgid "Модули приложения"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:88
+msgid ""
+"Для свойства необходимо задать модули, которые будут использованы в "
+"приложении в поле \"moduleTitles\". Также эти же модули будут "
+"отображаться в системном меню."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:103
+msgid "Настройка скрытия модуля в системном меню"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:105
+msgid ""
+"Для скрытия модуля из системного меню проекта присваиваем этому модулю, в"
+" файле ``deploy.json``\\ , значение *null*\\ , например ``\"ionadmin\": "
+"null``."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:127
+msgid ""
+"Для того, что бы в системном меню отображался одинаковый набор пунктов, "
+"не зависимо от того, на странице какого модуля находишься - необходимо в "
+"``deploy.json`` файле проекта задать ``\"explicitTopMenu\"`` на "
+"глобальном уровне, с сохранением возможности переопределять "
+"``\"explicitTopMenu\"`` в ``registry``."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:130
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:257
+msgid "Пример"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:175
+msgid "Описание полей"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:178
+msgid "``\"id\"`` - идентификатор секции навигации"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:179
+msgid "``\"url\"`` - url секции навигации"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:180
+msgid "``\"caption\"`` - наименование секции навигации"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:181
+msgid "``\"name\"`` - системное наименование модуля"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:186
+msgid ""
+"В данном поле задаются настройки, которые позволяют дополнительно "
+"расширить возможности приложения."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:189
+msgid "Настройка HTML атрибутов для отображения и сохранения картинок в атрибуте"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:191
+msgid "``\"plugins\":{``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:238
+msgid "``\"modules\": {`` ``\"registry\": {`` ``\"globals\":``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:251
+msgid "Настройки отображения имени пользователя и аватара во всех модулях проекта"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:253
+msgid ""
+"Для задания аватара через деплой прописываем связь с изображением. Аватар"
+" будет браться из соответствующего атрибута класса, объект которого "
+"привязан к текущему системному пользователю."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:280
+msgid "Настройка глубины жадной загрузки"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:291
+msgid "Настройки интеграции с календарем"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:293
+msgid ""
+"Интеграция осуществляется следующим образом: модуль по событию отправляет"
+" письмо с прикрепленным ``ics-файлом``\\ , в котором указано событие "
+"*iCalendar*.  *Outlook* воспринимает такое письмо как приглашение на "
+"собрание. *Яндекс* тоже добавляет собрание в календарь."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:295
+msgid "Конфигурации модуля:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:324
+msgid ""
+"Подробности настройки `transport и defaults "
+"<https://nodemailer.com/smtp/>`_."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:325
+msgid "Подробности настройки `letter <https://nodemailer.com/message/>`_"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:326
+msgid ""
+"Подробности настройки `calendar <https://www.npmjs.com/package/ical-"
+"generator#calendar>`_"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:327
+msgid ""
+"Подробности настройки `event <https://www.npmjs.com/package/ical-"
+"generator#event>`_"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:329
+msgid ""
+"Для настроек *letter*\\ , *event*\\ , *filename* и *calendar* "
+"предусмотрена возможность использовать данные из объекта события, "
+"указывая имена свойств через точку ``refAttr.stringAttr``\\ , либо "
+"обернув эту конструкцию в ``${refAttr.stringAttr}`` когда необходимо "
+"использовать шаблон."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:332
+msgid "Полный пример файла `deploy.json <deploy_ex.md>`_"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:337
+msgid ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us "
+"<https://iondv.com/portal/contacts>`_ &ensp;  `English "
+"</docs/en/2_system_description/platform_configuration/deploy_desc.md>`_"
+"   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_globals.rst:347
+msgid ""
+"Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights "
+"reserved."
+msgstr ""
+

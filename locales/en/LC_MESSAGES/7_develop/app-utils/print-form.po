@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../7_develop/app-utils/print-form.rst:6
+msgid "Утилиты для печатных форм"
+msgstr ""
+
+#: ../../7_develop/app-utils/print-form.rst:8
+msgid "Назад: `Функциональные утилиты приложения <./readme.md>`_"
+msgstr ""
+
+#: ../../7_develop/app-utils/print-form.rst:10
+msgid ""
+"Утилиты для печатных форм (инжекторы) предназначены для обработки "
+"выводимых в шаблон данных, в том числе проведения промежуточных расчетов "
+"и форматирования.\\ :raw-html-m2r:`<br>` Печатную форму для которой будет"
+" использоваться инжектор необходимо определить в deploy.json, например:"
+msgstr ""
+
+#: ../../7_develop/app-utils/print-form.rst:35
+msgid ""
+"В данном случае используется модуль listToDocx, следовательно в печатную "
+"форму будет выгружен список всех объектов определенного класса.\\ :raw-"
+"html-m2r:`<br>` Для каждого такого класса в tplDir нужно создать папку с "
+"названием пространства имен, в которую затем поместить файл с названием "
+"нужного для выгрузки класса из этого пространства имен, например:"
+msgstr ""
+
+#: ../../7_develop/app-utils/print-form.rst:42
+msgid ""
+"Таким образом в документ будет выгружен список всех объектов класса "
+"ticketYear@khv-ticket-discount."
+msgstr ""
+
+#: ../../7_develop/app-utils/print-form.rst:44
+msgid ""
+"Сама утилита представляет собой .js скрипт, подключаемый к приложению в "
+"формате модуля в deploy.json, например так:"
+msgstr ""
+
+#: ../../7_develop/app-utils/print-form.rst:65
+msgid ".js файл здесь находится по пути \"module\"."
+msgstr ""
+
+#: ../../7_develop/app-utils/print-form.rst:67
+msgid "После подключения утилиту необходимо включить в опции печатной формы:"
+msgstr ""
+
+#: ../../7_develop/app-utils/print-form.rst:94
+msgid ""
+"Скрипт инжектора составляется в формате модуля, с тем условием, что он "
+"должен содержать функцию this.inject, в параметр которой будет передан "
+"объект с вложенным в него списком объектов заданного ранее класса, для "
+"примера из этой справки:"
+msgstr ""
+
+#: ../../7_develop/app-utils/print-form.rst:100
+msgid "Пример файла monthTicketStats.js:"
+msgstr ""
+
+#: ../../7_develop/app-utils/print-form.rst:125
+msgid "Пример конфигурации экспорта для данной формы в deploy.js:"
+msgstr ""
+
+#: ../../7_develop/app-utils/print-form.rst:177
+msgid ""
+"Здесь следует обратить внимание на поле params - в нем можно указать "
+"параметры, доступные в форме экспорта в веб сервисе приложения, по "
+"состоянию на 24.12.2019 возможны следующие типы параметров:\\ :raw-html-"
+"m2r:`<br>` \"string\" - строка для ввода текста,\\ :raw-html-m2r:`<br>` "
+"\"date\" - интерактивный календарь, в котором можно выбрать интересующую "
+"дату\\ :raw-html-m2r:`<br>` \"reference\" - ссылка на класс, в данном "
+"случае в окне экспорта будет отображен выпадающий список всех объектов "
+"класса.\\ :raw-html-m2r:`<br>` Переданные параметры будут доступны в "
+"скрипте через параметр функции this.inject."
+msgstr ""
+

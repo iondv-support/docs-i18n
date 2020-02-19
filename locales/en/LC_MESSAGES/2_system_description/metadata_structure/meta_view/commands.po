@@ -1,0 +1,360 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:9
+msgid "Предыдущая страница: `Поля <fields.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:12
+msgid "Действия"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:14
+msgid ""
+"**Действия** - это доступные команды, которые можно выполнять над "
+"объектом класса."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:17
+msgid "JSON"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:33
+msgid "Описание полей"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:38
+msgid "Поле"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:39
+msgid "Наименование"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:40
+msgid "Допустимые значения"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:41
+msgid "Описание"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:42
+msgid "``\"id\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:43
+msgid "**Код**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:44
+msgid "*\"CREATE\" - создать объект/объект ссылочного поля*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:45
+msgid "Внутренний код действия с объектом."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:48
+msgid "*\"EDIT\" - изменить объект/привязанный объект ссылочного поля*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:52
+msgid "*\"DELETE\" - удалить объект*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:56
+msgid "*\"CREATE-INLINE\" - создать объект (не переходя на форму создания)*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:57
+msgid ""
+"Создание объекта без открытия формы создания, для ускорения заведения "
+"объектов."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:60
+msgid "*\"SAVEANDCLOSE\" - сохранить изменения и закрыть фрейм*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:64
+msgid "*\"SAVE\" - сохранить изменения*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:68
+msgid "*\"REMOVE\" - удалить привязку к объекту по ссылке*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:72
+msgid "*\"ADD\" - добавить привязку к объекту по ссылке*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:74
+msgid "``\"caption\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:75
+msgid "**Имя**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:76
+msgid "Строка"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:77
+msgid "Видимое наименование - подпись на кнопке действия (при наличии)."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:78
+msgid "``\"visibilityCondition\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:79
+msgid "**Условие видимости**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:80
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:84
+msgid "Строка или null"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:81
+msgid "Условие, при котором кнопка действия будет отображена."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:82
+msgid "``\"enableCondition\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:83
+msgid "**Условие активности**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:85
+msgid "Условие, при котором кнопка действия будет активна."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:86
+msgid "``\"needSelectedItem\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:87
+msgid "**Условие видимости - наличие выбранного элемента**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:88
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:92
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:96
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:100
+msgid "Логическое значение"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:89
+msgid ""
+"Поле выставляется в true для действий, которым необходимо наличие "
+"выбранного элемента для активации."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:90
+msgid "``\"signBefore\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:91
+msgid "**ЭП входящих данных**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:94
+msgid "``\"signAfter\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:95
+msgid "**ЭП исходящих данных**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:98
+msgid "``\"isBulk\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:99
+msgid "**Групповая**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:101
+msgid ""
+"Признак пакетной операции, для действий ссылочных полей. Выставляется в "
+"true для действий, которые выполняются со всеми привязанными объектами "
+"одновременно."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:105
+msgid "Логика действий над ссылочными объектами"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:107
+msgid ""
+"Операция ``\"Выбрать\"`` - это установление связи между объектами, вне "
+"зависимости от типа связи должна быть возможность ее установить (и "
+"разорвать) на уровне бизнес логики."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:110
+msgid ""
+"Если это связь по ссылке один ко многим, т. е. ссылка на ключ - то приняв"
+" сторону \"один\" за A, сторону \"многие\" за B, реализуем:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:112
+msgid ""
+"на стороне объекта B (ссылка на A): Операция ``\"Выбрать\"`` (SELECT) - "
+"находим объект (A), устанавливаем значение ссылочного атрибута объекта B "
+"равным ключу объекта A (обнуляем атрибут для разрыва связи);"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:113
+msgid ""
+"на стороне объекта A (коллекция или т.н. обратная ссылка): операция "
+"``\"Добавить\"`` (ADD) - находим объект (B), устанавливаем значение "
+"ссылочного атрибута этого объекта (B) равное ключу объекта A, операция "
+"``\"Извлечь\"`` (REMOVE) - выбираем в коллекции объект (B), обнуляем "
+"ссылку на A."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:115
+msgid ""
+"Если это связь по ссылке многие ко многим, т. е. ссылка на не ключевой "
+"атрибут, то для обоих концов коллекции реализуем связи:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:117
+msgid ""
+"Операция \"Добавить\" (ADD) - находим объект, устанавливаем значение его "
+"ссылки равным соответствующему атрибуту контейнера. При этом объект "
+"окажется в коллекциях всех контейнеров с таким же значением атрибута, это"
+" специфика данного типа связей)"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:118
+msgid ""
+"Операция ``\"Извлечь\"`` (REMOVE) - выбираем объект в коллекции, обнуляем"
+" ссылку, при этом объект также удаляется из коллекций всех контейнеров с "
+"соответствующим значением атрибута."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:120
+msgid ""
+"Если это связь многие-ко-многим без ссылки (связь через системную "
+"промежуточную сущность, сюда относятся и \"прямые\" коллекции и "
+"\"обратные\", как разные концы связи), то для обоих коллекций реализуем:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:122
+msgid ""
+"Операция ``\"Добавить\"`` (ADD) - находим объект, создаем сущность-связь "
+"с контейнером - объект появляется только в коллекции данного контейнера"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:123
+msgid ""
+"Операция ``\"Извлечь\"`` (REMOVE) - выбираем объект в коллекции, удаляем "
+"сущность-связь с контейнером - объект пропадает только из коллекции "
+"данного контейнера"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:125
+msgid ""
+"С точки зрения UI различий между типами связей вообще нет никаких - везде"
+" имеем дело с коллекциями, везде потенциально доступны операции "
+"добавления и извлечения. А настраивать наличие тех или иных кнопок у поля"
+" колекции можно и нужно на уровне модели представления. В бизнес логике "
+"должны быть реализованы стандартные обработчики для кнопок ``ADD`` и "
+"``REMOVE`` в соответствии с описанной выше логикой."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:128
+msgid "Логика действий над объектами класса"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:130
+msgid ""
+"Поле ``\"commands\"``\\ , заданное в общей части меты представлений "
+"класса, задает список действий, допустимых над объектами данного "
+"класса.\\ :raw-html-m2r:`<br>` В общей части меты представлений класса "
+"могут быть указаны команды следующих кодов ``\"id\"``\\ :"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:134
+msgid "``\"CREATE\"`` - создать объект"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:135
+msgid "``\"EDIT\"`` - изменить объект"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:136
+msgid "``\"DELETE\"`` - удалить объект"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:137
+msgid "``\"SAVEANDCLOSE\"`` - сохранить изменения и закрыть"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:138
+msgid "``\"SAVE\"`` - сохранить изменения"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:141
+msgid ""
+"Для представления атрибутов со свойством ``\"type\":2`` применяются "
+"следующие действия:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:144
+msgid "``\"SELECT\"`` - добавить"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:145
+msgid "``\"EDIT\"`` - править"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:146
+msgid "``\"REMOVE\"`` - удалить"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:165
+msgid "Следующая страница: `Условия отображения <visibility.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:170
+msgid ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us "
+"<https://iondv.com/portal/contacts>`_ &ensp;  `English "
+"</docs/en/2_system_description/metadata_structure/meta_view/commands.md>`_"
+"   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/commands.rst:180
+msgid ""
+"Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights "
+"reserved."
+msgstr ""
+

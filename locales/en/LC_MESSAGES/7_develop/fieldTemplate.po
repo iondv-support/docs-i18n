@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../7_develop/fieldTemplate.rst:6
+msgid "Использование шаблонов для полей ввода данных в веб-форме"
+msgstr ""
+
+#: ../../7_develop/fieldTemplate.rst:8
+msgid ""
+"Шаблоны предназначены для задания пользовательских параметров построения "
+"полей ввода данных в веб-форме.\\ :raw-html-m2r:`<br>` Для подключения "
+"шаблона к полю веб-формы, необходимо указать его в опциях "
+"соответствующего поля json формы:"
+msgstr ""
+
+#: ../../7_develop/fieldTemplate.rst:28
+msgid ""
+"Шаблоны в формате ``.ejs`` загружаются по пути, указанном в "
+"``modules.registry.globals.templates`` из ``deploy.json``.\\ :raw-html-"
+"m2r:`<br>` Например, если указан путь ``applications/khv-ticket-"
+"discount/templates/registry``\\ , то в прошлом примере для поля "
+"``property`` будет загружен скрипт ``applications/khv-ticket-"
+"discount/templates/registry/capitalize.ejs``."
+msgstr ""
+
+#: ../../7_develop/fieldTemplate.rst:31
+msgid ""
+"Скрипт будет выполнен при загрузке поля в веб-форме. Синтаксис "
+"стандартный для ejs.\\ :raw-html-m2r:`<br>` Внутри скрипта доступны "
+"некоторые элементы веб-формы, подробнее: `Опции "
+"<docs/ru/2_system_description/metadata_structure/meta_view/options.md>`_."
+msgstr ""
+
+#: ../../7_develop/fieldTemplate.rst:34
+msgid ""
+"Пример скрипта для автоматической замены в текстовом поле ввода нижнего "
+"регистра букв на верхний и буквы \"ö\" на \"o\":"
+msgstr ""
+

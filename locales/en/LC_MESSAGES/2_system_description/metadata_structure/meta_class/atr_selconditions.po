@@ -1,0 +1,303 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:9
+msgid "Предыдущая страница: `Атрибут \"Коллекция\" <atr_itemclass_backcoll.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:12
+msgid "Условия отбора допустимых значений"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:15
+msgid "Описание"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:17
+msgid ""
+"**Условия отбора допустимых значений** - позволяет ограничить выбор "
+"объектов по ссылке, допустимых для привязки в данном ссылочном атрибуте."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:19
+msgid ""
+"Фильтр списка допустимых значений используется в мете классов для "
+"атрибутов типа \"Ссылка\" и \"Коллекция\". Фильтром накладываются условия"
+" ограничения выборки объектов. Условия накладываются как список "
+"последовательных операций."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:22
+msgid "Доступные операции:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:54
+msgid "Операции могут быть разделены на группы по наличию свойств в условии:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:56
+msgid "**Атрибут не указан в условии и условие - объект**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:59
+msgid "nestedConditions не содержит условий"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:61
+msgid "Операции агрегации ``AgregOpers``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:63
+msgid "MIN"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:64
+msgid "MAX"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:65
+msgid "AVG"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:66
+msgid "SUM"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:67
+msgid "COUNT"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:69
+msgid "nestedConditions содержит условия"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:71
+msgid "Логические операции сравнения вложенных условий ``BoolOpers``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:73
+msgid "OR"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:74
+msgid "NOT"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:76
+msgid ""
+"**Атрибут указан и условие - объект**\\ : операции сравнения значения "
+"артибута в условии со значением в value"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:79
+msgid "EMPTY"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:80
+msgid "NOT_EMPTY"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:81
+msgid "CONTAINS"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:82
+msgid "EQUAL"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:83
+msgid "NOT_EQUAL"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:84
+msgid "LESS"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:85
+msgid "MORE"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:86
+msgid "LESS_OR_EQUAL"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:87
+msgid "MORE_OR_EQUAL"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:88
+msgid "LIKE"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:89
+msgid "IN"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:91
+msgid "**Условие в виде массива**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:94
+msgid ""
+"Применяется логическая операция AND для сравнения результатов условий "
+"(объектов в массиве)."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:96
+msgid ""
+"В операции типа ключ-выражение ключом является имя атрибута в классе "
+"ссылки или в классе коллекции. Смежные условия объединяются логической "
+"операцией «И» (если не указана другая операция) - добавляются фильтры в "
+"свойство \"selConditions\"."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:101
+msgid ""
+"При выполнении запроса к атрибуту, необходимо использовать условие "
+"\"nestedConditions\". Для каждого атрибута выполняется отдельная "
+"операция. Не указывайте вложенные ссылочные атрибуты через точку в поле "
+"\"property\"."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:103
+msgid ""
+"Для запроса значений атрибута, которые не равны нулю, необходимо "
+"выполнить операцию ``nempty``\\ , в поле \"value\" указываем ``null``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:105
+msgid "Операция **CONTAINS** применима к типам атрибута:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:108
+msgid "строка - к строке данных применяется операция LIKE"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:109
+msgid "коллекция"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:111
+msgid ""
+"применяется операция IN, если сравниваемое значение ``value`` является "
+"массивом и содержит хотя бы один элемент"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:112
+msgid ""
+"происходит переход к вложенным условиям ``nestedConditions``\\ , если "
+"сравниваемое значение ``value`` не является массивом или не содержит хотя"
+" бы один элемент в массиве"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:179
+msgid "Пример"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:181
+msgid "**Внимание**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:183
+msgid ""
+"Поле \"selection_provider\". См. подробнее `Список выбора допустимых "
+"значений <atr_selectionprovider.md>`_."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:186
+msgid "\"type\": \"SIMPLE\" - простой тип,"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:188
+msgid "\"list\": [] - массив допустимых значений"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:232
+msgid "### Пример"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:234
+msgid ""
+"В ссылочном атрибуте необходимо показать только те объекты, у которых в "
+"ссылочном классе задан атрибут \"selConditions\" и в поле ``property`` "
+"этого атрибута указано поле связанного класса,чьё значение в поле "
+"\"value\" соответствует условию \"operation\"."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:236
+msgid ""
+"В атрибуте организация, задача показать только организации (\"refClass\":"
+" \"organization\"), у которых в поле тип ( \"property\": \"type\") равно "
+"( \"operation\": 0) значению zakazchik (\"value\": \"zakazchik\")."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:238
+msgid "Все условия в ``\"selConditions\"`` объединяются по условию \"И\"."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:306
+msgid "Условия отбора допустимых значений для атрибутов с типом \"Дата\""
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:308
+msgid ""
+"В ядре реализован атрибут контекста ``$$now``\\ , возвращающий текущую "
+"дату. ``$$now`` доступен везде при задании условий."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:311
+msgid ""
+"Подробнее см. `переменные "
+"</docs/ru/2_system_description/metadata_structure/meta_variables.md>`_."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:314
+msgid "Пример:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:316
+msgid ""
+"**Условие:** выводить объекты, у которых значение атрибута [dataStart] "
+"меньше текущей даты:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:330
+msgid ""
+"Следующая страница: `Сортировка выборки допустимых значений "
+"<atr_selsorting.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:335
+msgid ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us "
+"<https://iondv.com/portal/contacts>`_ &ensp;  `English "
+"</docs/en/2_system_description/metadata_structure/meta_class/atr_selconditions.md>`_"
+"   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selconditions.rst:345
+msgid ""
+"Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights "
+"reserved."
+msgstr ""
+

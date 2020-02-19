@@ -1,0 +1,202 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../2_system_description/platform_configuration/auth.rst:2
+msgid "Настройки авторизации и безопасности"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:5
+msgid "Параметры конфигруации приложения, файл ``deploy.json``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:7
+msgid ""
+"Параметры конфигурации приложения предназначены для определения ключевых "
+"возможностей системы при работе приложения на этапе проектирования и "
+"изменения параметров по умолчанию."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:11
+msgid "Настройка параметров авторизации при работе с паролем"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:13
+msgid ""
+"Параметры и требования работы с паролем задаются в ``di`` в конфиграции "
+"компонента ``auth`` модуля. Но в большинстве настройки задаются "
+"глобально."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:46
+msgid ""
+"При этом значения обозначенные ``[[auth.passwordLifeTime]]`` могут быть "
+"переконфигурированы в файле настроек приложения ``/config/setup.ini``. Но"
+" для этого обязательно нужно проверить, что задана настройка "
+"\"parametrised\": true, на уровне global."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:49
+msgid ""
+"Время жизни задается в формает ``[длительность][ед. изм]``\\ , при этом "
+"единицы измерения:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:52
+msgid "y - год"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:53
+msgid "d - день"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:54
+msgid "h - час"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:55
+msgid "m - минута"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:56
+msgid "s - секунда"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:58
+msgid "По умолчанию значения ключевых параметров:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:61
+msgid "passwordLifetime = 100y"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:62
+msgid "passwordMinPeriod = 0d"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:63
+msgid "passwordMinLength = 8"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:65
+msgid ""
+"Все создаваемые пароли в системе, в том числе импортированные, "
+"автоматически проставляются как требуемые к смене. Чтобы при импорте "
+"пароли не требовывалось менять, в свойствах пользователя в импортируемом "
+"файле acl должен быть указан параметр ``needPwdReset: false``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:69
+msgid "Настройка минимальной длины пароля для входа в систему"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:71
+msgid ""
+"Для указания минимальной длины пароля для входа в систему используем "
+"свойство ``\"passwordMinLength\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:84
+msgid "Настройка прав доступа \"aclProvider\""
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:86
+msgid "``\"plugins\":{``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:102
+msgid "Параметры настроек фреймворка и приложения в файле `config/setup.ini"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:104
+msgid ""
+"Настройки предназначены для уточнения и изменения параметров приложения и"
+" инициализируются при запуске. Настройки имеют более высокий приоритет "
+"чем параметры конфигурации."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:107
+msgid ""
+"Настройки приложения могут быть также заданы в переменных окружения при "
+"этом переменные окружения имеют более высокий приоритет перед "
+"настройками."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:111
+msgid "Переопределение параметров конфигурации паролей"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:113
+msgid ""
+"Параметры работы с паролями, заданные в ``deploy.json`` проекта, если "
+"включена параметризация и указан код параметр, можно переопределить через"
+" настройки платформы или через переменные окружения."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:115
+msgid ""
+"Пример файла настроек ``/config/setup.ini`` в котором переопределяются "
+"значения, указанные в примере файла ``deploy.json``."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:137
+msgid "Настройка параметров сессии в системе"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:139
+msgid ""
+"Длина сессии задается в config/config.json в ``sessionHandler``\\ , с "
+"применением плейсхолдеров для параметра ``cookie.maxAge``\\ :"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:163
+msgid ""
+"Добавляем настройку в ini-файл проекта. Формат задания аналогичен "
+"настройкам периодов в ``auth``\\ :"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:172
+msgid ""
+"Также можно задавать просто числом, тогда это будет задание в "
+"миллисекундах."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:175
+msgid "Настройка отключения формы авторизации для перехода на страницу модуля"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:177
+msgid "В конфиге ядра у поля *\"auth\"* есть настройка ``exclude``\\ :"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:196
+msgid "То есть прописываем в ini-файле проекта:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:206
+msgid ""
+"При переходе на страницу указанного в настройке модуля - данные "
+"отображаются без необходимости авторизации."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/auth.rst:209
+msgid ""
+"Отключение авторизации для статичных путей на примере проекта develop-"
+"and-test:"
+msgstr ""
+

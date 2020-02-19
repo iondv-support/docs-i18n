@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../3_modules_description/modules.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/modules.rst:9
+msgid ""
+"Предыдущая страница: `Функциональность приложения "
+"</docs/ru/2_system_description/functionality/functionality.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/modules.rst:12
+msgid "Модули"
+msgstr ""
+
+#: ../../3_modules_description/modules.rst:14
+msgid ""
+"**Модули** - это независимые блоки с обязательной или дополнительной "
+"функциональностью, чья структура подчиняется определенным правилам."
+msgstr ""
+
+#: ../../3_modules_description/modules.rst:19
+msgid "Наименование"
+msgstr ""
+
+#: ../../3_modules_description/modules.rst:20
+msgid "Описание"
+msgstr ""
+
+#: ../../3_modules_description/modules.rst:21
+msgid "`\\ **Registry** <registry.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/modules.rst:22
+msgid ""
+"Ключевой модуль предназначенный непосредственно для работы с данными на "
+"основе структур метаданных."
+msgstr ""
+
+#: ../../3_modules_description/modules.rst:23
+msgid "`\\ **Report** <report.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/modules.rst:24
+msgid "Модуль предназначенный для формирования аналитических отчетов."
+msgstr ""
+
+#: ../../3_modules_description/modules.rst:25
+msgid "`\\ **Gantt-chart** <gantt_chart.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/modules.rst:26
+msgid "Модуль для вывода данных с датами."
+msgstr ""
+
+#: ../../3_modules_description/modules.rst:27
+msgid "`\\ **Portal** <portal.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/modules.rst:28
+msgid "Модуль для вывода произвольных шаблонов данных."
+msgstr ""
+
+#: ../../3_modules_description/modules.rst:29
+msgid "`\\ **Dashboard** <dashboards.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/modules.rst:30
+msgid "Модуль предназначенный для выведения краткой информации в виде блоков."
+msgstr ""
+
+#: ../../3_modules_description/modules.rst:31
+msgid "`\\ **Ionadmin** <admin.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/modules.rst:32
+msgid "Модуль администрирования для назначения прав."
+msgstr ""
+
+#: ../../3_modules_description/modules.rst:33
+msgid "`\\ **Account** <account.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/modules.rst:34
+msgid "Модуль личного кабинета который формирует логику отображения."
+msgstr ""
+
+#: ../../3_modules_description/modules.rst:35
+msgid "`\\ **Soap** <soap.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/modules.rst:36
+msgid "Модуль запросов к сервисам."
+msgstr ""
+
+#: ../../3_modules_description/modules.rst:42
+msgid ""
+"`Licence </LICENSE>`_\\ &ensp;  `Contact us "
+"<https://iondv.com/portal/contacts>`_ &ensp;  `English "
+"</docs/en/3_modules_description/modules.md>`_ &ensp;"
+msgstr ""
+
+#: ../../3_modules_description/modules.rst:52
+msgid ""
+"Copyright (c) 2018 **LLC \"ION DV\".**\\ :raw-html-m2r:`<br>` All rights "
+"reserved."
+msgstr ""
+

@@ -1,0 +1,358 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../3_modules_description/admin_security.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:9
+msgid "Назад: `Модуль ionadmin <admin.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:12
+msgid "Безопасность"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:15
+msgid "Инициализация"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:17
+msgid "При первичной настройке безопасности надо выполнить следующее:"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:19
+msgid ""
+"Синхронизировать права, чтобы права, заведенные через утилиту acl, "
+"появились в админке. Для этого на странице ``/ionadmin/security/sync`` "
+"жмем кнопку ``\"Синхронизация прав доступа\"``."
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:21
+msgid ""
+"По завершении будет сообщение ``\"Синхронизация прав доступа успешно "
+"проведена!\"``."
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:23
+msgid ""
+"Сделать импорт ресурсов. Если на странице ``/ionadmin/security/resource``"
+" нет объектов или их действительно мало, тогда надо выполнить импорт "
+"ресурсов."
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:25
+msgid ""
+"Выполняется на странице ``/ionadmin/security/sync`` по кнопке ``\"Импорт "
+"ресурсов\"``."
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:27
+msgid "По завершении будет сообщение ``\"Импорт успешно завершен!\"``."
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:30
+msgid "Управление ролями"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:32
+msgid ""
+"На странице ``/ionadmin/security/role`` можно создавать, редактировать "
+"или удалять роли:"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:34
+msgid ""
+"Создание роли. Для создания роли на странице ``/ionadmin/security/role`` "
+"нажимаем кнопку \"Создать\""
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:36
+msgid ""
+"Происходит переход на новую страницу, где надо указать идентификатор роли"
+" на английском языке. Нажимаем на кнопку \"Сохранить\" для подтверждения "
+"создания указанной роли"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:38
+msgid ""
+"Редактирование роли. Для редактирования роли на странице "
+"``/ionadmin/security/role`` выбираем необходимую роль и нажимаем кнопку "
+"\"Править\""
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:40
+#: ../../3_modules_description/admin_security.rst:97
+msgid ""
+"Происходит переход на новую страницу, где на форме отображаются следующие"
+" поля:"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:42
+msgid ""
+"``Идентификатор`` - выражение на английском языке для присваивания "
+"уникального имени роли. При ее изменении могут слететь права у "
+"пользователей, которые ранее привязали данную роль со старым "
+"идентификатором. Надо тогда каждому пользователю привязать роль заново."
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:44
+msgid ""
+"``Название`` - осмысленное название роли, может содержать выражения на "
+"русском языке."
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:46
+msgid "``Права доступа`` - вкладки для раздачи прав:"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:50
+msgid ""
+"Общие - пока используется для раздачи роли доступа ко всем ресурсам (* - "
+"все ресурсы)"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:53
+msgid ""
+"Навигация - используется для раздачи роли доступа к меню модуля регистра."
+" Сначала отображается системное наименование проекта, у которого есть "
+"знак плюса для отображения внутренних и импортированных ресурсов. "
+"Раздаются в данном пункте пока только права на чтение меню."
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:56
+msgid ""
+"Классы - используется для раздачи роли доступа к классам метаданных. "
+"Сначала отображается системное наименование проекта, у которого есть знак"
+" плюса для отображения внутренних и импортированных ресурсов. У этих "
+"ресурсов можно задать отдельные права по каждому ресурсу."
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:58
+msgid ""
+"Удаление роли. Для удаления роли на странице ``/ionadmin/security/role`` "
+"выбираем необходимую роль и нажимаем кнопку \"Удалить\""
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:60
+msgid "Подтверждаем удаление роли:"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:63
+msgid "Доступ к ресурсу"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:65
+msgid ""
+"При управлении ролями в правах доступа предоставляются следующие доступы "
+"к каждому ресурсу:"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:70
+msgid "Доступ"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:71
+msgid "Описание доступа"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:72
+msgid "Полный доступ"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:73
+msgid ""
+"Включает в себя все остальные  доступы. Нельзя выбрать полный доступ и "
+"еще дополнительный доступ на чтение, запись, удаление или использование. "
+"Для навигации предоставляется доступ только на чтение ресурса."
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:74
+msgid "Чтение"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:75
+msgid "Возможность чтение объектов ресурса"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:76
+msgid "Запись"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:77
+msgid "Возможность редактирования объектов ресурса, не применяется для навигации"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:78
+msgid "Удаление"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:79
+msgid "Возможность удаления объектов ресурса, не применяется для навигации"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:80
+msgid "Использование"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:81
+msgid "Возможность создания объектов ресурса, не применяется для навигации"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:84
+msgid ""
+"Доступ может назначаться всей группе ресурсов или отдельно каждому "
+"ресурсу и доступу в нем."
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:89
+msgid ""
+"На странице ``/ionadmin/security/user`` можно создавать, редактировать "
+"или удалять пользователей:"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:91
+msgid ""
+"Создание пользователя. Для создания пользователя на странице "
+"``/ionadmin/security/user`` нажимаем кнопку \"Создать\""
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:93
+msgid ""
+"Происходит переход на новую страницу, где надо указать логин пользователя"
+" на английском языке, пароль, описание в имени. Нажимаем на кнопку "
+"\"Сохранить\" для подтверждения создания указанного пользователя"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:95
+msgid ""
+"Редактирование пользователя. Для редактирования пользователя на странице "
+"``/ionadmin/security/user`` выбираем необходимого пользователя и нажимаем"
+" кнопку \"Править\""
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:99
+msgid ""
+"``Тип`` - тип учетной записи пользователя, пока доступны в админке "
+"локальные пользователи."
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:101
+msgid "``Логин`` - идентификатор пользователя на английском языке."
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:103
+msgid "``Пароль`` - пароль пользователя."
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:105
+msgid ""
+"``Имя`` - осмысленное название пользователя, может содержать выражения на"
+" русском языке, например, Фамилия И.О."
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:107
+msgid ""
+"``Роли`` - список ролей пользователя. Если проставлена галка у роли, то "
+"роль привязана к пользователю."
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:109
+msgid ""
+"Удаление пользователя. Для удаления пользователя на странице "
+"``/ionadmin/security/user`` выбираем необходимого пользователя и нажимаем"
+" кнопку \"Удалить\""
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:111
+msgid "Подтверждаем удаление пользователя."
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:116
+msgid ""
+"Настройка требований к паролю задается в *ini-файле* приложения, после "
+"чего переменные необходимо объявить в файле настройки конфигурации "
+"приложения *deploy.json*."
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:132
+msgid "Длительность везде задается в формате: ``[длительность][ед. изм]``"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:137
+msgid "Ед. измерения"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:138
+msgid "Значение"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:139
+msgid "``y``"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:140
+msgid "Год"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:141
+msgid "``d``"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:142
+msgid "День"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:143
+msgid "``h``"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:144
+msgid "Час"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:145
+msgid "``m``"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:146
+msgid "Минута"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:147
+msgid "``s``"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:148
+msgid "Секунда"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:194
+msgid ""
+"`Licence </LICENSE>`_\\ &ensp;  `Contact us "
+"<https://iondv.com/portal/contacts>`_ &ensp;  `English "
+"</docs/en/3_modules_description/admin_security.md>`_ &ensp;"
+msgstr ""
+
+#: ../../3_modules_description/admin_security.rst:204
+msgid ""
+"Copyright (c) 2018 **LLC \"ION DV\".**\\ :raw-html-m2r:`<br>` All rights "
+"reserved."
+msgstr ""
+

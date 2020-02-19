@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../2_system_description/functionality/namespace.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/namespace.rst:9
+msgid "Назад: `Функциональность <functionality.md>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/namespace.rst:12
+msgid "Связь двух неймспейсов"
+msgstr ""
+
+#: ../../2_system_description/functionality/namespace.rst:15
+msgid "Связь нескольких проектов с использованием пространства имен \"namespace\""
+msgstr ""
+
+#: ../../2_system_description/functionality/namespace.rst:17
+msgid ""
+"Применяется при необходимости связывать между собой 2 проекта и "
+"разворачивать их на одной платформе, с указанием ссылок и коллекций не "
+"только внутри проекта, но и на другие, развернутые в этом же контексте. "
+"Реализуется с применением пространства имен проекта, т.е. что бы было "
+"понятно к какому проекту относятся классы по ссылке. Так, например, "
+"связываем тестовый проект ``develop-and-test`` с проектом ``fias``\\ :"
+msgstr ""
+
+#: ../../2_system_description/functionality/namespace.rst:20
+msgid "Пример"
+msgstr ""
+
+#: ../../2_system_description/functionality/namespace.rst:42
+msgid ""
+"В меню проекта ``develop-and-test`` есть узел навигации, который является"
+" представлением класса из проекта ``fias``. Таким образом при переходе по"
+" пункту меню одного проекта - получаем данные из другого проекта, при "
+"указании необходимого пространства имен."
+msgstr ""
+
+#: ../../2_system_description/functionality/namespace.rst:48
+msgid "Для меты:"
+msgstr ""
+
+#: ../../2_system_description/functionality/namespace.rst:50
+msgid ""
+"При импорте неймспейс берется не из параметра, а из меты класса. Убираем "
+"неймспейс как параметр навигации и т.д."
+msgstr ""
+
+#: ../../2_system_description/functionality/namespace.rst:52
+msgid ""
+"При импорте меты навигации, при совпадении системных имен приоритет имеет"
+" мета накатываемая последней, но с учетом заполненности атрибутов. т.е. "
+"пустое значение атрибута не переопределяет непустое."
+msgstr ""
+
+#: ../../2_system_description/functionality/namespace.rst:55
+msgid "Для студии:"
+msgstr ""
+
+#: ../../2_system_description/functionality/namespace.rst:57
+msgid ""
+"В мете класса добавляется свойство ``namespace``.В студии в настройках "
+"проекта ION добавлен параметр - \"пространство имен\". Это пространство "
+"имен по умолчанию проставляется в соответствующее поле на форме создания "
+"класса."
+msgstr ""
+
+#: ../../2_system_description/functionality/namespace.rst:59
+msgid ""
+"Для атрибута \"пространство имен\" также заданы отдельные поля на формах "
+"создания и редактирования класса. В студии теперь системное имя класса "
+"везде отображается с неймспейсом через знак ``@``\\ , если класс объявлен"
+" в неймспейсе отличном от неймспейса текущего проекта."
+msgstr ""
+
+#: ../../2_system_description/functionality/namespace.rst:61
+msgid ""
+"Поле неймспейса в виде выпадающего списка, откуда можно выбрать либо "
+"неймспейс проекта, либо неймспейсы связанных проектов (Project "
+"references). При этом есть возможность и вбить его руками."
+msgstr ""
+
+#: ../../2_system_description/functionality/namespace.rst:63
+msgid ""
+"У остальных объектов меты неймспейса нет, но ссылки на классы везде "
+"должны проставляться с учетом неймспейса (в ссылочных атрибутах тоже). "
+"Это значит, что в списках выбора классов должно быть полное имя класса с "
+"неймспейсом."
+msgstr ""
+
+#: ../../2_system_description/functionality/namespace.rst:65
+msgid ""
+"Также в списки выбора классов должны попадать классы из всех Project "
+"References. На физическом уровне неймспейс включается в имя файла меты "
+"класса (и директорий если они участвуют в формировании логики привязки к "
+"классу, например, у меты представления)."
+msgstr ""
+
+#: ../../2_system_description/functionality/namespace.rst:70
+msgid ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us "
+"<https://iondv.com/portal/contacts>`_ &ensp;  `English "
+"</docs/en/2_system_description/functionality/namespace.md>`_   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/functionality/namespace.rst:80
+msgid ""
+"Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights "
+"reserved."
+msgstr ""
+

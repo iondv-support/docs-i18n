@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:9
+msgid "Предыдущая страница: `Опции <options.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:12
+msgid "Ведение проектных документов"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:14
+msgid ""
+"**Ведение проектных документов** - это настройка ``\"fileshare-list\"`` и"
+" ``\"fileshare\"`` предназначена для управления документами, как например"
+" возможность скачать и/или получить ссылку на файл. Для настройки, в "
+"представлении атрибута типа \"Файл\" необходимо указать свойство:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:23
+msgid "``fileshare-list`` - для типа ``multifile`` - множественные файлы"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:24
+msgid "``fileshare`` - для типа ``file`` - один файл"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:26
+msgid ""
+"В ``deploy.json`` в настройках ``registry`` подключаем кастомный "
+"файл-аплоадер (который с шарой директории и расширенными настройками):"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:47
+msgid "Cохранение файлов в облаке"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:49
+msgid ""
+"Путь для сохранения файла в облаке настраивается в ``deploy.json`` "
+"приложения. Для обращения к свойствам объекта используется знак ``$``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:55
+msgid ""
+"т.е. используем ``${item.}`` для того чтобы обозначить что это обращение "
+"к объекту."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:58
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:141
+msgid "Пример:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:83
+msgid ""
+"*Настройка позволяет задавать любую структуру хранения файлов "
+"(линейно/иерархически, коллекцией/один файл)*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:86
+msgid "Функционал шаринга на файлы"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:89
+msgid "Подключение"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:91
+msgid "В представлении необходимо задать свойство атрибута типа ``\"Файл\"``\\ :"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:100
+msgid "Использование"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:102
+msgid ""
+"При клике на значок \"share\" необходимо открывать окно управления шарой "
+"аналогичное как в овнклауд - в окне предусмотреть кнопки:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:105
+msgid ""
+"``применить`` - по апи облачного хранилища для файлика/каталога передаем "
+"все выбранные параметры:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:106
+msgid ""
+"``поделиться ссылкой`` - формируем шару на файлик/каталог - после "
+"применения возвращаем в поле для возможности копирования ссылки"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:107
+msgid "``разрешить на редактирование``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:108
+msgid "``защитить паролем``\\ - поле для ввода пароля"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:109
+msgid "``установить срок действия`` - поле для даты"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:110
+msgid ""
+"``перейти в хранилище`` - открываем в новой вкладке по ссылке на шару где"
+" находится файл/каталог - ( к примеру файл к примеру каталог )"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:111
+msgid "``закрыть`` - закрыть окно управления файлом"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:113
+msgid ""
+"**NB:** Настройка шаринга доступна как для каждого файла, так и для всего"
+" каталога. Если на файле/каталоге уже есть шаринг то при открытии "
+"управляющего окна отображаются настройки шаринга, при необходимости "
+"свойства можно изменить."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:116
+msgid "Переход по прямой ссылки до хранения файла"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:119
+msgid "Возможности"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:123
+msgid "сразу скачать"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:126
+msgid "перейти на nextCloud и там увидеть/редактировать"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:129
+msgid "Условия хранения ссылок"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:131
+msgid ""
+"Условия хранения ссылок, созданных в процессе работы с файлами: ``TO DO``"
+" возможность удалять все ссылки, созданные в процессе работы с файлом "
+"спустя какое-то время или же за ненадобностью."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:134
+msgid "Настройка доступа"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:136
+msgid ""
+"Настройка пользователей и прав доступа к объектам хранилища Owncloud. В "
+"ряде случаев необходимо задавать пользователей и права для них на "
+"создаваемые объекты хранилища."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:138
+msgid "Настройка задается в файле ``deploy.json`` проекта."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:164
+msgid "Следующая страница: `Комментарии <comments.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:169
+msgid ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us "
+"<https://iondv.com/portal/contacts>`_ &ensp;  `Russian <fileshare.md>`_"
+"   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/fileshare.rst:179
+msgid ""
+"Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights "
+"reserved."
+msgstr ""
+

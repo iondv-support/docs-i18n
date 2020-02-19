@@ -1,0 +1,475 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:9
+msgid ""
+"Предыдущая страница: `Мета представлений - общая часть "
+"<meta_view_main.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:12
+msgid "Мета представлений - атрибутивная часть"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:15
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:59
+msgid "Описание"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:17
+msgid ""
+"**Атрибутивная часть меты представлений** - описывает представление "
+"атрибута класса на форме. Атрибуты содержатся в виде массивов в "
+"соответствующих полях основной части меты представлений. Представление "
+"каждого атрибута - это объект следующей структуры:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:20
+msgid "JSON"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:51
+msgid "Описание полей"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:56
+msgid "Поле"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:57
+msgid "Наименование"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:58
+msgid "Допустимые значения"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:60
+msgid "``\"sorted\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:61
+msgid "**Разрешена сортировка**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:62
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:118
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:134
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:138
+msgid "Логическое"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:63
+msgid ""
+"Поле для представлений списка. Не используется в представлениях создания "
+"и изменения. Разрешает или запрещает сортировку по данному столбцу."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:64
+msgid "``\"caption\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:65
+msgid "**Заголовок**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:66
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:82
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:86
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:122
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:126
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:130
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:142
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:146
+msgid "Строка"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:67
+msgid "Заголовок поля ввода/колонки атрибута отображаемый в представлениях."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:68
+msgid "``\"type\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:69
+msgid "`\\ **Тип** <view_types.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:70
+msgid "Целое - идентификатор (код) типа"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:71
+msgid "Тип представления атрибута."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:72
+msgid "``\"property\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:73
+msgid "**Атрибут**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:74
+msgid "Строка, только латиница без пробелов"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:75
+msgid ""
+"Указывается имя атрибута, с которым будет работать система, а значит не "
+"может быть пустым (Кроме типа представления Группа [0])."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:76
+msgid "``\"size\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:77
+msgid "**Размер**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:78
+msgid "Целое - код размера поля ввода, типозависимо"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:79
+msgid ""
+"Позволяет указать код размера поля для разных типов "
+"атрибута/представления. Константы в платформе `FieldSizes "
+"<field_sizes.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:80
+msgid "``\"maskName\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:81
+msgid "**Имя маски**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:83
+msgid ""
+"При наличии в платформе предустановленных масок - можно задать маску по "
+"внутреннему имени, указав его в данном поле."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:84
+msgid "``\"mask\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:85
+msgid "`\\ **Маска** <mask.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:87
+msgid "Позволяет предопределять формат вводимого значения для атрибута."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:88
+msgid "``\"mode\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:89
+msgid "**Режим отображения**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:90
+msgid "Целое - код режима отображения"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:91
+msgid ""
+"В ряде случаев бывает необходимо отображать данные атрибута по разному, "
+"как отображать - указывается в этом поле. `Пример использования "
+"</docs/ru/2_system_description/metadata_structure/meta_class/type_geodata100.md>`_."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:92
+msgid "``\"fields\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:93
+msgid "`\\ **Поля** <fields.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:94
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:102
+msgid "Массив объектов"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:95
+msgid "Позволяет сформировать представление создания/изменения особым образом."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:96
+msgid "``\"hierarchyAttributes\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:97
+msgid "**Иерархия по**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:98
+msgid "объект или Null"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:99
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:107
+msgid "*не используется в текущей версии*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:100
+msgid "``\"columns\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:101
+msgid "**Столбцы**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:103
+msgid ""
+"Применяется для атрибутов типа \"Коллекция [3]\". Позволяет выбрать "
+"атрибуты для отображения на форме представления в виде колонок таблицы "
+"(атрибуты берутся из класса по ссылке)"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:104
+msgid "``\"actions\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:105
+msgid "**Поведение**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:106
+msgid "Целое или Null"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:108
+msgid "``\"commands\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:109
+msgid "`\\ **Действия** <commands.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:110
+msgid "Массив объектов либо Null"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:111
+msgid ""
+"Описывает допустимые действия (групповые действия) над объектами "
+"ссылочного поля. Null для дефолтного набора действий."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:112
+msgid "``\"orderNumber\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:113
+msgid "**Порядковый номер**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:114
+msgid "Целое неотрицательное"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:115
+msgid ""
+"Порядковый номер атрибута задает расположение атрибута относительно "
+"других атрибутов этого же класса в пользовательском интерфейсе."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:116
+msgid "``\"required\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:117
+msgid "**Обязательное**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:119
+msgid ""
+"Определяет обязательно ли заполнение данного атрибута при "
+"создании/изменении объекта."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:120
+msgid "``\"visibility\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:121
+msgid "`\\ **Условия отображения** <visibility.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:123
+msgid "Задает условие отображения поля в представлении."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:124
+msgid "``\"enablement\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:125
+msgid "`\\ **Условия активности** <enablement.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:127
+msgid ""
+"Задает условие активности (доступности для редактирования) поля в "
+"представлении с форматом, аналогичным условиям отображения."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:128
+msgid "``\"obligation\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:129
+msgid "`\\ **Условия обязательности** <obligation.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:131
+msgid ""
+"Задает условие обязательности заполнения поля в представлении с форматом,"
+" аналогичным условиям отображения."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:132
+msgid "``\"readonly\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:133
+msgid "**Только чтение**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:135
+msgid "Разрешает или запрещает изменять значение атрибута в данном представлении."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:136
+msgid "``\"selectionPaginated\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:137
+msgid "**Постраничный список выбора**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:139
+msgid "Разрешает или запрещает постраничный список выбора."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:140
+msgid "``\"validators\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:141
+msgid "**Валидаторы**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:143
+msgid ""
+"Наименование валидатора, проверяющего введенные в поле атрибута значения."
+"  ***Не реализовано**\\ _"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:144
+msgid "``\"hint\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:145
+msgid "**Подсказка**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:147
+msgid ""
+"Задает (или переопределяет заданное в поле ``\"hint\"`` меты атрибута) "
+"сообщение, которые выведется в пользовательском интерфейсе рядом с именем"
+" атрибута."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:148
+msgid "``\"historyDisplayMode\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:149
+msgid "**Отображение истории**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:150
+msgid "Целое"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:151
+msgid "Указывает формат отображения истории изменения объектов."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:152
+msgid "``\"tags\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:153
+msgid "`\\ **Теги** <tags.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:154
+msgid "Массив строк"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:155
+msgid ""
+"Хранит модификаторы отображения и стили для значений атрибутов. "
+"Расширенная спецификации свойства ``tags`` применяется в "
+"``\"options\"``\\ , но не является взаимозаменяемой."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:159
+msgid "Структура в mongoDB (registry) для представлений списка"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:190
+msgid ""
+"Структура атрибута для представлений создания и изменения отличается лишь"
+" отсутствием поля ``\"sorted\"``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:193
+msgid "Следующая страница: `Типы представлений <view_types.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:198
+msgid ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us "
+"<https://iondv.com/portal/contacts>`_ &ensp;  `English "
+"</docs/en/2_system_description/metadata_structure/meta_view/meta_view_attribute.md>`_"
+"   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:208
+msgid ""
+"Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights "
+"reserved."
+msgstr ""
+

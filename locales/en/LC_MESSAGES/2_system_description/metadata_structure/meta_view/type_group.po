@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../2_system_description/metadata_structure/meta_view/type_group.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/type_group.rst:9
+msgid "Назад: `Типы представлений <view_types.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/type_group.rst:12
+msgid "Тип Группа [0]"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/type_group.rst:15
+msgid "Описание"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/type_group.rst:17
+msgid ""
+"**Группа [0]** - структура представлений создания и изменения, которая "
+"позволяет в рамках одного класса группировать аттрибуты из других классов"
+" в представлении создания/изменения в горизонтальном и/или вертикальном "
+"виде."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/type_group.rst:20
+msgid "Виды отображения типа Группа [0]"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/type_group.rst:23
+msgid "GROUP_VERTICAL ``\"mode\": 0`` - поля группы располагаются друг под другом"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/type_group.rst:24
+msgid ""
+"GROUP_HORIZONTAL ``\"mode\": 1`` - поля группы располагаются "
+"горизонтально в строку (т. е. колонками, если хватает места)"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/type_group.rst:27
+msgid "Формат настройки в мете представления для типа \"Группа\""
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/type_group.rst:40
+msgid "Настройка параметров размера колонок:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/type_group.rst:105
+msgid ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us "
+"<https://iondv.com/portal/contacts>`_ &ensp;  `English "
+"</docs/en/2_system_description/metadata_structure/meta_view/type_group.md>`_"
+"   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/type_group.rst:115
+msgid ""
+"Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights "
+"reserved."
+msgstr ""
+

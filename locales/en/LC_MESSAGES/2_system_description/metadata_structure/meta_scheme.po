@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:5
+msgid "Схема основных типов меты"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:7
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:9
+msgid ""
+"Предыдущая страница: `Шаг 3 Сборка и запуск "
+"</docs/ru/1_system_deployment/step3_building_and_running.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:11
+msgid ""
+"**Метаданные (Мета)** - совокупность JSON-файлов в полной мере "
+"описывающих комплект структур, которыми оперирует приложение, способов "
+"отображения данных структур в пользовательском интерфейсе и навигации по "
+"ним, а так же файлов конфигурации приложения."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:14
+msgid "Типы файлов меты"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:17
+msgid "Мета классов"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:18
+msgid "Мета представлений"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:19
+msgid "Мета навигации: мета секций навигации, мета узлов навигации"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:20
+msgid "Мета отчета"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:21
+msgid "Мета админ"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:22
+msgid "Мета бизнес-процессов"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:23
+msgid "Геомета"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:24
+msgid "Мета безопасности"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:27
+msgid "Структура основных типов меты"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:35
+msgid "Структуру основных типов меты можно представить следующим образом:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:37
+msgid ""
+"**Мета классов** является основным источником формирования данных в "
+"приложении. Мета классов состоит из атрибутов (атрибутивная часть) и "
+"параметров самого класса (общая часть). Атрибуты - это объекты массива "
+"\"properties\" общей части, которая содержит поля, имеющие отношение к "
+"самой структуре и способам оперирования данными в структуре."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:39
+msgid ""
+"На основе меты классов задается мета представлений, мета навигации, мета "
+"отчетов, мета бизнес-процессов и т.д."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:41
+msgid ""
+"**Мета представления (класса)** позволяет задавать желаемый состав "
+"атрибутов этого класса для отображения на форме, в соответствии с типом "
+"формы представления (представление формы списка ``list.json``\\ , "
+"создания ``create.json``\\ , изменения класса ``item.json``\\ ) и "
+"указывать для каждого отдельного атрибута свойства, переопределяемые и "
+"(или) дополняемые свойства, задаваемые в мете класса для данного "
+"атрибута."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:45
+msgid "Мета представления + Атрибуты класса = Отображение атрибутов на форме"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:48
+msgid ""
+"**Мета навигации** регулирует расположение элементов в навигационном "
+"блоке. Мета навигации разделяется на мету узлов навигации и мету секции "
+"навигации."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:51
+msgid "Наименование файлов меты:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:56
+msgid ""
+"`\\ **Мета класса** "
+"</docs/ru/2_system_description/metadata_structure/meta_class/meta_class_main.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:57
+msgid ""
+"`\\ **Мета представлений** "
+"</docs/ru/2_system_description/metadata_structure/meta_view/meta_view_main.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:58
+msgid ""
+"`\\ **Мета навигации** "
+"</docs/ru/2_system_description/metadata_structure/meta_navigation/meta_navigation.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:59
+msgid ""
+"Находится в директории ``meta`` и состоит из наименования общей части "
+"меты класса + ``.class.json.``. Например: ``adress.class.json``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:60
+msgid ""
+"В наименовании директории определяется к какому классу относится "
+"представление. Мета представлений располгается в директории ``views``\\ ,"
+" в которой содержатся директории, наименования которых совпадают с первой"
+" частью наименований файлов меты классов. Например: "
+"``adress@project_name``\\ , где  ``adress`` относится к классу "
+"``adress``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:61
+msgid ""
+"Мета секций навигации: состоит из поля ``\"name\" + .section.json`` и "
+"находится в директории ``navigation``. Например: "
+"``workflow.section.json``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:65
+msgid ""
+"Следующая страница: `Мета классов - общая часть "
+"</docs/ru/2_system_description/metadata_structure/meta_class/meta_class_main.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:70
+msgid ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us "
+"<https://iondv.com/portal/contacts>`_ &ensp;  `English "
+"</docs/en/2_system_description/metadata_structure/meta_scheme.md>`_   "
+"&ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_scheme.rst:80
+msgid ""
+"Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights "
+"reserved."
+msgstr ""
+

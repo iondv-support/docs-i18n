@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../3_modules_description/registry_treegrid.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/registry_treegrid.rst:9
+msgid "Назад: `Модуль регистра <registry.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/registry_treegrid.rst:12
+msgid "Настройки DI"
+msgstr ""
+
+#: ../../3_modules_description/registry_treegrid.rst:15
+msgid "Подключение в глобальных настройках модуля регистра"
+msgstr ""
+
+#: ../../3_modules_description/registry_treegrid.rst:18
+msgid "Пример в deploy.json"
+msgstr ""
+
+#: ../../3_modules_description/registry_treegrid.rst:31
+msgid "Описание"
+msgstr ""
+
+#: ../../3_modules_description/registry_treegrid.rst:33
+msgid ""
+"Предназначен для создания иерархичных списков объектов в "
+"атрибуте-коллекции класса или в навигации класса.\\ :raw-html-m2r:`<br>` "
+"Работает с использование компонента dhtmlxSuite_v51_pro "
+"(https://dhtmlx.com/docs/products/dhtmlxTreeGrid/)."
+msgstr ""
+
+#: ../../3_modules_description/registry_treegrid.rst:37
+msgid "Подключение в DI"
+msgstr ""
+
+#: ../../3_modules_description/registry_treegrid.rst:64
+msgid "Виды шаблонов"
+msgstr ""
+
+#: ../../3_modules_description/registry_treegrid.rst:67
+msgid ""
+"\"template\": \"treegrid/collection\"\\ :raw-html-m2r:`<br>` Для "
+"атрибута-коллекции. Подключается в представлении формы объекта:"
+msgstr ""
+
+#: ../../3_modules_description/registry_treegrid.rst:87
+msgid ""
+"\"template\": \"treegrid/list\"\\ :raw-html-m2r:`<br>` Для навигации "
+"класса. Подключение:"
+msgstr ""
+
+#: ../../3_modules_description/registry_treegrid.rst:97
+msgid "Настройка ``skin``"
+msgstr ""
+
+#: ../../3_modules_description/registry_treegrid.rst:99
+msgid "https://docs.dhtmlx.com/grid__skins.html"
+msgstr ""
+
+#: ../../3_modules_description/registry_treegrid.rst:114
+msgid "Дополнительные источники информации по treegridController"
+msgstr ""
+
+#: ../../3_modules_description/registry_treegrid.rst:118
+msgid ""
+"`Иерархическое представление для коллекций "
+"<https://git.iondv.ru/ION/platform/blob/v1.24/docs/ru/2_system_description/platform_configuration/deploy_modules.md#настройка-иерархического-представления-для-коллекций>`_."
+msgstr ""
+
+#: ../../3_modules_description/registry_treegrid.rst:120
+msgid "DHTMLX (dhtmlxSuite_v51_pro)"
+msgstr ""
+
+#: ../../3_modules_description/registry_treegrid.rst:123
+msgid "https://docs.dhtmlx.com/"
+msgstr ""
+
+#: ../../3_modules_description/registry_treegrid.rst:124
+msgid "https://dhtmlx.com/docs/products/dhtmlxTreeGrid/"
+msgstr ""
+
+#: ../../3_modules_description/registry_treegrid.rst:129
+msgid ""
+"`Licence </LICENSE>`_\\ &ensp;  `Contact us "
+"<https://iondv.com/portal/contacts>`_ &ensp;  `English "
+"</docs/en/3_modules_description/registry_treegrid.md>`_ &ensp;"
+msgstr ""
+
+#: ../../3_modules_description/registry_treegrid.rst:139
+msgid ""
+"Copyright (c) 2018 **LLC \"ION DV\".**\\ :raw-html-m2r:`<br>` All rights "
+"reserved."
+msgstr ""
+

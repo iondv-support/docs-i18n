@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../2_system_description/functionality/filter.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:9
+msgid "Назад: `Функциональность <functionality.md>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:12
+msgid "Фильтры на форме представления списка"
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:18
+msgid "Запрос для фильтра задается выражением (поисковым запросом)."
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:20
+msgid "Поддерживает следующие операции:"
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:23
+msgid "группировки скобками"
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:24
+msgid "логических: AND, OR, NOT"
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:25
+msgid "сравнения: =, <, >, <=, >=, <>"
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:26
+msgid "арифметических: +, -, *, /"
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:27
+msgid "строковых: like"
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:28
+msgid "над коллекциями: size"
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:31
+msgid "Создание запроса"
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:33
+msgid ""
+"**Выбор атрибута** выполняется из выпадающего списка, с помощью кнопки "
+"``>_``\\ , расположенной у основания поля запроса для фильтра. "
+"Наименование атрибута оборочивается в *\"backticks\"* т.е.:"
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:39
+msgid "**Параметры комбинации** значений атрибутов для запроса:"
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:42
+msgid "and - И - т.е. обязательно оба (или больше) значаний,"
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:43
+msgid "or - ИЛИ - т.е. любое из значений оба (или больше) значаний."
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:45
+msgid "пример комбинации:"
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:51
+msgid ""
+"**Строковые значения** атрибутов при формировании запроса оборачиваются в"
+" *двойные кавычки*\\ :"
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:57
+msgid "**Обращение к атрибутам по ссылке**\\ :"
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:63
+msgid "**Подсказки**\\ :"
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:65
+msgid ""
+"В конце поля запроса для фильтра расположен знак ``?``\\ , при клике на "
+"который откроется модельное окно с описанием принципа работы фильтра и "
+"синтаксиса запроса к нему."
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:67
+msgid ""
+"Для парсинга поисковых выражений используется библиотека "
+"https://nearley.js.org/"
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:70
+msgid "Варианты использования"
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:72
+msgid ""
+"Помимо кнопки рядом со строкой поиска в верхней части страницы, фильтр "
+"можно вызывать кликом на аналогичного вида значек, расположенный в каждом"
+" столбце таблицы."
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:74
+msgid ""
+"Для создания запроса для фильтра необходимо выбрать из выпадающего списка"
+" значение, или же начать ввод значения в строку. Как только значение "
+"выбрано необходимо нажать клавишу ``Enter`` - в столбце со значениями "
+"отобразится результат запроса."
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:79
+msgid ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us "
+"<https://iondv.com/portal/contacts>`_ &ensp;  `English "
+"</docs/en/2_system_description/functionality/filter.md>`_   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/functionality/filter.rst:89
+msgid ""
+"Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights "
+"reserved."
+msgstr ""
+

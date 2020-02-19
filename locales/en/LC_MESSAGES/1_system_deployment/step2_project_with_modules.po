@@ -1,0 +1,230 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:5
+msgid "Шаг 2 Установка ядра, модулей и приложения"
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:7
+msgid ":doc:`Оглавление <../index>`"
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:9
+msgid ""
+"Предыдущая страница: :doc:`Установка окружения "
+"<step1_installing_environment>`"
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:12
+msgid "Клонирование приложения и его компонентов"
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:14
+msgid ""
+"**NB:** пути не должны содержать русских букв и пробелов. Мы советуем "
+"размещать приложение в ``c:\\workspace``."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:16
+msgid ""
+"Рассматриваем формирование проекта с модулями на примере приложения "
+"``develop-and-test``."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:20
+msgid ""
+"Находим приложение в репозитории github. Набираем искомое приложение "
+"``develop-and-test`` в поле поиска и переходим на него."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:23
+msgid "Переходим в репозиторий файлов на ветку версии."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:26
+msgid "Открываем файл ``package.json`` в котором смотрим зависимости."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:48
+msgid "``engines\": \"ion\": 3.0.0`` - версия ядра ``3.0.0``."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:51
+msgid "``ionModulesDependencies`` - список модулей и их версий."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:54
+msgid ""
+"``ionMetaDependencies`` - список других метаданных, необходимых для "
+"проекта, в данном случае исключение ``viewlib`` - библиотека "
+"представлений."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:56
+msgid ""
+"**NB:** для переключения на tag номера версии - смотрите версии в файле "
+"``package.json``."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:59
+msgid "Получение репозитория ядра"
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:61
+msgid ""
+"Ядро находится в репозитории `framework` "
+"<https://github.com/iondv/framework>`. На главной странице есть поле с "
+"путем к репозиторию."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:65
+msgid "Запустите командную строку от имени администратора."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:68
+msgid ""
+"Скопируйте адрес репозитория, перейдите в папку workspace командой  ``cd "
+"c:\\workspace`` и выполните команду ``git clone "
+"https://github.com/iondv/framework``. Эта команда создает папку "
+"``framework`` и в неё клонирует репозиторий."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:71
+msgid "Получение модулей"
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:75
+msgid "Переходим в папку модулей командой ``cd framework\\modules``."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:78
+msgid ""
+"Для каждого модуля из списка ``package.json`` в свойстве "
+"``ionModulesDependencies`` - находим репозиторий модуля среди группы "
+"модулей ``https://github.com/iondv/ION-MODULES``."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:81
+msgid ""
+"Клонируйте все модули из списка ``ionModulesDependencies`` командой ``git"
+" clone https://github.com/iondv/registry``."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:84
+msgid ""
+"Перейдите в папку установленного модуля, переключитесь на tag номера "
+"версии ``git checkout tags/v1.27.1``. Например ``1.27.1`` - это номер "
+"версии модуля ``registry``."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:87
+msgid "Повторите для всех модулей."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:90
+msgid "Получение приложения"
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:94
+msgid ""
+"Переходим в папку приложения. Если вы находитесь в папке модулей "
+"выполните команду ``cd ..\\applications``."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:97
+msgid ""
+"Далее вернитесь на страницу репозитория ``develop-and-test``\\ , "
+"скопируйте путь и клонируйте его командой ``git clone "
+"https://github.com/iondv/develop-and-test``."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:101
+msgid ""
+"Перейдите в папку установленного приложения, переключитесь на tag номера "
+"версии ``git checkout tags/v1.17.0``."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:104
+msgid ""
+"Установка зависимостей в ``ionMetaDependencies`` осуществляется в папку "
+"``applications``\\ , для установки необходимо убедиться, что находитесь в"
+" папке приложений. Клонируем приложения из списка в параметре  "
+"``ionMetaDependencies``. Для приложения ``viewlib`` клонируйте командой "
+"``git clone https://github.com/iondv/viewlib``."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:107
+msgid ""
+"Перейдите в папку установленного приложения, переключитесь на tag номера "
+"версии ``git checkout tags/v0.9.1``. Повторите для каждого приложения."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:110
+msgid "Приложение скомпоновано."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:112
+msgid ""
+"**NB:** мы советуем создать для него проект в IDE, например Visual Studio"
+" Code и в нём создать конфигурациионный файл."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:115
+msgid "Конфигурациионный файл"
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:117
+msgid ""
+"Конфигурационный файл служит для задания основных параметров окружения "
+"приложения и настройки дополнительных параметров запуска."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:121
+msgid ""
+"Создайте конфигурационный файл ``setup`` с расширением ``ini`` в папке "
+"``config``."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:124
+msgid "Открываем файл в редакторе и вставляем содержимое."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:138
+msgid ""
+"Самый главный параметр - ``db.uri=mongodb://127.0.0.1:27017/db``. Он "
+"указывает на название базы которую мы будем использовать для приложения. "
+"База данных будет создана автоматически."
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:141
+msgid ""
+"Следующая страница: `Шаг 3 Сборка, развертывание и запуск "
+"<step3_building_and_running.md>`"
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:146
+msgid "`Licence </LICENSE>`;  `Contact us <https://iondv.com/portal/contacts>`;"
+msgstr ""
+
+#: ../../1_system_deployment/step2_project_with_modules.rst:156
+msgid ""
+"Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights "
+"reserved."
+msgstr ""
+

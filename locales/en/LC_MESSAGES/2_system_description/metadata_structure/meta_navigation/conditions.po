@@ -1,0 +1,287 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:9
+msgid "Назад: `Мета узлов навигации <navigation_nodes.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:12
+msgid "Условия выборки - ``\"conditions\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:14
+msgid ""
+"**Условия выборки** ``\"conditions\"`` - это фильтры при открытии списка "
+"объектов."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:17
+msgid "Сохраненные фильтры"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:19
+msgid ""
+"Перед открытием любой страницы, в реестрах происходит считывание фильтров"
+" которые подходят для данного окна. Подходящие фильтры состоят из двух "
+"частей:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:22
+msgid "Общие фильтры, которые применимы для всех классов."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:23
+msgid "Фильтры сохраненные конкретно для данного класса."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:26
+msgid "Общие фильтры для всех классов"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:28
+msgid ""
+"**Общие фильтры для всех классов** - это фильтры, которые отображаются "
+"для всех открываемых классов. Их отличие в коде в том, что в атрибуте "
+"класса у общего фильтра стоит ключевое слово ``ALL``\\ , у персональных "
+"фильтров в этом атрибуте стоит название класса, для которого он применим."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:30
+msgid ""
+"Чтобы сделать фильтр для всех классов, при сохранении поставьте \"Для "
+"всех классов\"."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:33
+msgid "Фильтры для конкретных классов"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:35
+msgid ""
+"Чтобы создать **фильтр для конкретного класса**\\ , откройте объекты "
+"этого класса, сгенерируйте фильтр и сохраните его убедившись, что поле "
+"\"Для всех классов\" не отмечено."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:38
+msgid "Реализация в коде"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:40
+msgid ""
+"Реализована единая спецификация выражений, как для вычисляемых выражений,"
+" так и для условий отбора и расчетов в агрегации."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:42
+msgid ""
+"В основном работаем с файлом _list-filter-ui - именно он запускает поиск "
+"нужных фильтров, а также разбирает текущие данные для создания новых "
+"фильтров. В файле _list-filter-ui описано какие атрибуты могут "
+"участвовать в создании фильтров и как именно они должны выглядеть и "
+"сохраняться (например дата и чекбокс выглядят по разному)."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:45
+msgid ""
+"В параметре ``cond`` находятся данные фильтра, которые в последствие "
+"подставляются в условие для поиска (в файле _metaCRUD.js)."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:48
+msgid "Пример"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:64
+msgid ""
+"**NB:** новые фильтры - ``min`` и ``max`` расширяют возможности создания "
+"фильтров и условий в меню."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:67
+msgid "Необходимая мета"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:69
+msgid ""
+"Необходимая мета для работы это класс фильтров ``ion_filter``. Он "
+"находится в папке ``calc``\\ , которая по умолчанию является папкой с "
+"классами и метой для системы. Кроме одного класса ничего более не нужно. "
+"**Пересмотреть**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:74
+msgid ""
+"Если поиск идет по принципу равно или содержит - то ищется в семантике "
+"этого объекта. Если поиск идет по принципу - максимум/минимум - то ищем "
+"уже значение поля. Таким образом есть возможность поиска в ссылочных "
+"атрибутах, при этом без лишних запросов к базе, что повышает "
+"производительность."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:81
+msgid "Фильтры в меню"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:83
+msgid ""
+"Есть возможность не только выдавать отсортированные данные в списке из "
+"условий меню, но и ограничивать выборки, т.е.применять фильтры."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:86
+msgid "Мета отвечающая за работу фильтров"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:89
+msgid "Пример меню с фильтром"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:109
+msgid "Атрибут ``conditions`` содержит два объекта:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:112
+msgid "``property`` - свойство, по которому происходит фильтрация"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:113
+msgid "``operation`` - операция фильтрации"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:115
+msgid ""
+"В данном случае этот фильтр имеет такой смысл - *показать все объекты "
+"класса ``naselenie`` с минимальным годом*."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:117
+msgid ""
+"Если нужно указать значение, то третьим атрибутом пойдет ``value`` и "
+"значение для поиска. Например:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:129
+msgid ""
+"Страницей класса для узла навигации является родительский класс. Если при"
+" переходе по данной навигации необходимо отображать объекты класса "
+"наследника данного класса, то применяется фильтр вида:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:139
+msgid ""
+"где, ``atr1.__class`` - атрибут родительского класса, по которому идет "
+"выборка объектов, ``childClass`` - наследник, объекты которого "
+"отображаются в навигации. То есть - *показать на форме списка только те "
+"объекты, у которых атрибут ``atr1`` является объектом класса-наследника "
+"``childClass``\\ *."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:212
+msgid ""
+"**NB:** код операции соответствует разным значениям операций, в "
+"зависимостри от того, выбран атрибут или нет. Если поле  ``\"property\"``"
+" равно ``null``\\ , то кодируется логическое условие, по которому "
+"объединяются вложенные условия отбора (указаны в скобках в таблице выше)."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:215
+msgid "Операции для дат"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:239
+msgid ""
+"Аргументы ``DATEADD``\\ : *дата, интервал, ед.изм интервала [ms, s, min, "
+"h, d, m, y] (по умолчанию - день(d))*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:241
+msgid ""
+"Аргументы ``DATEDIFF``\\ : *конечная дата, начальная дата, ед. изм. "
+"результата [ms, s, min, h, d, m, y] (по умолчанию - день(d)), логический "
+"флаг приведения к целому числу*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:244
+msgid "Сравнение текущей даты с месяцем"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:246
+msgid ""
+"Настройка выборки объектов в списке с возможностью сравнения значения "
+"даты с любым месяцем года. Например, настройка фильтра таким образом, что"
+" бы в навигации показывались только те объекты, у которых значение "
+"атрибута \"Дата окончания\" - текущий месяц."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:249
+msgid ""
+"Для этого вычисляется начало текущего месяца. После этого к нему можно "
+"добавлять или вычитать произвольное колличество месяцев и сравнивать "
+"полученный результат с необходимой датой."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:251
+msgid "*Вычисление конца текущего месяца*\\ :"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:321
+msgid "Для начала вычисляется значение дня месяца для текущей даты:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:340
+msgid ""
+"Получено условное значение \"d\". Далее необходимо отнять полученное "
+"значение от 0 (0-d):"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:372
+msgid ""
+"Получено условное значение \"-d\". Далее к текущей дате прибавляется "
+"значение \"-d\" дней:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:423
+msgid "Получено начало текущего месяца."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:424
+msgid ""
+"Для вычисления конца текущего месяца нужно прибавить к полученному "
+"значению начала месяца 1 месяц:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:503
+msgid ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us "
+"<https://iondv.com/portal/contacts>`_ &ensp;  `English "
+"</docs/en/2_system_description/metadata_structure/meta_navigation/conditions.md>`_"
+"   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/conditions.rst:513
+msgid ""
+"Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights "
+"reserved."
+msgstr ""
+

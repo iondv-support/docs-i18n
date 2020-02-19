@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:9
+msgid "Предыдущая страница: `Индексация <atr_indexed.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:12
+msgid "Автозаполняемые атрибуты"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:15
+msgid "Описание"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:17
+msgid ""
+"Тип **автозаполняемые поля** ``\"autoassigned\": true`` - указывает, что "
+"значение данного атрибута должно быть заполнено автоматически при "
+"создании экземпляра класса. Применяется в основном для атрибутов типа "
+"«Уникальный идентификатор» ``\"unique\": true`` для целосчисленных и "
+"строковых атрибутов, а также для атрибутов типа «Дата-время»."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:20
+msgid "Принцип формирования:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:23
+msgid ""
+"Для атрибутов «Дата-время» атрибуту должно быть присвоено значение "
+"текущего момента времени. Используется для меток создания и изменения."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:24
+msgid ""
+"Для целочисленных атрибутов, если указано значение \"Уникальный "
+"идентификатор\" (\"unique\": true) при создании формы, заполняется "
+"случайным набором символов."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:25
+msgid ""
+"Для строк, если указано значение \"Уникальный идентификатор\" "
+"(\"unique\": true), то должно быть сгенерировано случайное значение hex -"
+" размером с длину строки - в примере ниже 20 символов. .. code-block::"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:31
+msgid "Для типа \"Глобальный идентификатор\" - реализуется аналогично строке."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:33
+msgid ""
+"NB. Необходимо сделать проверку при сохранении. Поле должно "
+"генерироваться автоматически для пустых значений или даты. Для всех "
+"остальных (целое, строка) должны генерироваться ранее созданные значения."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:36
+msgid "Пример:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:55
+msgid "Следующая страница: `Значение по умолчанию <atr_default_value.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:60
+msgid ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us "
+"<https://iondv.com/portal/contacts>`_ &ensp;  `English "
+"</docs/en/2_system_description/metadata_structure/meta_class/atr_autoassigned.md>`_"
+"    &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:70
+msgid ""
+"Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights "
+"reserved."
+msgstr ""
+

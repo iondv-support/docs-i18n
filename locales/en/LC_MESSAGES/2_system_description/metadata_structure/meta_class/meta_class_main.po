@@ -1,0 +1,390 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:2
+msgid "Мета классов - общая часть"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:4
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:6
+msgid ""
+"Предыдущая страница: `Схема основных типов меты "
+"</docs/ru/2_system_description/metadata_structure/meta_scheme.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:8
+msgid ""
+"**Общая часть меты классов** - содержит поля параметров класса, которые "
+"имеют отношения к самой структуре и способам оперирования данными в ней."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:11
+msgid "JSON"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:38
+msgid "Описание полей"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:43
+msgid "&ensp; Код      &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:44
+msgid "Имя"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:45
+msgid "Допустимые значения"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:46
+msgid "Описание"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:47
+msgid "``\"isStruct\"``      &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:48
+msgid "`\\ **Является структурой** <type_isstruct16.rst>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:49
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:129
+msgid "Логическое."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:50
+msgid ""
+"Если выставлено \"true\" - это говорит о том, что данный класс является "
+"структурой, и может быть использован в прочих классах в атрибутах особого"
+" типа - Структура [16]"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:51
+msgid "``\"key\"``           &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:52
+msgid "`\\ **Ключевые атрибуты** <key.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:53
+msgid "Массив строк, минимум одно значение."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:54
+msgid ""
+"Для функционирования приложения, в каждом классе должно быть задано "
+"ключевое поле, однозначно идентифицирующее объект в коллекции."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:55
+msgid "``\"semantic\"``    &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:56
+msgid "`\\ **Семантический атрибут** <semantic.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:57
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:69
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:73
+msgid "Строка."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:58
+msgid ""
+"Задает семантику - правило формирования строкового представления для "
+"данного класса."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:59
+msgid "``\"name\"``     &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:60
+msgid "**Системное имя**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:61
+msgid "Строка, только латиница, без пробелов."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:62
+msgid "Задает в том числе первую часть имени файла меты класса, служебное имя."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:63
+msgid "``\"abstract\"``     &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:64
+msgid "`\\ **Признак абстрактности для класса** <abstract.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:65
+msgid "Логическое"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:66
+msgid "Используется только для родительских (базовых) классов."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:67
+msgid "``\"version\"``    &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:68
+msgid "`\\ **Версионирование** <metaversion.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:70
+msgid ""
+"Позволяет задавать версионирвоание меты, для возможности оперирования "
+"данными созданными в разных версиях меты в рамках одной коллекции."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:71
+msgid "``\"caption\"``     &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:72
+msgid "**Логическое имя**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:74
+msgid "Отображаемое в пользовательском интерфейсе имя класса"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:75
+msgid "``\"ancestor\"``    &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:76
+msgid "`\\ **Наследование** <ancestor.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:77
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:81
+msgid "Null либо строка."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:78
+msgid ""
+"Набор атрибутов, заведенных в данном классе, наследуется "
+"классами-наследниками. Является способом сократить количество сущностей, "
+"когда для них можно использовать одинаковый набор атрибутов. Все "
+"классы-наследники будут наследовать атрибутивный состав родителя + можно "
+"завести атрибуты, принадлежащие индивидуально данному классу-наследнику "
+"(при необходимости)."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:79
+msgid "``\"container\"``    &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:80
+msgid "**Атрибут ссылки на контейнер**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:82
+msgid ""
+"Здесь можно выбрать ссылочный атрибут, который будет использован для "
+"автоматического построения иерархической навигации. Объект, на который "
+"будет ссылаться выбранный атрибут, будет восприниматься средой как "
+"контейнер экземпляра доменного класса, и автоматически выстроит иерархию "
+"объектов."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:83
+msgid "``\"creationTracker\"`` &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:84
+msgid "`\\ **Метка времени создания** <time_user_tracker.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:85
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:89
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:93
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:97
+msgid "Строка"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:86
+msgid ""
+"Позволяет сохранять в классе дату/время создания объекта, требует наличия"
+" соответствующего атрибута класса, ``\"name\"`` которого и вносится в "
+"данное поле."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:87
+msgid "``\"changeTracker\"`` &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:88
+msgid "`\\ **Метка времени изменения** <time_user_tracker.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:90
+msgid ""
+"Позволяет сохранять в классе дату/время изменения объекта, требует "
+"наличия соответствующего атрибута класса, ``\"name\"`` которого и "
+"вносится в данное поле."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:91
+msgid "``\"creatorTracker\"`` &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:92
+msgid "`\\ **Метка пользователя создавшего объект** <time_user_tracker.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:94
+msgid ""
+"Позволяет сохранять в классе имя пользователя создавшего объект, требует "
+"наличия соответствующего атрибута класса, ``\"name\"`` которого и "
+"вносится в данное поле."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:95
+msgid "``\"editorTracker\"`` &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:96
+msgid "`\\ **Метка пользователя изменившего объект** <time_user_tracker.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:98
+msgid ""
+"Позволяет сохранять в классе имя пользователя, изменившего объект, "
+"требует наличия соответствующего атрибута класса, ``\"name\"`` которого и"
+" вносится в данное поле."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:99
+msgid "``\"history\"``     &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:100
+msgid "**Снимки данных**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:101
+msgid "*0 - нет*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:102
+msgid "Хранит снимки данных"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:105
+msgid "*1 - произвольно*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:109
+msgid "*2 - с точностью до часа*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:113
+msgid "*3 - с точностью до суток*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:117
+msgid "*4 - с точностью до недели*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:121
+msgid "*5 - с точностью до месяца*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:125
+msgid "*6 - с точностью до года*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:127
+msgid "``\"journaling\"``  &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:128
+msgid "`\\ **Журналирование изменений** <journaling.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:130
+msgid "Разрешает/запрещает журналирование изменений объектов класса."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:131
+msgid "``\"compositeIndexes\"`` &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:132
+msgid "`\\ **Индексация** <composite_indexes.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:133
+msgid "Null либо массив объектов."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:134
+msgid "Позволяет задать требования уникальности сочетания полей."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:135
+msgid "``\"properties\"``   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:136
+msgid "`\\ **Атрибуты** <meta_class_attribute.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:137
+msgid "Массив объектов."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:138
+msgid ""
+"Массив атрибутов сущности. Каждый объект описывается в соответствии с "
+"атрибутивной частью меты классов."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:142
+msgid ""
+"Следующая страница: `Мета классов - атрибутивная часть "
+"<meta_class_attribute.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:147
+msgid ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us "
+"<https://iondv.com/portal/contacts>`_ &ensp;  `English "
+"</docs/en/2_system_description/metadata_structure/meta_class/meta_class_main.md>`_"
+"   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_main.rst:157
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**. All rights reserved."
+msgstr ""
+

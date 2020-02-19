@@ -1,0 +1,479 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:9
+msgid ""
+"Предыдущая страница: `Сортировка выборки допустимых значений "
+"<atr_selsorting.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:12
+msgid "Список выбора допустимых значений"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:14
+msgid ""
+"**Список выбора допустимых значений** - находится в атрибутивной части "
+"меты класса - ``\"selectionProvider\"`` и задает список выбора допустимых"
+" значений для поля ввода атрибута. Список формируется в виде массива "
+"объектов типа «ключ-значения» и представляет собой список выбора значения"
+" для атрибута с типом «Строка», «Действительное», «Целое», «Десятичное», "
+"«Текст»."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:16
+msgid ""
+"Есть три типа списка выбора, тип задается в поле (\\ ``\"type\"``\\ ) "
+"одной из следующих ключевых фраз:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:19
+msgid "``\"SIMPLE\"`` - список выбора простого типа,"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:20
+msgid "``\"MATRIX\"`` - список выбора матричного типа."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:23
+msgid "Описание полей структуры"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:26
+msgid "Структура объекта списка выбора"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:41
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:90
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:212
+msgid "Поле"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:42
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:91
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:213
+msgid "Наименование"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:43
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:92
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:214
+msgid "Допустимые значения"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:44
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:93
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:215
+msgid "Описание"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:45
+msgid "``\"type\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:46
+msgid "**Тип**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:47
+msgid "``\"SIMPLE\", \"MATRIX\", \"HQL\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:48
+msgid "Тип списка выбора"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:49
+msgid "``\"list\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:50
+msgid "**Простой тип**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:51
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:59
+msgid "Массив объектов типа \"ключ-значение\"."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:52
+msgid "Список выбора просто типа (\"SIMPLE\") хранится здесь."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:53
+msgid "``\"matrix\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:54
+msgid "**Матрица**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:55
+msgid ""
+"Массив векторов, каждый из которых состоит из именования, комплекта "
+"условий выбора и комплекта пар \"ключ-значение\"."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:56
+msgid "Список выбора матричного типа (\"MATRIX\")."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:57
+msgid "``\"parameters\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:58
+msgid "**Параметры запроса**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:60
+msgid "Параметры запроса, **не реализовано**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:61
+msgid "``\"hq\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:62
+msgid "**Запрос**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:63
+msgid ""
+"Строка запроса в соответствии с форматом обработчика *не используется в "
+"текущей версии*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:64
+msgid "Строка запроса, **не реализовано**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:68
+msgid "Поле ``\"list\"`` - массив объектов следующей структуры"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:94
+msgid "``\"key\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:95
+msgid "**Ключ**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:96
+msgid ""
+"Любое значение, соответствующее типу атрибута для которого заведен данный"
+" список выбора"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:97
+msgid "При сохранении объекта именно значение ключа записывается в базу"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:98
+msgid "``\"value\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:99
+msgid "**Значение**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:100
+msgid ""
+"Любая строка, могут быть проблемы при наличии управляющих "
+"последовательностей"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:101
+msgid "Значение этого поля выводится в пользовательском интерфейсе"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:105
+msgid "Поле ``\"matrix\"`` - массив объектов следующей структуры"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:207
+msgid "Каждый объект массива ``\"MATRIX\"`` содержит следующие обязательные поля:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:216
+msgid "``\"comment\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:217
+msgid "**Комментарий**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:218
+msgid "Любая строка"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:219
+msgid "Комментарий к вектору"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:220
+msgid "``\"conditions\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:221
+msgid "**Условия**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:222
+msgid "Массив объектов"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:223
+msgid ""
+"Определяет условия при которых выводится список элементов описанный в  "
+"``\"result\"`` данного вектора"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:224
+msgid "``\"result\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:225
+msgid "**Результаты**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:226
+msgid "Массив объектов, аналогичен структуре поля ``\"list\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:227
+msgid ""
+"Задает список выбора, который выводится при соблюдении условий, "
+"перечисленных в ``\"conditions\"`` данного вектора"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:231
+msgid "Поле ``\"conditions\"`` массива ``\"MATRIX\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:301
+msgid ""
+"***NB**\\ : Код операции соответствует разным значениям операций, в "
+"зависимостри от того, выбран атрибут или нет. Если поле  ``\"property\"``"
+" равно ``null``\\ , то кодируется логическое условие, по которому "
+"объединяются вложенные условия отбора. (Указаны в скобках в таблице "
+"выше)_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:307
+msgid "Список выбора типа \"SIMPLE\""
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:309
+msgid ""
+"Данный список выбора позволяет создать жестко зашитый в приложении пресет"
+" значений поля, ограничив тем самом выбор пользователя.\\ :raw-html-"
+"m2r:`<br>` Для поля в обязательном порядке следует задать тип "
+"представления - \"Выпадающий список [5]\".\\ :raw-html-m2r:`<br>` "
+"Подразумевает возможность сохранять данные в базе в типе, отличном от "
+"типа данных, выводимых пользователю.\\ :raw-html-m2r:`<br>` *Например*\\ "
+": Если задать в качестве полей ``key`` элементы списка выбора значения "
+"даты-времени в ISODate, а в качестве ``value`` - описание события, то "
+"предоставим пользвателю возможность выбрать событие, но внутри приложения"
+" работать с данными типа ISODate."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:314
+msgid ""
+"***NB**\\ : Если у атрибута со списком выбора разрешено пустое значение: "
+"``\"nullable\": true`` - в списке выбора добавляется пустое значение по "
+"умолчанию!_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:368
+msgid "Принцип создания:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:370
+msgid "Необходимо:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:373
+msgid ""
+"выбрать исходя из требований предметной области наиболее удобный тип "
+"атрибута,"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:374
+msgid ""
+"выбрать идентификаторы данного типа (\\ ``\"key\"``\\ ) с той целью, что "
+"бы при необходимости автоматизированной обработки оперировать значениями "
+"в базе максимально эффективно,"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:375
+msgid ""
+"задать к каждому идентификатору подпись, которая будет отображаться в "
+"интерфейсе ``\"value\"``\\ ,"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:376
+msgid ""
+"задать в представлениях тип представления - \"Выпадающий список [5]\" в "
+"обязательном порядке."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:379
+msgid "Список выбора типа \"MATRIX\""
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:381
+msgid ""
+"В матрицах результирующий список выбора это все, что попадает под "
+"условия. Если условий нет - то система считает, что список выбора "
+"применяется всегда. Для предсказуемости работы приложения, необходимо "
+"чтобы были соблюдены два условия:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:385
+msgid "#. Вектора не должны перекрывать друг друга. #."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:387
+msgid ""
+"Массив значений опорного атрибута, как основание матрицы (массив "
+"сочетаний значений опорных атрибутов) должен полностью закрываться "
+"описанными векторами."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:389
+msgid ""
+"Система берет значение опорного поля (полей) и последовательно применяет "
+"к нему условия описанные в векторах. Каждый вектор - это набор условий и "
+"собственный список выбора. Как только система дойдет до вектора, условиям"
+" которого удовлетворяет значение опорного поля, она берет из него список "
+"выбора и определяет к выводу в пользовательском интерфейсе. "
+"Подразумевается, что на любое значение опорного поля система найдет "
+"соответствующий вектор."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:392
+msgid "Пример 1: Матрица от двух целочисленных значений"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:394
+msgid "**JSON класса**\\ :"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:634
+msgid "Порядок разработки"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:636
+msgid ""
+"Необходимо разделить все возможные сочетания пар атрибутов "
+"``\"matrix_base_1\"`` и ``\"matrix_base_2\"`` на 4 вектора. Делить "
+"необходимо относительно нуля, то есть каждое поле может быть либо "
+"отрицательным, либо неотрицательным. Ниже представлена схема:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:644
+msgid "Выписываем векторы и их условия:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:647
+msgid "Оба отрицательные: (matrix_base_1 < 0) && (matrix_base_2 < 0)"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:648
+msgid "Оба неотрицательные: (matrix_base_1 >= 0) && (matrix_base_2 >= 0)"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:649
+msgid ""
+"Первое неотрицательное второе отрицательное: (matrix_base_1 >= 0) && "
+"(matrix_base_2 < 0)"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:650
+msgid ""
+"Первое отрицательное, второе неотрицательное: (matrix_base_1 < 0) && "
+"(matrix_base_2 >= 0)"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:651
+msgid ""
+"Если в 3 и 4 условиях неверно указать равенство нулю, то как результат - "
+"выпадающие элементы и перекрытие векторов."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:653
+msgid ""
+"В примере выше для каждого вектора список выбора ограничен одним пунктом,"
+" но их может быть больше."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:656
+msgid ""
+"Пример 2: Матрица от свободного действительного значения со сложными "
+"условиями"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:910
+msgid "**Векторы и их условия**\\ :"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:913
+msgid "matrix_base < 3"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:914
+msgid "matrix_base = 3"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:915
+msgid "(matrix_base > 3) && (matrix_base <= 15)"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:916
+msgid "matrix_base >= 16"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:917
+msgid "(matrix_base > 15) && (matrix_base < 16)"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:920
+msgid "Следующая страница: `Предварительная выборка <eager_loading.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:925
+msgid ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us "
+"<https://iondv.com/portal/contacts>`_ &ensp;  `English "
+"</docs/en/2_system_description/metadata_structure/meta_class/atr_selectionprovider.md>`_"
+"   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:935
+msgid ""
+"Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights "
+"reserved."
+msgstr ""
+

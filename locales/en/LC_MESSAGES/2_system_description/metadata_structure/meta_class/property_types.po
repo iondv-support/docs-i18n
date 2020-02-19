@@ -1,0 +1,412 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:9
+msgid ""
+"Предыдущая страница: `Мета классов - атрибутивная часть "
+"<meta_class_attribute.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:12
+msgid "Типы атрибутов"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:14
+msgid ""
+"**Тип атрибута** - указывает на тип поддерживаемых атрибутом данных, как "
+"например размер допустимых значений и другие."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:19
+msgid "Код"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:20
+msgid "Имя"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:21
+msgid "Тип в БД"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:22
+msgid "Описание"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:23
+msgid "0"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:24
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:97
+msgid "Строка"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:25
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:29
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:33
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:37
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:41
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:45
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:69
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:73
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:77
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:85
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:89
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:93
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:105
+msgid "String"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:26
+msgid ""
+"Тип данных, значениями которого является произвольная последовательность "
+"(строка) символов алфавита. Каждая переменная такого типа (строковая "
+"переменная) может быть представлена фиксированным количеством символов."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:27
+msgid "1"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:28
+msgid "Текст"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:30
+msgid "Хранит текстовые данные."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:31
+msgid "2"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:32
+msgid "HTML"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:34
+msgid ""
+"Форматированный текст, содержащий гипертекстовую разметку  с возможностью"
+" редактирования с учетом возможных начертаний."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:35
+msgid "3"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:36
+msgid "URL"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:38
+msgid "Хранит ссылку, позволяет сохранить любую строку."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:39
+msgid "4"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:40
+msgid "Изображение"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:42
+msgid ""
+"Изображение, сохраняемое в файловом хранилище с предпросмотром в "
+"представлениях."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:43
+msgid "5"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:44
+msgid "Файл"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:46
+msgid "Файл, сохраняемый в файловом хранилище. В процессе реализации в регистри."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:47
+msgid "6"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:48
+msgid "Целое"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:49
+msgid "Int32"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:50
+msgid "Целое число"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:51
+msgid "7"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:52
+msgid "Действительное"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:53
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:61
+msgid "Double"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:54
+msgid "Любое положительное число, отрицательное число или ноль."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:55
+msgid "9"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:56
+msgid "`\\ **Дата/время** <type_datetime9.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:57
+msgid "Date"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:58
+msgid ""
+"Дата в формате ISODate. Может быть отображена как дата, либо как "
+"дата-время."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:59
+msgid "8"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:60
+msgid "Десятичное"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:62
+msgid ""
+"Число, представленное в десятичной системе счисления. Алфавит этой "
+"системы счисления состоит из 10 цифр от нуля до 9, отсюда и название - "
+"десятичная."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:63
+msgid "10"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:64
+msgid "Логический"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:65
+msgid "Boolean"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:66
+msgid ""
+"Принимает два возможных значения, называемых истиной (true) и ложью "
+"(false)."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:67
+msgid "11"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:68
+msgid "Пароль"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:70
+msgid "Хеш пароля"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:71
+msgid "12"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:72
+msgid "Глобальный идентификатор"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:74
+msgid ""
+"Тип предназначенный для ключевого поля класса. Предполагает выставление "
+"атрибутов уникальности и автозаполнения."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:75
+msgid "13"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:76
+msgid "`\\ **Ссылка** <type_reference13.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:78
+msgid "Тип данных, хранящий в себе ссылку на объекты другого класса."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:79
+msgid "14"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:80
+msgid "`\\ **Коллекция** <type_collection14.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:81
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:109
+msgid "Array"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:82
+msgid ""
+"Коллекция - тип данных, который хранит в себе ссылки на другие объекты. "
+"Каждая ссылка содержит значение идентификатора объекта, определенного в "
+"мете класса. Разделяются ссылки через запятую. Все значение из "
+"последовательности ссылок и запятых хранится строкой в базе."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:83
+msgid "15"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:84
+msgid "Множество"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:86
+msgid "Храним набор дискретных значений из предопределенного списка выбора."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:87
+msgid "16"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:88
+msgid "`\\ **Структура** <type_isstruct16.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:90
+msgid "Тип данных, хранящий в себе ссылку на объект класса-структуры."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:91
+msgid "17"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:92
+msgid "`\\ **Пользовательский тип** <type_user17.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:94
+msgid ""
+"Дает возможность определения пользовательских типов на основе примитивных"
+" типов."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:95
+msgid "18"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:96
+msgid "Пользователь"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:98
+msgid "Хранит имя пользователя, для настройки безопасности, в формате *имя@local*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:99
+msgid "100"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:100
+msgid "`\\ **Геоданные** <type_geodata100.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:101
+msgid "Object"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:102
+msgid ""
+"Особый тип данных, хранящий координаты с уникальными представлениями для "
+"создания и редактирования."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:103
+msgid "110"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:104
+msgid "Коллекция файлов"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:106
+msgid ""
+"Тип атрибута для хранения комплекта файлов до 5 штук, с общим "
+"ограничением размера и возможностью задания допустимых расширений файлов"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:107
+msgid "210"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:108
+msgid "`\\ **Расписание** <type_schedule210.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:110
+msgid "Тип данных, предназначеный для хранения данных календаря/расписания"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:114
+msgid "Идентификаторы типов атрибутов:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:145
+msgid ""
+"Следующая страница: `Мета представлений "
+"</docs/ru/2_system_description/metadata_structure/meta_view/meta_view_main.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:150
+msgid ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us "
+"<https://iondv.com/portal/contacts>`_ &ensp;  `English "
+"</docs/en/2_system_description/metadata_structure/meta_class/property_types.md>`_"
+"   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/property_types.rst:160
+msgid ""
+"Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights "
+"reserved."
+msgstr ""
+

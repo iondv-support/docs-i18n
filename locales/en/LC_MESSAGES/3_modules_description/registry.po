@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../3_modules_description/registry.rst:5
+msgid "Модуль \"Registry\""
+msgstr ""
+
+#: ../../3_modules_description/registry.rst:7
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/registry.rst:9
+msgid "Назад: `Модули <modules.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/registry.rst:11
+msgid ""
+"**Модуль регистра (registry)** – ключевой модуль предназначенный "
+"непосредственно для работы с данными на основе структур метаданных – в "
+"том числе по ведению проектов, программ, мероприятий и др."
+msgstr ""
+
+#: ../../3_modules_description/registry.rst:14
+msgid "Настройка"
+msgstr ""
+
+#: ../../3_modules_description/registry.rst:17
+msgid "`DI (treegridController) <registry_treegrid.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/registry.rst:20
+msgid "Deploy"
+msgstr ""
+
+#: ../../3_modules_description/registry.rst:23
+msgid "Настройка частоты опроса в deploy.json"
+msgstr ""
+
+#: ../../3_modules_description/registry.rst:25
+msgid ""
+"Настройка частоты опроса сервера, что объект не заблокирован в "
+"deploy.json:"
+msgstr ""
+
+#: ../../3_modules_description/registry.rst:36
+msgid "Настройка createByCopy"
+msgstr ""
+
+#: ../../3_modules_description/registry.rst:38
+msgid "Настройка отображения кнопки \"Создать еще\" в deploy.json:"
+msgstr ""
+
+#: ../../3_modules_description/registry.rst:47
+msgid "Фильтры"
+msgstr ""
+
+#: ../../3_modules_description/registry.rst:49
+msgid ""
+"Подробнее о фильтрах `здесь "
+"</docs/ru/2_system_description/functionality/filter.md>`_."
+msgstr ""
+
+#: ../../3_modules_description/registry.rst:52
+msgid "Настройка помощь по фильтрам"
+msgstr ""
+
+#: ../../3_modules_description/registry.rst:54
+msgid ""
+"Справка размещается в файле шаблона "
+"``modules/registry/view/default/templates/view/list-filter-helper.ejs``"
+msgstr ""
+
+#: ../../3_modules_description/registry.rst:57
+msgid "Требования к коду"
+msgstr ""
+
+#: ../../3_modules_description/registry.rst:59
+msgid "Cтиль написания компонентов фронт-енда `здесь <registry_code.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/registry.rst:64
+msgid ""
+"`Licence </LICENSE>`_\\ &ensp;  `Contact us "
+"<https://iondv.com/portal/contacts>`_ &ensp;  `English "
+"</docs/en/3_modules_description/registry.md>`_ &ensp;"
+msgstr ""
+
+#: ../../3_modules_description/registry.rst:74
+msgid ""
+"Copyright (c) 2018 **LLC \"ION DV\".**\\ :raw-html-m2r:`<br>` All rights "
+"reserved."
+msgstr ""
+

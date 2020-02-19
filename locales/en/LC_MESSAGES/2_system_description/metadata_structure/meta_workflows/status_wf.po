@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../2_system_description/metadata_structure/meta_workflows/status_wf.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/status_wf.rst:9
+msgid "Предыдущая страница: `Мета бизнес-процесса <meta_workflows.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/status_wf.rst:12
+msgid "Статусы бизнес-процесса"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/status_wf.rst:15
+msgid "JSON"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/status_wf.rst:37
+msgid "Поле"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/status_wf.rst:38
+msgid "Описание"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/status_wf.rst:39
+msgid "``\"name\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/status_wf.rst:40
+msgid "Системное имя статуса"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/status_wf.rst:41
+msgid "``\"caption\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/status_wf.rst:42
+msgid "Логическое имя статуса"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/status_wf.rst:43
+msgid "``\"maxPeriod\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/status_wf.rst:44
+msgid "*нет данных*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/status_wf.rst:45
+msgid "``\"conditions\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/status_wf.rst:46
+msgid ""
+"Условия для статуса БП. Задаются аналогично \"Условиям отбора допустимых "
+"значений\"."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/status_wf.rst:47
+msgid "``\"itemPermissions\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/status_wf.rst:48
+msgid "Разрешения для объекта"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/status_wf.rst:49
+msgid "``\"propertyPermissions\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/status_wf.rst:50
+msgid "Разрешения для свойств"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/status_wf.rst:51
+msgid "``\"selectionProviders\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/status_wf.rst:52
+msgid "Выборка допустимых значений"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/status_wf.rst:56
+msgid "Следующая страница: `Переходы бизнес-процесса <transitions_wf.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/status_wf.rst:61
+msgid ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us "
+"<https://iondv.com/portal/contacts>`_ &ensp;  `English "
+"</docs/en/2_system_description/metadata_structure/meta_workflows/status_wf.md>`_"
+"   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/status_wf.rst:71
+msgid ""
+"Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights "
+"reserved."
+msgstr ""
+

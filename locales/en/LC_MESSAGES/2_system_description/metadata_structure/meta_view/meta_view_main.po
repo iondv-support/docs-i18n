@@ -1,0 +1,284 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:5
+msgid "Мета представлений - общая часть"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:7
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:9
+msgid ""
+"Предыдущая страница: `Типы атрибутов меты классов "
+"</docs/ru/2_system_description/metadata_structure/meta_class/property_types.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:12
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:57
+msgid "Описание"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:14
+msgid ""
+"**Мета представлений** - позволяет задавать желаемый состав атрибутов "
+"этого класса для отображения на форме, в соответствии с видом формы "
+"представления (представление формы списка list.json, создания "
+"create.json, изменения класса item.json) и указывать для каждого "
+"отдельного атрибута свойства, переопределяемые и (или) дополняемые "
+"свойства, задаваемые в мете класса для данного атрибута."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:17
+msgid "Виды меты представлений"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:19
+msgid "Мета представлений подразделяется на виды:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:22
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:26
+msgid "Форма представления списка"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:23
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:105
+msgid "Форма представления создания и изменения"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:28
+msgid ""
+"**Форма представления списка** - позволяет выводить объекты класса в виде"
+" списка."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:31
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:110
+msgid "JSON"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:49
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:133
+msgid "Описание полей"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:54
+msgid "Поле"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:55
+msgid "Наименование"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:56
+msgid "Допустимые значения"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:58
+msgid "``\"columns\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:59
+msgid "**Колонки**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:60
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:72
+msgid "Массив объектов"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:61
+msgid ""
+"Колонки или столбцы атрибутов класса, каждый из которых описывается "
+"`атрибутивной частью меты представлений "
+"<meta_view_main.md#следующая-страница-мета-представлений-атрибутивная-часть>`_."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:62
+msgid "``\"styles\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:63
+msgid "`\\ **Выделение цветом строк** <styles.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:64
+msgid "Формула"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:65
+msgid ""
+"В соответствии с условиями формулы столбцы таблицы окрашены в заданный "
+"цвет."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:66
+msgid "``\"actions\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:67
+msgid "**Поведение**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:68
+msgid "Целое или Null"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:69
+msgid "*не используется в текущей версии*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:70
+msgid "``\"commands\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:71
+msgid "`\\ **Действия** <commands.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:73
+msgid "Набор действий над объектами класса."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:74
+msgid "``\"allowSearch\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:75
+msgid "`\\ **Доступен поиск** <allowsearch.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:76
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:84
+msgid "Логическое"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:77
+msgid "Разрешает или запрещает отображение формы поиска."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:78
+msgid "``\"pageSize\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:79
+msgid "**Количество записей на странице**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:80
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:100
+msgid "Целое положительное"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:81
+msgid "Указывает количество объектов на одной странице по умолчанию."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:82
+msgid "``\"useEditModels\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:83
+msgid "**Использовать формы редактирования для детализации**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:85
+msgid ""
+"Разрешает или запрещает использование формы редактирования для "
+"детализации данных объекта класса."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:86
+msgid "``\"version\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:87
+msgid ""
+"`\\ **Версия** "
+"</docs/ru/2_system_description/metadata_structure/meta_class/metaversion.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:88
+msgid "Строка"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:89
+msgid "Версия метаданных."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:90
+msgid "``\"overrideMode\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:91
+msgid "`\\ **Режим наложения** <overridemode.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:92
+msgid "*0 - Перекрыть*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:93
+msgid "Задает режим наложения представлений."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:96
+msgid "*1 - Переопределить*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:98
+msgid "``\"filterDepth\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:99
+msgid "**Глубина запроса фильтра в списках**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:101
+msgid "Глубина для фильтра в списках объектов. По умолчанию 2."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:107
+msgid ""
+"**Форма представления создания и изменения** - позволяет создавать и "
+"изменять объекты класса."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:196
+msgid ""
+"Следующая страница: `Мета представлений - атрибутивная часть "
+"<meta_view_attribute.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:201
+msgid ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us "
+"<https://iondv.com/portal/contacts>`_ &ensp;  `English "
+"</docs/en/2_system_description/metadata_structure/meta_view/meta_view_main.md>`_"
+"   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/meta_view_main.rst:211
+msgid ""
+"Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights "
+"reserved."
+msgstr ""
+

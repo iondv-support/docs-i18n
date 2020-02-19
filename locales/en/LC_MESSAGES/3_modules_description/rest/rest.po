@@ -1,0 +1,946 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../3_modules_description/rest/rest.rst:6
+msgid "IONDV. REST"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:8
+msgid ""
+"REST - модуль IONDV. Framework применяется для быстрого создания "
+"веб-сервисов на основе метаданных для реализации микросервисной "
+"архитектуры. Модуль позволяет также интегрировать приложения созданные на"
+" фреймворке с другими системами по REST API и обеспечивает обмен данными "
+"для реализации произвольных пользовательских веб-интерфейсов (в том числе"
+" SPA созданные на фреймворках Angular, Redux, Vue и т.д.) или для бакенд "
+"части мобильных приложений."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:15
+msgid "Кратко об IONDV. Framework"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:17
+msgid ""
+"IONDV. Framework - это опенсорный фреймворк на node.js для разработки "
+"учетных приложений или микросервисов на основе метаданных и отдельных "
+"модулей. Он является частью инструментальной цифровой платформы для "
+"создания enterprise (ERP) приложений состоящей из опенсорсных "
+"компонентов: самого `фреймворка <https://github.com/iondv/framework>`_\\ "
+", `модулей <https://github.com/topics/iondv-module>`_ и готовых "
+"приложений расширяющих его функциональность, визуальной среды `Studio "
+"<https://github.com/iondv/studio>`_ для разработки метаданных приложений."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:25
+msgid ""
+"Подробнее об `IONDV. Framework на сайте <https://iondv.com>`_\\ , "
+"документация доступна в `репозитории на github "
+"<https://github.com/iondv/framework/blob/master/docs/en/index.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:28
+msgid "Описание и назначение модуля"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:30
+msgid ""
+"**IONDV. REST** - модуль обеспечивающий работу с данными приложения IONDV"
+" через ``REST API``. Является оберткой для работы с данными через "
+"стандартные функции CRUD или подключает собственные сервисы приложения, в"
+" том числе использующие API ядра."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:34
+msgid "Дополнительно:"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:37
+msgid ""
+"`Регистрация сервиса в конфигруации приложения "
+"<#регистрация-сервиса-в-конфигурации-приложения>`_"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:38
+msgid ""
+"`Авторизация при запросах к сервисам "
+"<#авторизация-при-запросах-к-сервисам>`_"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:39
+msgid "`Встроенные сервисы модуля <#встроенные-сервисы-модуля>`_"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:40
+msgid ""
+"`Реализация обработчика сервиса в приложении "
+"<#реализация-обработчика-сервиса-в-приложении>`_"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:41
+msgid "`Дополнительные сервисы модуля <#дополнительные-сервисы>`_"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:44
+msgid "Регистрация сервиса в конфигурации приложения"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:46
+msgid ""
+"Для подключения сервисов в приложении их необходимо сконфигурировать в "
+"глобальных настройках модуля rest в файле deploy.json приложения. Пример "
+"приведен ниже."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:74
+msgid ""
+"Путь к регистрациям сервиса в файле ``deploy.json`` - "
+"``modules.rest.globals.di``\\ , далее указывается название сервиса, "
+"которое будет доступно по адресу "
+"``https://domain.com/rest/serviceName``\\ , где serviceName - имя "
+"сервиса, указываемого в di, например в примере выше ``simple`` или "
+"``string-list``. В атрибуте ``module`` указывается путь к js-файлу с "
+"обработчиком сервиса с путем относительно корня фреймворка. Обработчик "
+"может быть как в приложении, так и в любом модуле или фреймворке, в т.ч. "
+"типовые обработчики модуля rest."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:79
+msgid ""
+"В параметре ``options`` указываются специфические настройки сервиса. "
+"Например, для сервиса **crud** указаны:"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:83
+msgid ""
+"в поле ``dataRepo`` - репозиторий данных с контролем доступа, "
+"используемый для операций над обьектами"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:84
+msgid ""
+"в поле ``auth``\\ - компонент аутентификации, используемый для получения "
+"текущей учетной записи пользователя. А для сервиса **string-list** "
+"указаны:"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:86
+msgid "в поле ``dataRepo`` - репозиторий данных, используемый для выборки данных"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:87
+msgid ""
+"в поле ``stringClassName`` - имя класса получаемых обьектов в данном "
+"случае класс ``class_string@develop-and-test`` будет передан в метод "
+"``getList`` репозитория данных .. code-block:: javascript"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:91
+msgid "options.dataRepo.getList(options.stringClassName, {})"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:94
+msgid "Аунтентификация при запросах к сервисам"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:96
+msgid "Авторизация может осуществляться следующими способами."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:101
+msgid ""
+"Все сервисы по умолчанию используют стандартный механизм авторизации, "
+"подразумевающий передачу учетных данных в заголовке:"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:104
+msgid "путем авторизации через basicAuth, пример .. code-block:: bash"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:107
+msgid "curl -u demo@local:ion-demo https://dnt.iondv.com/rest/simple"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:108
+msgid ""
+"также в develop-and-test (dnt): `test/modules/rest/echopwd.spec.js "
+"<https://github.com/iondv/develop-and-"
+"test/test/modules/rest/echopwd.spec.js>`_\\ :raw-html-m2r:`<br>` "
+"``/Checking echo-pwd service/# Requesting echo-pwd GET/check if the "
+"request can be made using the basicAuth``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:110
+msgid "путем передачи учетных данных в заголовках запроса .. code-block:: bash"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:113
+msgid ""
+"curl -H \"auth-user: demo\" -H \"auth-pwd: ion-demo\" -H \"auth-user-"
+"type: local\" https://dnt.iondv.com/rest/simple"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:115
+msgid "или"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:121
+msgid ""
+"dnt: `test/modules/rest/echopwd.spec.js <https://github.com/iondv"
+"/develop-and-test/test/modules/rest/echopwd.spec.js>`_\\ :raw-html-"
+"m2r:`<br>` ``/Checking echo-pwd service/# Requesting echo-pwd GET/check "
+"if the request can be made using the headers auth``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:127
+msgid ""
+"Для реализации работы сервиса без аутентификации, необходимо задать для "
+"него значение ``none`` в настройке ``authMode`` в ``deploy.json``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:138
+msgid ""
+"Запрос к сервису не будет требовать аутентификации, пример запроса ``curl"
+" https://dnt.iondv.com/rest/echoo``\\ :raw-html-m2r:`<br>` dnt: "
+"`test/modules/rest/echo.spec.js <https://github.com/iondv/develop-and-"
+"test/test/modules/rest/echo.spec.js>`_\\ :raw-html-m2r:`<br>` ``/Checking"
+" echo-pwd service/# Requesting echo-pwd GET/check if the request can be "
+"made using the headers auth``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:145
+msgid ""
+"Для реализации работы сервиса с аутентификацией oauth2, необходимо "
+"предварительно подключить в deploy.json плагин вида"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:157
+msgid ""
+"затем можно задать для сервиса значение ``oauth`` в настройке "
+"``auth_mode``\\ :"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:168
+msgid ""
+"спецификация oauth2 доступна по ссылке: "
+"https://oauth2-server.readthedocs.io/en/latest/index.html"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:170
+msgid ""
+"Этот тип авторизации используется для предоставления третьей стороне "
+"ограниченного доступа к ресурсам пользователя без необходимости "
+"предоставлять логин и пароль. Запросы для получения доступа производятся "
+"в следующем порядке:"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:175
+msgid "Со стороны пользователя получаем cookie с id сессии:"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:182
+msgid ""
+"Используя авторизованную сессию разрешаем клиенту ext@system запросы от "
+"нашего имени:"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:188
+msgid "В ответе будет содержаться параметр code."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:191
+msgid "Теперь используя code можно получить токен:"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:197
+msgid ""
+"в заголовке Authorization нужно ввести Basic :raw-html-"
+"m2r:`<client_secret>` код клиента. В ответе будет получен access_token."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:201
+msgid ""
+"Для запросов от лица пользователя в сервисах с авторизацией oauth2 теперь"
+" можно авторизоваться используя access_token:"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:207
+msgid ""
+"dnt: `test/modules/rest/echooauth.spec.js <https://github.com/iondv"
+"/develop-and-test/test/modules/rest/echooauth.spec.js>`_\\ :raw-html-"
+"m2r:`<br>` ``/Checking echo-oauth service``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:213
+msgid ""
+"Аутентификация по токену используется для исключения постоянной передачи "
+"учетной записи в запросах. Токены ограничены по времени жизни."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:216
+msgid ""
+"Для реализации работы сервиса с аутентификацией через токен, необходимо "
+"задать для него значение ``token`` в настройке ``authMode`` в "
+"``deploy.json``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:227
+msgid ""
+"Аутентификация через токен осуществляется путем отправки значения токена "
+"в заголовке запроса ``auth-token``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:233
+msgid ""
+"dnt: `test/modules/rest/token.spec.js <https://github.com/iondv/develop-"
+"and-test/test/modules/rest/token.spec.js>`_\\ :raw-html-m2r:`<br>` "
+"``/Checking token service/# basicAuth authorization with admin rights/# "
+"check if the generated token is valid (basicAuth) (using echo-token)``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:236
+msgid ""
+"Получение токена возможно двумя способами: в консоли модуля ionadmin или "
+"через сервис ``token`` модуля rest."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:238
+msgid ""
+"Все сгенерированные токены хранятся в коллекции ``ion_user_tokens`` в "
+"базе данных приложения"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:243
+msgid ""
+"Для получения токена через консоль администратора перейдите в пункт "
+"навигации \"Ключи безопасности веб-сервисов\" модуля ionadmin, например "
+"перейдя по адресу ``locahost:8888/ionadmin/token``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:246
+msgid "На странице \"Генератор токенов безопасности\":"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:249
+msgid "Введите имя пользоватля в поле \"Имя пользователя\""
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:250
+msgid "Укажите в поле \"Тип учетной записи\" значение \"local\""
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:251
+msgid "Нажмите кнопку \"Сгенерировать токен\""
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:252
+msgid ""
+"В поле \"Токен\" появится значение токена подобное "
+"``3a546090355317c287886c0e81dfd304fa5bda99``\\ , его и нужно использовать"
+" как значение заголовка ``auth-token``."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:255
+msgid "Время жизни токена созданного по умолчанию 100 лет."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:260
+msgid ""
+"Вторым способом получения токена является использование веб-сервиса "
+"модуля rest - ``token``. Получить токен можно через аутентифицированный "
+"запрос на адрес ``rest/token``. Например через авторизацию типа "
+"basicAuth:"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:267
+msgid "или запрос с авторизацией через параметры в заголовке:"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:273
+#: ../../3_modules_description/rest/rest.rst:452
+msgid ""
+"dnt: `test/modules/rest/token.spec.js <https://github.com/iondv/develop-"
+"and-test/test/modules/rest/token.spec.js>`_\\ :raw-html-m2r:`<br>` "
+"``/Checking token service/# basicAuth authorization with admin rights``\\"
+" :raw-html-m2r:`<br>` ``/Checking token service/# authorization with "
+"admin rights using header parameters``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:277
+msgid ""
+"В ответе сервиса будет токен вида "
+"``e444c69894d2087696e0a6c6914788f67ebcf6ee``. Время жизни токена по "
+"умолчанию 100 лет."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:279
+msgid ""
+"Для выполнения запроса нужно или обладать администраторскими правами в "
+"системе или иметь права ``use`` для ресурса ``ws:::gen-ws-token``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:281
+msgid ""
+"Добавить ресурс возможности генерации токенов для роли, можно из комадной"
+" строки ``node bin/acl.js --role restGrp --p USE --res ws:::gen-ws-"
+"token`` (где restGrp название существующей группы)"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:286
+msgid ""
+"Вторым способом добавления прав на ресурс - использование консоли "
+"администратора модуля ionadmin, например, перейдя по"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:285
+msgid "адресу ``locahost:8888/ionadmin/``\\ :"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:288
+msgid "Выберите пункт навигации \"Безопасность\","
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:289
+msgid "Выберите подпункт навигации \"Роли\""
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:290
+msgid ""
+"Выберите существующую роль и нажмите кнопку редактировать или создать "
+"новую роль."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:291
+msgid "В поле \"Права доступа\" роли выберите вкладку \"Services\""
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:292
+msgid ""
+"Раскройте список прав для ресурса \"Генерация токенов безопасности "
+"посредством веб-сервисов (ws:::gen-ws-token)\""
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:293
+msgid "Выбрать пункт \"Использование\" и нажмите кнопку \"Сохранить\""
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:296
+msgid "Прокси-клиент для доступа к функциям модуля без получения нового токена"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:298
+msgid ""
+"Подключение клиента осуществляется в ``modules.registry.globals.di`` "
+"``deploy.json``\\ :"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:327
+msgid "Пример запроса к rest/echo-token через прокси-клиент:"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:334
+msgid ""
+"dnt: `test/modules/rest/gateway.spec.js <https://github.com/iondv"
+"/develop-and-test/test/modules/rest/gateway.spec.js>`_\\ :raw-html-"
+"m2r:`<br>` ``/Checking rest-api proxy``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:338
+msgid "Встроенные сервисы модуля"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:340
+msgid ""
+"Модуль REST имеет несколько встроенных сервисов предназначенных для "
+"реализации типовых операций с модулем:"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:343
+msgid "``acceptor`` - сервис обеспечивает массовое создание объектов"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:344
+msgid ""
+"``token`` - сервис обеспечивает выдачу токена для авторизованного "
+"пользователя"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:345
+msgid "``crud`` - сервис CRUD для объектов системы"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:350
+msgid ""
+"Сервис ``acceptor`` предназначен для массового сохранения объектов разных"
+" классов."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:352
+msgid ""
+"Для работы с сервисом требуется его регистрация в файле конфигураций "
+"приложений deploy.json. При этом для сервиса обязательно должны быть "
+"указаны в ``options`` репозитории ``dataRepo`` и ``metaRepo``. Например"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:370
+msgid ""
+"Авторизация осуществляется через все основные типы доступа, а по "
+"умолчанию через учетную запись пользователя."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:372
+msgid ""
+"Сервис работает по методу ``POST``\\ , объекты передаются в виде массива "
+"объектов в формате JSON в теле запроса с обязательным указанием в "
+"заголовке содержания json ``Content-Type:application/json``. "
+"Автосоздаваемые поля указывать не обязательно."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:375
+msgid ""
+"В заголовке (header) в свойстве ``ion-converter`` может быть передано имя"
+" конвертора, который нужно использовать при обработке данных, как "
+"запроса, так и ответа. При этом сам конвертор данных должен быть "
+"зарегистрирован в ``options`` сервиса. Если обработчик не указан, "
+"используется обработчик по умолчанию."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:379
+msgid "В данных объекта обязательно указываются:"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:382
+msgid "``_id`` - идентификатор объекта по ключевому полю"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:383
+msgid "``_class`` - класс объекта с неймспейсом"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:384
+msgid "``_classVer`` - версия класса"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:386
+msgid ""
+"Остальные значения должны соответствовать свойствам класса, включая "
+"соответствие типов данных. Пример."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:396
+msgid ""
+"dnt: `test/modules/rest/acceptor.spec.js <https://github.com/iondv"
+"/develop-and-test/test/modules/rest/acceptor.spec.js>`_\\ :raw-html-"
+"m2r:`<br>` ``/Checking acceptor service/# basicAuth authorization with "
+"admin rights, POSTing strings/# result of creation of objects``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:399
+msgid "Метод возвращает код ``200`` и массив сохраненных объектов."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:415
+#: ../../3_modules_description/rest/rest.rst:650
+msgid "В случае ошибки код ответа будет ``400``\\ , а текст ответа содержать"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:433
+msgid ""
+"Сервис ``token`` предназначен для выдачи токена пользователю, прошедшему "
+"аутентификацию, для его дальнейшего использования в сервисах "
+"осуществляющих аутентификацию по токену."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:436
+msgid ""
+"Сервис не требует регистрации в deploy.json. Сервис обеспечивает выдачу "
+"токена для авторизованного пользователя, если он имеет права ``use`` для "
+"ресурса ``ws:::gen-ws-token``  или имеет права администратора. В ответ на"
+" запрос, возвращается токен вида "
+"``e444c69894d2087696e0a6c6914788f67ebcf6ee``. Время жизни токена по "
+"умолчанию 100 лет."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:440
+msgid "Пример запроса через аутентификацию типа basicAuth"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:446
+msgid "Пример запроса  с аутентификацией через параметры в заголовке"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:459
+msgid ""
+"Сервис ``crud`` реализует REST API по модели основных операций CRUD "
+"(create, read, update, delete)."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:461
+msgid ""
+"Сервис требует регистрации в deploy.json приложения и требует "
+"обязательного указания источника данных ``dataRepo`` в ``options`` "
+"сервиса, а также источника авторизации ``auth`` для доступа к данным "
+"пользователя. Целесооразно указывать в качестве репозитория данных - "
+"репозиторий с полной обработкой безопасности, чтобы отрабатывать доступ к"
+" объектам с учетом динамической безопаности. Например"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:481
+msgid ""
+"Аутентификация осуществляется через все основные типы доступа, а по "
+"умолчанию через учетную запись пользователя."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:483
+#: ../../3_modules_description/rest/rest.rst:672
+msgid "Пример"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:489
+msgid ""
+"dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-"
+"and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` "
+"``/Checking crud service/# check if the response for null parameters is "
+"valid``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:492
+msgid ""
+"По умолчанию, без правильных параметров - код ответа сервера ``404`` об "
+"ошибке"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:510
+msgid ""
+"Запрос списка объектов осуществляется методом ``GET``\\ , при этом "
+"указывается код класса и нейспейс, например ``rest/crud/class_string"
+"@develop-and-test/``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:516
+msgid ""
+"dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-"
+"and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` "
+"``/Checking crud service/GET/# getting a list of text objects``\\ :raw-"
+"html-m2r:`<br>` В ответ сервис выдает JSON Объект со смещением 0 и "
+"кол-вом 5ть записей и статусом ``200``\\ , если такого класса нет "
+"возвращает код ``404``."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:540
+msgid "Запрос может быть осуществлен со следущими query параметрами:"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:543
+msgid "``_offset`` - смещение выборки, по умолчанию 0"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:544
+msgid "``_count`` - кол-во значение в выборке, по умолчанию 5"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:545
+msgid ""
+"``_eager`` - список свойств класса, разделенных символом ``|`` для "
+"которых необходимо осуществить жадную загрузку данных."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:546
+msgid ""
+"``[name of property]`` - все параметры воспринимаютсяимя запроса, кроме "
+"начинающихся на ``_`` считаются именами атрибутов класса, а их значения "
+"задаются в качестве фильтров."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:549
+msgid "Примеры:"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:560
+msgid ""
+"dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-"
+"and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` "
+"``/Checking crud service/GET/# getting a list of text objects, with an "
+"offset of 1 and a count of 2``\\ :raw-html-m2r:`<br>` ``/Checking crud "
+"service/GET/# getting a list of text objects containing a specific "
+"string``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:567
+msgid ""
+"Проверка наличия объекта осуществляется методом ``HEAD``\\ , при этом "
+"указывается код класса с нейспейсом и значение ключа объекта, например "
+"``rest/crud/class_string@develop-and-"
+"test/66dbb3d0-5583-11e6-aef7-cf50314f026b``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:574
+msgid ""
+"dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-"
+"and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` "
+"``/Checking crud service/HEAD/# checking if an object is present (HEAD)``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:577
+msgid ""
+"Если объект существует - возвращает код ответа ``200``\\ , если объект не"
+" найден ``404``\\ , если нет прав ``403``."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:582
+msgid ""
+"Получение объекта осуществляется методом ``GET``\\ , при этом указывается"
+" код класса с нейспейсом и значение ключа объекта, например "
+"``rest/crud/class_string@develop-and-"
+"test/66dbb3d0-5583-11e6-aef7-cf50314f026b``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:589
+msgid ""
+"dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-"
+"and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` "
+"``/Checking crud service/GET/# getting an object (GET)``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:592
+msgid ""
+"При этом дополнительно в query может быть задан параметр ``_eager`` "
+"содержащий список свойств класса, разделенных символом ``|`` для которых "
+"необходимо осуществить жадную загрузку данных (ссылки или коллекции). "
+"Например"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:599
+msgid ""
+"dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-"
+"and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` "
+"``/Checking crud service/GET/# getting an object with eager loading of "
+"the \"table\" property (GET)``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:602
+msgid ""
+"Если объект существует - возвращает код ответа ``200`` и сам объект в "
+"формате json, если объект не найден ``404``\\ , если нет прав ``403``."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:620
+msgid ""
+"Создание объекта осуществляется методом ``POST``\\ , при этом указывается"
+" код класса с нейспейсом, например ``rest/crud/class_string@develop-and-"
+"test``. Сам объект передается в теле запроса в формате json с "
+"обязательным указанием в заголовке типа содержания json ``Content-"
+"Type:application/json``. Автосоздаваемые поля указывать не обязательно. "
+"Пример"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:631
+msgid ""
+"dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-"
+"and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` "
+"``/Checking crud service/POST/# creating an object (POST)``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:634
+msgid ""
+"В ответ будет возвращён созданный объект, в котором будут заполнены все "
+"автосозданные поля и указан код ответа ``200``."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:668
+msgid ""
+"Обновления объекта осуществляется методом ``PATCH`` или ``PUT``\\ , при "
+"этом указывается код класса с нейспейсом и значение ключа объекта, "
+"например ``rest/crud/class_string@develop-and-"
+"test/66dbb3d0-5583-11e6-aef7-cf50314f026b``. Сам объект передается в теле"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:670
+msgid ""
+"запроса в формате json с обязательным указанием в заголовке типа "
+"содержания json ``Content-Type:application/json``."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:680
+msgid ""
+"dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-"
+"and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` "
+"``/Checking crud service/PATCH/# updating an object (PATCH)``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:683
+msgid ""
+"Если объект существует - возвращает код ответа ``200`` и сам объект в "
+"формате json, если объект не найден код ``404``\\ , при ошибке обработки "
+"код ``500``\\ , если нет прав ``403``."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:685
+msgid "Пример объекта."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:704
+msgid ""
+"Удаление объекта осуществляется методом ``DELETE``\\ , при этом "
+"указывается код класса с нейспейсом и значение ключа объекта, например "
+"``rest/crud/class_string@develop-and-"
+"test/66dbb3d0-5583-11e6-aef7-cf50314f026b``."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:711
+msgid ""
+"dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-"
+"and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` "
+"``/Checking crud service/DELETE/# deleting an object (DELETE)``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:714
+msgid ""
+"В случае успеха - сервис возвращает код ответа ``200``\\ , в случае если "
+"объект не найден ``404``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:717
+msgid "Создание сервиса"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:719
+msgid "Создание собственного сервиса состоит из следующих действий:"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:722
+msgid "регистрация сервиса в deploy.json"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:723
+msgid "создание обработчика сервисв а приложении"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:724
+msgid "реализация логики обработки запросов"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:729
+msgid ""
+"Пример регистрации тестового сервиса, подробнее см. `Регистрация сервиса "
+"в конфигурации приложения "
+"<#регистрация-сервиса-в-конфигурации-приложения>`_"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:749
+msgid "Все сервисы реализуются как наследники от Service - функции модуля rest."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:756
+msgid ""
+"Какждый сервис должен экспортировать функцию обработчика, в которой "
+"реализован асинхронный метод ``this._route``\\ , в котором"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:752
+msgid ""
+"необходимо зарегистрировать обрабатываемые методы и пути, через функции "
+"``this.addHandler`` возвращающее Promise . Функция обработки будет иметь "
+"доступ к ``options``\\ , через который доступ к репозиториям данных, "
+"авторизации, метаданным и классам (если они указаны в конфигурации "
+"приложения в файле deploy.json), а также получит объект с типовым "
+"названием ``req`` - являющимся объектом ``request`` библиотеки `express "
+"<https://expressjs.com/en/4x/api.html#req>`_. Уже распарсенные в объект "
+"данные будет находится в ``req.body``."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:762
+msgid ""
+"Функция обработчик должна вернуть Promise разрешающееся в результат "
+"выполнения обработчика (для обработки в Service "
+"``modules/rest/lib/interfaces/Service.js``\\ ),"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:759
+msgid ""
+"обработчик выдаст его с кодом 200 и типом содержания ``Content-"
+"Type:application/json``. Если в ходе обработки будет ошибка перехваченная"
+" catch то для"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:761
+msgid ""
+"ошибок связанных с контролем доступа будет возвращен ответ с тектом "
+"ошибки и с кодом ``403``\\ , а для всех остальных код ответа ``500`` и "
+"сообщением об ошибке ``Internal server error``."
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:764
+msgid ""
+"Заголовок можно переопределить, для этого в ответе нужно отдать тип "
+"заголовка ``headers``\\ , а объект в атрибуте ``data``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:778
+msgid ""
+"Пример реализации сервиса выдающего списки объектов с фильтрами для "
+"класса ``class_string`` в приложении [develop-and-test]. Также для "
+"изучения удобно смотреть сам метод crud, находящийся по адресу "
+"``modules/rest/lib/impl/crud.js``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:836
+msgid "Запрос без атрибутов в теле запроса"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:842
+msgid "Вернет весь список"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:865
+msgid ""
+"А запрос с параметром атрибута равного значению в атрибуте string_text "
+"``Example of the \\\"String [0]\\\" type in the \\\"Text [1]\\\" view``"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:873
+msgid "Вернет объекты удовлетворяющие условию"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:885
+msgid "Дополнительные сервисы"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:888
+msgid "`Метод SEARCH </docs/ru/method_search.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:889
+msgid "`Отправка запросов с файлами в CRUD сервисе </docs/ru/methods_crud.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:890
+msgid "`Сервис исполнения бизнес-процесса </docs/ru/performance_workflow.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:891
+msgid "`Cервис публикации метаданных </docs/ru/service_metadata.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/rest/rest.rst:900
+msgid ""
+"Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights "
+"reserved."
+msgstr ""
+

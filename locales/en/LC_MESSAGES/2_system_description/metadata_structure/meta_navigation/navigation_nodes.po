@@ -1,0 +1,390 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:9
+msgid "Предыдущая страница: `Мета секций навигации <navigation_section.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:12
+msgid "Мета узлов навигации"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:15
+msgid "JSON"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:50
+msgid "Описание полей"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:55
+msgid "Поле"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:56
+msgid "Наименование"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:57
+msgid "Допустимые значения"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:58
+msgid "Описание"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:59
+msgid "``\"code\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:60
+msgid "**Системное имя**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:61
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:97
+msgid "Строка латиницей, без пробелов"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:62
+msgid ""
+"Системное имя узла навигации может быть составным, если принадлежит узлу "
+"навигации типа Группа [0]."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:63
+msgid "``\"orderNumber\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:64
+msgid "**Порядковый номер**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:65
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:69
+msgid "Целое число"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:66
+msgid "Задает порядок сортировки пунктов меню в пределах секции навигации"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:67
+msgid "``\"type\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:68
+msgid "**Тип**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:70
+msgid ""
+"Задает логику работы пункта меню, выводимые при переходе/активации "
+"значения. Накладывает ограничения на прочие поля меты узла навигации."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:73
+msgid "0"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:74
+msgid ""
+"*Группа.* Объединяет в себе другие узлы навигации по какому-либо общему "
+"признаку, не является страницей класса."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:77
+msgid "1"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:78
+msgid ""
+"*Страница класса.* Отображает структуру и объекты класса, заданного в "
+"поле \"classname\"."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:81
+msgid "2"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:82
+msgid ""
+"*Страница контейнера.* Выполняет отображение списка объектов в коллекции."
+" Для таких узлов навигации нужно указывать класс и идентификатор "
+"объекта-контейнера, а также имя атрибута коллекции."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:85
+msgid "3"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:86
+msgid "*Гиперссылка.* Осуществляет переход на ссылку, заданную в поле \"url\""
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:87
+msgid "``\"title\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:88
+msgid "`\\ **Заголовок** <title.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:89
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:93
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:117
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:141
+msgid "Строка"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:90
+msgid "Позволяет дополнительно указать заголовок страницы."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:91
+msgid "``\"caption\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:92
+msgid "**Логическое имя**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:94
+msgid "Наименование узла навигации отображаемое в интерфейсе."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:95
+msgid "``\"classname\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:96
+msgid "**Класс**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:98
+msgid "Если \"Тип\" - \"Страница класса (1)\", то поле обязательно к заполнению."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:99
+msgid "``\"container\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:100
+msgid "**ID контейнера**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:101
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:105
+msgid "Строка или null"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:102
+msgid "Идентификатор объекта содержащего коллекцию отображаемую на странице."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:103
+msgid "``\"collection\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:104
+msgid "**Атрибут коллекции**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:106
+msgid "Имя атрибута коллекции, содержимое которого надо вывести на странице."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:107
+msgid "``\"url\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:108
+msgid "**URL**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:109
+msgid "Гиперссылка (принимает любые строки)"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:110
+msgid "Если \"Тип\" - \"Гиперссылка (3)\", то поле обязательно к заполнению."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:111
+msgid "``\"external\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:112
+msgid "**Признак внешнего ресурса**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:113
+msgid "Логический"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:114
+msgid ""
+"Открывает страницу по ссылке в новом окне, если присвоено значение "
+"``true``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:115
+msgid "``\"hint\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:116
+msgid "**Подсказка**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:118
+msgid ""
+"Текст, заданный в этой строке, отображается при наведении на узел "
+"навигации, которому она принадлежит."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:119
+msgid "``\"conditions\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:120
+msgid "`\\ **Условия выборки** <conditions.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:121
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:125
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:133
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:137
+msgid "Массив объектов"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:122
+msgid ""
+"Фильтр при открытии списка объектов. Используется для узлов типа "
+"«Страница класса» и «Страница контейнера»."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:123
+msgid "``\"sorting\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:124
+msgid "**Сортировка**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:126
+msgid ""
+"Используется для узлов типа «Страница класса» и «Страница контейнера». "
+"Здесь задаются параметры сортировки объектов в списке. Параметры задаются"
+" аналогично настройкам сортировки и выборки допустимых значений в "
+"атрибутах."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:127
+msgid "``\"eagerLoading\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:128
+msgid "**Жадная загрузка**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:129
+msgid "Объект"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:130
+msgid ""
+"Настройка жадной загрузки в навигации. Если нужна ЖЗ для класса по всем "
+"навигациям, то правильнее ее задавать в файле deploy.json. Поэтому данный"
+" параметр используется редко."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:131
+msgid "``\"pathChains\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:132
+msgid "**Хлебные крошки**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:134
+msgid ""
+"Здесь задается логика формирования «иерархической» навигации от страницы "
+"объекта к вышестоящим объектам. Может быть использовано конкретной "
+"реализацией ION-приложения для оптимизации навигации."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:135
+msgid "``\"searchOptions\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:136
+msgid "**Поиск в узле навигации**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:138
+msgid ""
+"На уровне класса определяет как искать объекты класса из представления "
+"списка: по вхождению слов или полные слова, по отдельным атрибутам или по"
+" указанным атрибутам в списке с параметрами поиска через пробел."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:139
+msgid "``\"metaVersion\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:140
+msgid "**Версия меты**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:142
+msgid "Версия метаданных."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:146
+msgid "Настройка поиска в узле навигации"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:164
+msgid "Структура в mongoDB (registry)"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:188
+msgid ""
+"Следующая страница: `Мета бизнес-процессов "
+"</docs/ru/2_system_description/metadata_structure/meta_workflows/meta_workflows.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:193
+msgid ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us "
+"<https://iondv.com/portal/contacts>`_ &ensp;  `English "
+"</docs/en/2_system_description/metadata_structure/meta_navigation/navigation_nodes.md>`_"
+"   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:203
+msgid ""
+"Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights "
+"reserved."
+msgstr ""
+
