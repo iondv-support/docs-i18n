@@ -1,0 +1,469 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:9
+msgid "Предыдущая страница: `Мета классов - общая часть <meta_class_main.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:12
+msgid "Мета классов - атрибутивная часть"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:14
+msgid "**Атрибутивная часть меты класса** описывает поля атрибута класса. Атрибутов в классе обычно минимум два - ключевое поле и поле данных. Они содержатся в виде массива в поле ``\"properties\"`` основной части меты классов. Каждый атрибут - это объект следующей структуры:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:17
+msgid "JSON"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:53
+msgid "Описание полей"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:58
+msgid "Код"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:59
+msgid "Имя"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:60
+msgid "Допустимые значения"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:61
+msgid "Описание"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:62
+msgid "``\"orderNumber\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:63
+msgid "**Порядковый номер**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:64
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:84
+msgid "Целое неотрицательное"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:65
+msgid "Задает расположение атрибута относительно других атрибутов этого же класса."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:66
+msgid "``\"name\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:67
+msgid "**Системное имя**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:68
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:128
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:132
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:136
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:140
+msgid "Строка, только латиница без пробелов"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:69
+msgid "Указывается имя атрибута, с которым будет работать система, а значит не может быть пустым, может содержитать только символовы латинского алфавита, без пробелов (задается один раз при создании атрибута). В последующем поменять имя нельзя."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:70
+msgid "``\"caption\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:71
+msgid "**Логическое имя**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:72
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:116
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:144
+msgid "Строка"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:73
+msgid "Отображение имени атрибута в пользовательском интерфейсе."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:74
+msgid "``\"type\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:75
+msgid "**Тип**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:76
+msgid "Целое - идентификатор (код) типа"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:77
+msgid "Тип данных атрибута. См. `Типы атрибутов <meta_class_attribute.md#следующая-страница-типы-атрибутов>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:78
+msgid "``\"size\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:79
+msgid "**Размер**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:80
+msgid "Целое положительное"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:81
+msgid "Максимальный размер данных атрибута, допистимые значения зависят от типа атрибута."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:82
+msgid "``\"decimals\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:83
+msgid "**Число знаков после запятой**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:85
+msgid "Число знаков после запятой, задается только для типа \"Десятичное [8]\"."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:86
+msgid "``\"allowedFileTypes\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:87
+msgid "**Допустимые типы файлов**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:88
+msgid "Массив строк"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:89
+msgid "Позволяет задать допустимые расширения файлов, которые пользователь может загрузить в атрибут типа \"Коллекция файлов [110]\"."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:90
+msgid "``\"maxFileCount\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:91
+msgid "**Максимальное количество файлов**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:92
+msgid "Число от 1 до 5"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:93
+msgid "Задает максимальное количество файлов, которые пользователь может загрузить в атрибут типа \"Коллекция файлов [110]\"."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:94
+msgid "``\"nullable\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:95
+msgid "**Допустимо пустое значение**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:96
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:100
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:104
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:108
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:112
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:160
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:164
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:172
+msgid "Логический"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:97
+msgid "Разрешает или запрещает пустое значение атрибута."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:98
+msgid "``\"readonly\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:99
+msgid "**Только для чтения**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:101
+msgid "Разрешает или запрещает изменять значение атрибута."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:102
+msgid "``\"indexed\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:103
+msgid "`\\ **Индексация для поиска** <atr_indexed.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:105
+msgid "Указывает, нужно ли индексировать значения данного атрибута для ускорения поиска."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:106
+msgid "``\"unique\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:107
+msgid "**Уникальные значения**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:109
+msgid "Для атрибута накладывает ограничение уникальности (\\ **Внимание**\\ : нельзя создать два объекта класса с одинаковыми значениями в уникальном атрибуте)."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:110
+msgid "``\"autoassigned\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:111
+msgid "`\\ **Автозаполнение** <atr_autoassigned.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:113
+msgid "Разрешает или запрещает автоматическое заполнение поля приложением."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:114
+msgid "``\"hint\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:115
+msgid "**Подсказка**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:117
+msgid "Задает сообщение, которые выведется в пользовательском интерфейсе рядом с именем атрибута."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:118
+msgid "``\"defaultValue\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:119
+msgid "`\\ **Значение по умолчанию** <atr_default_value.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:120
+msgid "Зависит от типа атрибута"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:121
+msgid "Указывается значение, которое будет заполнено в атрибуте в форме создания (при создании объекта)."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:122
+msgid "``\"refClass\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:123
+msgid "`\\ **Атрибут ссылки** <atr_ref_backref.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:124
+msgid "Строка, только латиница, без пробелов"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:125
+msgid "Содержит значение поля ``\"name\"`` (Системное имя) класса, который должен использоваться в атрибуте типа \"Ссылка [13]\"."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:126
+msgid "``\"itemsClass\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:127
+msgid "`\\ **Атрибут коллекции** <atr_itemclass_backcoll.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:129
+msgid "Содержит значение поля ``\"name\"`` (Системное имя) класса, объекты которого могут привязаться к атрибуту типа \"Коллекция [14]\""
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:130
+msgid "``\"backRef\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:131
+msgid "`\\ **Атрибут обратной ссылки** <atr_ref_backref.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:133
+msgid "Указывается атрибут типа \"Ссылка [13]\", из класса, указанного в свойстве Класс коллекции, который ссылается на исходный класс. Нужно для фильтрации и привязки объектов из класса Класс коллекции по значению ссылочного атрибута."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:134
+msgid "``\"backColl\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:135
+msgid "`\\ **Атрибут обратной коллекции** <atr_itemclass_backcoll.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:137
+msgid "Указывается атрибут типа \"Коллекция [14]\", из класса, указанного в свойстве Класс коллекции, который ссылается на исходный класс. Нужно для фильтрации и привязки объектов из класса Класс коллекции по значению ссылочного атрибута."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:138
+msgid "``\"binding\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:139
+msgid "`\\ **Основание коллекции** <binding.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:141
+msgid "Указывается атрибут класса, к которому привязывается атрибут обратной ссылки. Если не указан, то принимается ключевой атрибут."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:142
+msgid "``\"semantic\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:143
+msgid "`\\ **Семантика** <semantic.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:145
+msgid "Указывается для ссылочных атрибутов для того, чтобы выводить и формировать информацию из ссылочного класса, корректную для описания артибута в объекте исходного класса."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:146
+msgid "``\"selConditions\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:147
+msgid "`\\ **Условия отбора допустимых значений** <atr_selconditions.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:148
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:152
+msgid "Null либо массив объектов"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:149
+msgid "Позволяет ограничить выбор объектов по ссылке, допустимых для привязкки в данном ссылочном атрибуте."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:150
+msgid "``\"selSorting\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:151
+msgid "`\\ **Сортировка выборки допустимых значений** <atr_selsorting.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:153
+msgid "Позволяет сортировать выбор объектов по ссылке, допустимых для привязкки в данном ссылочном атрибуте."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:154
+msgid "``\"selectionProvider\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:155
+msgid "`\\ **Список выбора допустимых значений** <atr_selectionprovider.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:156
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:168
+msgid "Null либо объект"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:157
+msgid "Задает список выбора допустимых значений для атрибута."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:158
+msgid "``\"indexSearch\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:159
+msgid "**Полнотекстовый поиск**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:161
+msgid "Признак использования атрибута в полнотекстовом поиске. Указывает, что значение данного атрибута должно индексироваться поисковой системой. См. `Индексация <atr_indexed.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:162
+msgid "``\"eagerLoading\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:163
+msgid "`\\ **Жадная загрузка** <eager_loading.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:165
+msgid "Загрузка достаточного объема данных объекта по ссылке (для атрибутов типа ссылка и коллекция)."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:166
+msgid "``\"formula\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:167
+msgid "`\\ **Вычисляймые поля** <atr_formula.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:169
+msgid "Указывает на формулу расчета."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:170
+msgid "``\"cached\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:171
+msgid "`\\ **Кеширование значения вычислимого атрибута** <atr_cached_true.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:173
+msgid "Применяется только для значений атрибута, полученных с помощью вычисления по формуле. Указывает на возможность кеширования значения вычислимого атрибута."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:177
+msgid "Следующая страница: `Типы атрибутов <property_types.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:182
+msgid "`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/2_system_description/metadata_structure/meta_class/meta_class_attribute.md>`_ &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:192
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights reserved."
+msgstr ""

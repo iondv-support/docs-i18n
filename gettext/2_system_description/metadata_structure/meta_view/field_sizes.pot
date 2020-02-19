@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../2_system_description/metadata_structure/meta_view/field_sizes.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/field_sizes.rst:9
+msgid "Назад: `Мета представлений - атрибутивная часть <meta_view_attribute.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/field_sizes.rst:12
+msgid "Размеры полей"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/field_sizes.rst:28
+msgid "`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/2_system_description/metadata_structure/meta_view/field_sizes.md>`_   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/field_sizes.rst:38
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights reserved."
+msgstr ""

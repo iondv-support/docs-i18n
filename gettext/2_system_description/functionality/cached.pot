@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../2_system_description/functionality/cached.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/cached.rst:9
+msgid "Назад: `Функциональность <functionality.md>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/cached.rst:12
+msgid "Кеширование данных"
+msgstr ""
+
+#: ../../2_system_description/functionality/cached.rst:15
+msgid "Логика работы"
+msgstr ""
+
+#: ../../2_system_description/functionality/cached.rst:17
+msgid "Между базовым репозиторием данных ``dataRepo`` и репозиторием данных с проверкой безопасности ``securedDataRepo`` внедрен репозиторий данных с поддержкой кеширования ``cachedDataRepo``. Данные загружаются по цепочке: *БД -> dataRepo -> cachedDataRepo -> securedDataRepo*."
+msgstr ""
+
+#: ../../2_system_description/functionality/cached.rst:20
+msgid "При этом, ``cachedDataRepo``\\ , при запросе, сначала проверяет наличие данных в кеше (если кеширование активировано), и если данных в кеше нет, запрашивает их у ``dataRepo``\\ , после чего помещает в кеш и отдает ``securedDataRepo``."
+msgstr ""
+
+#: ../../2_system_description/functionality/cached.rst:23
+msgid "Настройка кеширования объектов отдельных классов"
+msgstr ""
+
+#: ../../2_system_description/functionality/cached.rst:25
+msgid "Можно индивидуально в файле настроек конфигурации приложения (deploy.json), в опциях ``cachedDataRepo`` указать список классов, данные которых нужно хранить в кеше."
+msgstr ""
+
+#: ../../2_system_description/functionality/cached.rst:28
+msgid "Пример:"
+msgstr ""
+
+#: ../../2_system_description/functionality/cached.rst:38
+msgid "Если **cachedClasses** не указан, то кешируются все данные."
+msgstr ""
+
+#: ../../2_system_description/functionality/cached.rst:43
+msgid "Кешируются как индивидуальные обьекты, так и списки."
+msgstr ""
+
+#: ../../2_system_description/functionality/cached.rst:45
+msgid "При кешировании списка на основании его условий выборки (в т.ч. пагинации) формируется ключ, выполняется выборка и все полученные обьекты кешируются индивидуально, а список кешируется как массив идентификаторов обьектов. При выборке списка из кеша на основании этого массива из кеша выбираются соответствующие обьекты и формируется результирующий список."
+msgstr ""
+
+#: ../../2_system_description/functionality/cached.rst:48
+msgid "Аналогично кешируются все объекты по ссылке и коллекции загружаемые жадно."
+msgstr ""
+
+#: ../../2_system_description/functionality/cached.rst:53
+msgid "Для расширенной конфигурации настроек кеширования (таких как, время хранения запросов, глубина хранения объектов в кеше и др.) применяется настройка *гибкого кеширования объектов*. Настройка гибкого кеширования задается в файле deploy.json в свойстве ``\"di\"``\\ , в компонентах ``memcached`` и ``redis`` в опции ``connectOptions``. Все нужные плейсхолдеры прописаны в файле config.json репозитория платформы."
+msgstr ""
+
+#: ../../2_system_description/functionality/cached.rst:57
+msgid "**NB:** Глубина хранения обьектов в кеше соответствует глубине запроса обьектов из БД, то есть в обьекте хранится информация о его ссылках, а дальше в кеше получается граф обьектов, а не дерево."
+msgstr ""
+
+#: ../../2_system_description/functionality/cached.rst:63
+msgid "Параметры ini файла:"
+msgstr ""
+
+#: ../../2_system_description/functionality/cached.rst:80
+msgid "По умолчанию кеширование не используется."
+msgstr ""
+
+#: ../../2_system_description/functionality/cached.rst:85
+msgid "`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/2_system_description/functionality/cached.md>`_   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/functionality/cached.rst:95
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights reserved."
+msgstr ""

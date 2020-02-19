@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../2_system_description/metadata_structure/meta_class/type_reference13.rst:3
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/type_reference13.rst:6
+msgid "Предыдущая страница:\\ `Типы атрибутов <property_types.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/type_reference13.rst:9
+msgid "Ссылки"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/type_reference13.rst:12
+msgid "Общее описание"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/type_reference13.rst:14
+msgid "**Ссылка** - тип данных, который хранит в себе ссылку на другой объект. Данный объект может быть объектом исходного класса, если ссылка указывает на класс, в котором она определена."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/type_reference13.rst:16
+msgid "Значение в поле атрибута типа \"Ссылка\" выводятся в соответствии с семантикой, указанной для класса по ссылке. Главное отличие от типа \"Коллекция\" в том, что в поле атрибута типа \"Ссылка\" может отображаться и храниться только один объект класса по ссылке."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/type_reference13.rst:18
+msgid "См. полное описание типа ``Ссылка`` в атрибутивной части меты класса -\\ `\\ **Атрибут  ссылки и обратной ссылки** <atr_ref_backref.md>`_."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/type_reference13.rst:21
+msgid "Способы задания ссылок :"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/type_reference13.rst:23
+msgid "Способы задания ссылок с точки зрения используемых полей атрибутивной части меты классов:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/type_reference13.rst:26
+msgid "``один-к-одному`` - означает наличие ссылки и вложенного объекта с ссылкой-связкой на исходный объект. В ссылке необходимо указать ссылку-связку, а у нее указать ссылочный атрибут вложенного объекта по которому формируется связь. Обязательно в атрибуте-ссылке указать свойство уникальности - ``true``. **См. Обратные ссылки в контексте ссылок.**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/type_reference13.rst:27
+msgid "``один-ко-многим`` - необходимо определить ссылку и указать класс вложенного элемента - связи создаются при помещении в ссылку и хранятся как отдельная сущность в БД. **См. Ссылки.**"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/type_reference13.rst:30
+msgid "Следующая страница: `Коллекция <type_collection14.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/type_reference13.rst:35
+msgid "`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/2_system_description/metadata_structure/meta_class/type_reference13.md>`_   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/type_reference13.rst:45
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**. All rights reserved."
+msgstr ""

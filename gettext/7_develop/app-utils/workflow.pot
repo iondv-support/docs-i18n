@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../7_develop/app-utils/workflow.rst:6
+msgid "Утилиты для бизнес-процесса"
+msgstr ""
+
+#: ../../7_develop/app-utils/workflow.rst:8
+msgid "Назад: `Функциональные утилиты приложения <./readme.md>`_"
+msgstr ""
+
+#: ../../7_develop/app-utils/workflow.rst:10
+msgid "Утилиты для бизнес-процесса предназначены для автоматизации выполнения некоторых действий при изменении статуса бизнес процесса. Утилита подключается к приложению в deploy.json в объекте globals.plugins, например так:"
+msgstr ""
+
+#: ../../7_develop/app-utils/workflow.rst:29
+msgid "Здесь подключается утилита ``wfEvents``. Скрипт, содержащий описание действий при изменении статуса бизнес-процесса находится по пути ``applications/sakh-pm/lib/wfEvents.js``.\\ :raw-html-m2r:`<br>` В поле ``options`` могут быть указаны любые переменные и их значения, которые станут доступны в скрипте через поля объекта, передаваемого как аргумент основной функции модуля."
+msgstr ""
+
+#: ../../7_develop/app-utils/workflow.rst:32
+msgid "Скрипт составляется в формате модуля, при условии, что он должен включать метод init, например так:"
+msgstr ""
+
+#: ../../7_develop/app-utils/workflow.rst:80
+msgid "В этом скрипте описаны действия, которые нужно выполнить при изменении статуса у бизнес-процесса ``assignmentBasic@sakh-pm`` на ``fin``\\ , и у бизнес-процесса ``proposal@sakh-pm`` на ``cancel``."
+msgstr ""

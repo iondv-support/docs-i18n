@@ -1,0 +1,336 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:9
+msgid "Назад: `Конфигурационный файл - deploy.json <deploy.md>`_"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:12
+msgid "Настройки модулей в ``deploy.json``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:15
+msgid "Модуль \"registry\""
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:17
+msgid "**Модуль регистра (registry)** – ключевой модуль предназначенный непосредственно для работы с данными на основе структур метаданных – в том числе по ведению проектов, программ, мероприятий и др. `Подробнее о модуле регистра </docs/ru/3_modules_description/registry.md>`_."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:20
+msgid "Настройка конфигурируемого сохранения файлов"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:22
+msgid "Для того, что бы задать путь сохранения файла в хранилище - указываем:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:37
+msgid "В объекте ключом является название класса, дальше \"название атрибута\" : \"относительный путь\"."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:39
+msgid "Алиасы записываются в ``${алиас}`` . Доступные алиасы:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:42
+msgid "``class`` - имя класс"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:43
+msgid "``attr`` - имя атрибута"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:44
+msgid "также доступны обозначения дат из ``moment.js``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:47
+msgid "Настройка для указания количества символов для поискового запроса"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:49
+msgid "Для всего приложения - ``\"listSearchMinLength\"``."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:61
+msgid "Для отдельного класса ``\"minLength\"``."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:87
+msgid "Настройка присвоения контейнера при создании вложенного объекта"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:89
+msgid "Для случаев, когда необходимо присваивать значение для атрибут по ссылке, не при сохранении объекта, а при создании, указываем в ``deploy.json`` приложения настройку для класса, который содержит присваемое значение:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:101
+msgid "Пример использования генераторов последовательностей - сейчас для каждого объекта его код - это код его непосредственного контейнера плюс очередное значение счетчика последовательности привязанного к объекту-контейнеру."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:104
+msgid "Настройка жадной загрузки для печатных форм ``\"skipEnvOptions\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:106
+msgid "Подробнее о `печатных формах </docs/ru/2_system_description/functionality/printed_forms.md>`_."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:108
+msgid "С помощью флага ``skipEnvOptions`` можно настроить/отключить жадную загрузку."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:111
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:316
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:375
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:458
+msgid "Пример"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:145
+msgid "При жадной загрузке файл создается быстро, но это не всегда может быть приемлемо."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:150
+msgid "В настройке уведомления о редактировании объекта другим пользователем указывается время жизни для блокировки в милисекундах:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:162
+msgid "**Компонент ConcurencyChecker**\\ :"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:164
+msgid "Компонент ``ConcurencyChecker`` в датасорсе хранит состояние блокировки для объектов. Хранит следующие параметры:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:168
+msgid "полный id объекта (класс@id),"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:169
+msgid "датавремя блокировки (blockDate),"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:170
+msgid "заблокировавший пользователь."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:172
+msgid "Компонент создает состояния блокировки, при этом запускается таймер, по которому запись о блокировке удаляется по истечении таймаута. Если на момент срабатывания таймера запись оказывается еще актуальной (обновляли blockDate), то запись не удаляется, а таймер обновляется."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:174
+msgid "**Логика в контроллере view**\\ :"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:176
+msgid "Читаем из сетингов настройку *registry.concurencyCheck* (таймаут блокировки в секундах)."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:178
+msgid "Если она больше 0, обращаемся к ``ConcurencyCheker`` - проверяем состояние блокировки."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:180
+msgid "Если не найдено (либо просрочена - blockDate < now() - registry.concurencyCheck), то через чекер записываем новую блокировку от имени текущего пользователя. Если найдена живая блокировка - передаем в шаблон информацию о блокировке, которую отображаем на форме и отображаем форму в режиме для чтения (\\ ``globalReadOnly``\\ )."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:182
+msgid "Дополнительный контроллер ``concurencyState``\\ , который принимает id объекта и проверяет его состояние блокировки. Если объект не заблокирован (нет блокировки, либо она просрочена), то блокирует объект от имени текущего пользователя. Если объект заблокирован текущим пользователем, обновляет *blockDate* на *new Date()*. Возвращает состояние блокировки."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:184
+msgid "**Поведение формы объекта**\\ :"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:186
+msgid "Если в шаблон передана инфа о блокировке, то добавляется скрипт, который периодически (с периодом ``registry.concurencyCheck/2``\\ ) обращается к контроллеру ``concurencyState``."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:188
+msgid "Если в ответ приходит информация о блокировке другим пользователем - она отображается (обновляем сообщение), если произошел перехват блокировки текущим пользователем - форма перезагружается (она при этом отображается в режиме для редактирования)."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:193
+msgid "Это имеет отношение, например к группам в специальном стиле - чтобы не подключать ресурсы через изменения шаблонов модуля - необходимо их подключить в приложении."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:201
+msgid "Все, что внутри директории ``icons`` доступно по ссылке ``registry/geoicons``."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:206
+msgid "Пример с параметрами в ``params``\\ :"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:284
+msgid "Функционал позволяет на уровне класса определять, как ищем объекты класса из представления списка: по вхождению слов или полные слова, по отдельным атрибутам или по указанным атрибутам в списке с параметрами поиска через пробел."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:287
+msgid "Формат и доступные операции:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:297
+msgid "вместо ``...`` подставляем атрибуты и задаем операции для поиска, например:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:313
+msgid "**Иерархическое представление коллекций**\\ - отображает коллекции, в которых элементы связаны друг с другом в виде иерархического справочника. В библиотеке ``viewlib`` реализован кастомный контроллер, возвращающий в формате ``TreeGrid`` очередной уровень иерархии."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:362
+msgid "Поле ``config`` - в нем все настройки:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:365
+msgid "первый ключ это навигационная нода (в данном примере \"*\" значит распространяется на все ноды),"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:366
+msgid "потом идут классы, у классов ``roots`` - это какие объекты этого класса вытаскивать в качестве корневых (используются \"conditions\"),"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:367
+msgid "``childs`` - это атрибуты класса из которых доставать иерархию."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:372
+msgid "``searchByRefs`` - это массив настроек, для обозначения иерархии классов. Можно сопоставлять с несколькими классами."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:403
+msgid "Модуль \"geomap\""
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:405
+msgid "**Геомодуль (geomap)** – предназначен для визуализации сведений и данных, имеющих географическую привязку."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:408
+msgid "Настройка иконки приложения"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:410
+msgid "Логотип для модуля описывается через стандартный механизм статичных маршрутов:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:424
+msgid "Настройка скрытия шапки и бокового меню"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:427
+msgid "Пример:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:440
+msgid "Модуль \"gantt-chart\""
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:442
+msgid "**Модуль диаграм ганта (gantt-chart)** – модуль, предназначенный для вывода специфичных типов иерархических данных имеющих даты. `Подробнее о модуле диаграм ганта </docs/ru/3_modules_description/gantt_chart.md>`_."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:445
+msgid "Настройка шкалы времени"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:447
+msgid "Шкала времени настраивается посредством настройки \"Шаг\" в модуле Гаанта. В преконфигурации \"Шаг\" задается через параметр ``step``\\ :"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:492
+msgid "Модуль \"report\""
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:494
+msgid "**Модуль отчетов (report)** – модуль предназначенный для формирования, на основе специальных метаданных – аналитических отчетов и справочной информации. Расчеты могут выполняться по расписанию или быть инициированы оператором. `Подробнее о модуле отчетов </docs/ru/3_modules_description/report.md>`_."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:531
+msgid "Модуль \"rest\""
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:533
+msgid "**Модуль REST-сервисов** – модуль предназначенный для осуществления интеграции по формату REST. Используется для предоставления данных для модуля портала."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:544
+msgid "Модуль \"portal\""
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:546
+msgid "**Модуль портала (portal)** – модуль, предназначенный для отображения произвольных шаблонов данных. `Подробнее о модуле портала </docs/ru/3_modules_description/portal.md>`_"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:575
+msgid "Модуль \"ionadmin\""
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:577
+msgid "**Модуль администрирования (ionadmin)** – используется для назначения прав, управления задачами по расписанию и другими административными задачами. `Подробнее о модуле администрирования </docs/ru/3_modules_description/admin.md>`_."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:580
+msgid "Скрытие ролей в админе от назначения поьзователю"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:582
+msgid "Для ролей, которые должны быть скрыты в админе от назначения пользователю, в деплое приложения прописываем фильтры на основе регулярных выражений, по которым такие роли и будут определятся."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:597
+msgid "Настройка скрытия модуля в системном меню"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:599
+msgid "Для скрытия модуля из системного меню проекта присваиваем этому модулю, в файле ``deploy.json``\\ , значение *null*\\ , например ``\"ionadmin\": null``."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:617
+msgid "Модуль \"dashboard\""
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:619
+msgid "**Модуль дашбоарда (dashboard)** – модуль предназначенный для выведения краткой информации в виде блоков. `Подробнее о модуле дашбоарда </docs/ru/3_modules_description/dashboards.md>`_."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:621
+msgid "Для того что бы данные из меты загружались в модуль \"dashboard\", необходимо в файле конфигурации приложения ``deploy.json`` добавить следующую секцию, в раздел ``\"modules\"``\\ :"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:638
+msgid "Модуль \"diagram\""
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:686
+msgid "Полный пример файла `deploy.json <deploy_ex.md>`_"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:691
+msgid "`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/2_system_description/platform_configuration/deploy_modules.md>`_   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/deploy_modules.rst:701
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights reserved."
+msgstr ""

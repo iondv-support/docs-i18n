@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:9
+msgid "Предыдущая страница: `Мета бизнес-процесса </docs/ru/2_system_description/metadata_structure/meta_navigation/meta_navigation.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:12
+msgid "Безопасность бизнес-процесса"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:15
+msgid "Описание"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:17
+msgid "Безопасность в бизнес-процессе нужна для контроля прав над конкретным объектом одним пользователем и задается через мету класса, статусы и переходы бизнес-процесса."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:20
+msgid "Реализация"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:22
+msgid "В мете заранее надо опеределить `строковый атрибут </docs/ru/2_system_description/metadata_structure/meta_class/property_types.md>`_\\ , в котором будет храниться идентификатор пользователя."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:24
+msgid "Для контроля прав при переходах по БП надо в перееходе добавить присваивание текущего пользователя в атрибут, по которому будут выдаваться права на следующем статусе БП."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:27
+msgid "Затем задаем в статусе БП уровень доступа в свойстве ``itemPermissions``\\ :"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:39
+msgid "``role`` - указывается атрибут, который хранит идентификатор пользователя"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:40
+msgid "``permissions`` - задается число по битовой маске, которое соотноcится с уровнем доступа ``role`` к объекту"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:42
+msgid "1 - чтение"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:43
+msgid "2 - запись"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:44
+msgid "4 - удаление"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:45
+msgid "8 - использование"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:46
+msgid "31 - полный доступ"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:48
+msgid "Можно использовать права в любом порядке. Например:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:51
+msgid "чтение + запись = 3"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:52
+msgid "чтение + запись + удаление = 7"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:53
+msgid "чтение + запись + удаление + использование = 15"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:55
+msgid "**Внимание!** В бизнес-процессе динамические права могут только предоставить больше доступа. Уменьшить доступ нельзя."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:58
+msgid "Примеры"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:60
+msgid "Присваивание в переходе БП атрибуту ``person`` текущего пользователя, работающим с объектом"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:71
+msgid "Добавление ``itemPermissions`` в статус БП"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:87
+msgid "Следующая страница: `Статусы бизнес-процесса </docs/ru/2_system_description/metadata_structure/meta_workflows/status_wf.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:92
+msgid "`Licence </LICENCE.md>`_ &ensp;  `Contact us <https://iondv.com>`_ &ensp;  `English </docs/en/2_system_description/metadata_structure/meta_workflows/security_wf.md>`_   &ensp; `FAQs </faqs.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/security_wf.rst:96
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights reserved."
+msgstr ""

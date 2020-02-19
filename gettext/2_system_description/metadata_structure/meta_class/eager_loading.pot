@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../2_system_description/metadata_structure/meta_class/eager_loading.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/eager_loading.rst:9
+msgid "Предыдущая страница: `Список выбора допустимых значений <atr_selectionprovider.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/eager_loading.rst:12
+msgid "Предварительная выборка"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/eager_loading.rst:14
+msgid "**Предварительная выборка объектов загрузки** (от англ. eager loading - \"жадная загрузка\") - процесс который позволяет указать в запросе какие связанные данные, в объёме достаточном для корректного отображения семантики связанного объекта необходимо загрузить при выполнении запроса."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/eager_loading.rst:16
+msgid "Предварительная выборка помогает в отображении объектов системы в тех случаях, когда данные находятся на большом уровне вложенности, например в атрибутах типа \"Ссылка\" и \"Коллекция\"."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/eager_loading.rst:18
+msgid "В мете применяется только в особых случаях и используется в основном для экономии временных ресурсов, в качестве альтернативы тонкой настройки."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/eager_loading.rst:21
+#: ../../2_system_description/metadata_structure/meta_class/eager_loading.rst:40
+#: ../../2_system_description/metadata_structure/meta_class/eager_loading.rst:61
+msgid "Пример:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/eager_loading.rst:23
+msgid "Управление предварительной выборкой для атрибута определяется свойством ``eagerLoading`` принимающим значения ``true`` или ``false``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/eager_loading.rst:37
+msgid "Рекомендуемый способ настройки предварительной выборки - через файл ``deploy.json`` проекта для атрибутов класса, навигации. Это позволит централизовано определить предварительно выбираемые атрибуты для многих классов."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/eager_loading.rst:53
+msgid "NB. Если вместо ``\"node1\"`` поставить ``\"*\"``\\ , то при попадании из любой навигации на данный объект заявления можно  использовать одну настройку класса для экспорта объекта."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/eager_loading.rst:58
+msgid "Принцип настройки предварительной выборки для экспорта в списках и формах совпадает с настройкой в файле deploy.json, за одним исключением. Вместо ``list`` и ``item``\\ , указываем ``exportList`` и ``exportItem``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/eager_loading.rst:77
+msgid "Глубина предварительной выборки задаётся свойством ``maxEagerDepth: 1`` в файле ``deploy.json`` проекта."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/eager_loading.rst:79
+msgid "Максимальная глубина предварительной выборки определяет максимально допустимый уровень вложенности объекта относительно открытого объекта на странице."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/eager_loading.rst:82
+msgid "Следующая страница: `Вычислимые поля <atr_formula.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/eager_loading.rst:87
+msgid "`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/2_system_description/metadata_structure/meta_class/eager_loading.md>`_ &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/eager_loading.rst:97
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights reserved."
+msgstr ""

@@ -1,0 +1,217 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../2_system_description/platform_configuration/package.rst:5
+msgid "Зависмости в package.json"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:7
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:9
+msgid "Предыдущая страница: `Конфигурационный файл deploy.json <deploy.md>`_"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:11
+msgid "Файл **package.json** - определяет структуру зависимостей и детальный состав модулей системы."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:20
+msgid "Логика подключения при помощи скрипта"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:23
+msgid "если в названии объекта отсутствует слеш - / => \"project-management\"- подставляем в путь по умолчанию группу ION-APP - т.е. путь - //git.iondv.ru/ION-APP/project-management."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:24
+msgid "если в названии есть слеш - значит задан уже с группой и просто склеиваем путь к гиту с группой и метой, пример \"ION-METADATA/viewlib\" - путь - //git.iondv.ru/ION-METADATA/viewlib."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:25
+msgid "если значение версии начинается с git+http:// или git+https:// - то это полный путь к внешнему репозиторию - отбрасываем git+ и тянем гитом."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:26
+msgid "если значение версии начинается с http:// или https:// - то это полный путь к архиву - тянем и распаковываем.\\ :raw-html-m2r:`<br>` **Не реализовано**\\ , так как dapp не поддерживает работу с архивами."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:30
+msgid "Пример файла ``package.json``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:62
+msgid "Описание полей"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:67
+msgid "Поле"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:68
+msgid "Наименование"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:69
+msgid "Описание"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:70
+msgid "``\"name\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:71
+msgid "**Имя**"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:72
+msgid "Имя проекта."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:73
+msgid "``\"description\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:74
+msgid "**Описание**"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:75
+msgid "Описание проекта."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:76
+msgid "``\"version\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:77
+msgid "**Версия**"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:78
+msgid "Номер текущей версии."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:79
+msgid "``\"homepage\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:80
+msgid "**Домашняя страница**"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:81
+msgid "Ссылка на собранный проект на докере."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:82
+msgid "``\"bugs\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:83
+msgid "**Ошибки**"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:84
+msgid "Указывается ссылка на проект приложения в GitLab, где принимаются заявки об ошибках."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:85
+msgid "``\"repository\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:86
+msgid "**Репозиторий**"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:87
+msgid "Состоит из полей \"type\" и \"url\". Указыается тип репозитория и ссылка на него."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:88
+msgid "``\"engines\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:89
+msgid "**Ядро**"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:90
+msgid "Номер версии ядра."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:91
+msgid "``\"scripts\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:92
+msgid "**Скрипты**"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:93
+msgid "Скрипт для сборки меты из разных групп и разных url./"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:94
+msgid "``\"ionModulesDependencies\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:95
+msgid "**Зависимости модулей ion**"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:96
+msgid "Задает модули и их версии, используемые  в приложении. Проект включает в себя следующий состав модулей: •  \"\\ **ionadmin**\\ \" – модуль администрирования •  \"\\ **registry**\\ \" – модуль регистра •  \"\\ **report**\\ \" – модуль отчетов •  \"\\ **rest**\\ \": \"- модуль rest-сервисов •  \"\\ **dashboard**\\ \" – модуль дашбоардов •  \"\\ **geomap**\\ \" - геомодуль •  \"\\ **gantt-chart**\\ \" – модуль диаграмм ганта •  \"\\ **portal**\\ \" – модуль портала"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:97
+msgid "``\"ionMetaDependencies\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:98
+msgid "**Зависимости метаданных ion**"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:99
+msgid "Дополнительные приложения для функционирования системы."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:100
+msgid "``\"dependencies\"``"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:101
+msgid "**Зависимости**"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:102
+msgid "Прочие зависимости проекта из репозитория npm."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:106
+msgid "Следующая страница: `Конфигурация парaметров - ini-файлы <ini_files.md>`_"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:111
+msgid "`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/2_system_description/platform_configuration/package.md>`_   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/package.rst:121
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights reserved."
+msgstr ""

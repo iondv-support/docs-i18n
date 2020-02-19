@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../1_system_deployment/step1_installing_environment.rst:5
+msgid "Шаг 1 Установка окружения"
+msgstr ""
+
+#: ../../1_system_deployment/step1_installing_environment.rst:7
+msgid "Предыдущая страница: :doc:`Оглавление <../index>`"
+msgstr ""
+
+#: ../../1_system_deployment/step1_installing_environment.rst:9
+msgid "Окружение - это список программ необходимых для запуска платформы с приложением:"
+msgstr ""
+
+#: ../../1_system_deployment/step1_installing_environment.rst:12
+msgid "СУБД `MongoDb <https://www.mongodb.org/>`_ версии 3.6."
+msgstr ""
+
+#: ../../1_system_deployment/step1_installing_environment.rst:13
+msgid "Среда разработки `Node.js <https://nodejs.org/en/>`_ версии 10.x.x."
+msgstr ""
+
+#: ../../1_system_deployment/step1_installing_environment.rst:16
+msgid "СУБД"
+msgstr ""
+
+#: ../../1_system_deployment/step1_installing_environment.rst:20
+msgid "Необходимо установить СУБД `MongoDB <https://www.mongodb.org/>`_. Проверенная версия ``3.6.9`` и ``4.0.0``."
+msgstr ""
+
+#: ../../1_system_deployment/step1_installing_environment.rst:23
+msgid "Далее создаем папку ``data`` на диске C: и в ней подпапку ``db``."
+msgstr ""
+
+#: ../../1_system_deployment/step1_installing_environment.rst:26
+msgid "Для запуска базы данных переходим в папку расположения ``MongoDb``\\ , далее в папку ``server\\bin`` и запускаем файл ``mongod.exe``. Если есть необходимость использовать каталог с БД отличный от ``c:\\data\\db``\\ , тогда файл ``mongod.exe`` необходимо запустить с параметром ``--dbpath`` после которого указать путь к каталогу."
+msgstr ""
+
+#: ../../1_system_deployment/step1_installing_environment.rst:31
+msgid "Среда выполнения Node.js"
+msgstr ""
+
+#: ../../1_system_deployment/step1_installing_environment.rst:33
+msgid "Node.js - является средой, в которой осуществляется выполнение компонентов."
+msgstr ""
+
+#: ../../1_system_deployment/step1_installing_environment.rst:37
+msgid "Необходимо установить среду разработки `Node.js <https://nodejs.org/>`_. Проверенная версия node.JS ``10.14.2``."
+msgstr ""
+
+#: ../../1_system_deployment/step1_installing_environment.rst:40
+msgid "По умолчанию установщик сам прописывает пути к Node.js в PATH, а также устанавливает менеджер пакетов ``npm``."
+msgstr ""
+
+#: ../../1_system_deployment/step1_installing_environment.rst:43
+msgid "Установка глобальных зависимостей"
+msgstr ""
+
+#: ../../1_system_deployment/step1_installing_environment.rst:45
+msgid "Установливайте глобальные зависимости в командной строке ``cmd.exe``\\ , запущенной от имени администратора, после установки ``node.js``."
+msgstr ""
+
+#: ../../1_system_deployment/step1_installing_environment.rst:47
+msgid "**NB:** команда ``node -v`` - показывает версию node.js."
+msgstr ""
+
+#: ../../1_system_deployment/step1_installing_environment.rst:50
+msgid "Установка среды сборки под Windows"
+msgstr ""
+
+#: ../../1_system_deployment/step1_installing_environment.rst:54
+msgid "Установите глобально пакет `node-gyp <https://github.com/nodejs/node-gyp>`_ командой ``npm install -g node-gyp`` необходимый для сборки различных библиотек."
+msgstr ""
+
+#: ../../1_system_deployment/step1_installing_environment.rst:57
+msgid "Для работы библиотеки под операционной системой семейства Windows дополнительно необходимо установить пакет windows-build-tools - ``npm install -g --production windows-build-tools``."
+msgstr ""
+
+#: ../../1_system_deployment/step1_installing_environment.rst:60
+msgid "Пакет сборщика проектов"
+msgstr ""
+
+#: ../../1_system_deployment/step1_installing_environment.rst:62
+msgid "Для организации тестирования и сборки дистрибутивов при разработке используется `Gulp <http://gulpjs.com/>`_. Установите глобально командой ``npm install -g gulp@4.0``. ``4.0`` - поддерживаемая версия ``Gulp``."
+msgstr ""
+
+#: ../../1_system_deployment/step1_installing_environment.rst:65
+msgid "Установщик фронтенд библиотек"
+msgstr ""
+
+#: ../../1_system_deployment/step1_installing_environment.rst:67
+msgid "Для установки библиотек фронтенд используется `bower <https://bower.io>`_. Установите глобально командой ``npm install -g bower``."
+msgstr ""
+
+#: ../../1_system_deployment/step1_installing_environment.rst:70
+msgid "Следующая страница: `Установка ядра, модулей и приложения <step2_project_with_modules.md>`_"
+msgstr ""
+
+#: ../../1_system_deployment/step1_installing_environment.rst:85
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights reserved."
+msgstr ""

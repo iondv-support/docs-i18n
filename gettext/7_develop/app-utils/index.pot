@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../7_develop/app-utils/index.rst:3
+msgid "Разработка функциональных утилит в приложении"
+msgstr ""
+
+#: ../../7_develop/app-utils/index.rst:5
+msgid "Функциональные утилиты приложения предназначены для решения специфичных задач приложения, без реализации отдельной логики в виде модуля."
+msgstr ""
+
+#: ../../7_develop/app-utils/index.rst:7
+msgid "Например - утилиты вызываемой задачей по расписанию или утилиты вызываемой при переходе в бизнес-процессе."
+msgstr ""
+
+#: ../../7_develop/app-utils/index.rst:10
+msgid "Содержание"
+msgstr ""
+
+#: ../../7_develop/app-utils/index.rst:21
+msgid "утилиты для `задач по расписанию <./job.md>`_"
+msgstr ""
+
+#: ../../7_develop/app-utils/index.rst:22
+msgid "утилиты для `бизнес-процесса <./workflow.md>`_"
+msgstr ""
+
+#: ../../7_develop/app-utils/index.rst:23
+msgid "утилиты для `кнопки действия <./button.md>`_"
+msgstr ""
+
+#: ../../7_develop/app-utils/index.rst:24
+msgid "утилиты для `веб-сервиса (модуль REST) <./rest.md>`_"
+msgstr ""
+
+#: ../../7_develop/app-utils/index.rst:25
+msgid "утилиты для `печатных форм <./print-form.md>`_"
+msgstr ""

@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../2_system_description/metadata_structure/meta_view/comments.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/comments.rst:9
+msgid "Предыдущая страница: `Проектные документы <fileshare.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/comments.rst:12
+msgid "Представление ``Комментарий`` для атрибутов типа \"Коллекция\""
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/comments.rst:0
+msgid "warning"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/comments.rst:14
+msgid "Для корректной работы функционала обязательно в зависимостях проекта должен быть указан репозиторий  ``viewlib``. Подключение:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/comments.rst:17
+msgid "В файле **package.json** проекта:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/comments.rst:28
+msgid "В директорию **application** рядом с текущим проектом добавить репозиторий проекта ``viewlib``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/comments.rst:31
+msgid "Инструкция по подключению функционала"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/comments.rst:33
+msgid "Представление реализуется посредством шаблона ``templates/registry/item_footer.ejs`` вида обратите внимание на пояснение строк после знака **//** :"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/comments.rst:109
+msgid "Настройка ``\"options\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/comments.rst:111
+msgid "Далее подключаем функционал ``\"options\"`` для представление Комментарий на форме представления изменения для атрибута типа \"Коллекция\":"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/comments.rst:256
+msgid "Mета класса с атрибутом типа \"Коллекция\" с представлением Комментарий"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/comments.rst:259
+msgid "#. В классе создается обычный атрибут с типом \"Коллекция\". #."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/comments.rst:261
+msgid "В представлении формы изменения создается аналогично стандартному атрибуту с типом \"Коллекция\", но с добавлением настройки ``\"options\"``\\ , подробнее смотрите `настройка \"options\" <comments.md#настройка-options>`_. ### Mета класса по ссылке из атрибута типа \"Коллекция\" с представлением Комментарий"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/comments.rst:265
+msgid "В классе создается атрибутивный состав и их системные наименования **обязательно** должны соответствовать наименованиям в шаблоне ``item_footer.ejs`` и в свойстве ``\"options\"``. Дополнительно к обязательным - класс может содержать любые атрибуты."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/comments.rst:268
+msgid "Мета дополнительных классов"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/comments.rst:271
+msgid "Класс Персона должен содержать атрибут, в которых будет задаваться информация об имени пользователя (в данном случае это атрибут \"user\") и фотография персоны (атрибут \"Фото\"), а так же ФИО персоны, которые являются семантикой данного класса."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/comments.rst:474
+msgid "Следующая страница: `Типы представлений <view_types.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/comments.rst:479
+msgid "`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/2_system_description/metadata_structure/meta_view/comments.md>`_   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/comments.rst:489
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights reserved."
+msgstr ""

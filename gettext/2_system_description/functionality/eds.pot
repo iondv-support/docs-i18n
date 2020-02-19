@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../2_system_description/functionality/eds.rst:5
+msgid "Электронно-цифровая подпись"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:7
+msgid "`Содержание </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:9
+msgid "Назад: `Функциональность <functionality.md>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:12
+msgid "Описание"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:14
+msgid "**Электронно-цифровая подпись (ЭЦП)** - это реквизит электронного документа, предназначенный для защиты данного электронного документа от подделки, полученный в результате криптографического преобразования информации с использованием закрытого ключа электронной цифровой подписи. Он позволяет идентифицировать владельца сертификата ключа подписи и установить отсутствие искажения информации в электронном документе."
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:17
+msgid "Цель использования"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:19
+msgid "В приложении ЭЦП может быть нужна для:"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:22
+msgid "Проверки целостности данных"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:23
+msgid "Определения авторства данных"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:25
+msgid "Существует три вида электронной цифровой подписи, которые отличаются по своему применению:"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:28
+msgid "Простая электронно-цифровая подпись"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:30
+#: ../../2_system_description/functionality/eds.rst:36
+#: ../../2_system_description/functionality/eds.rst:42
+msgid "для определения авторства данных"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:31
+msgid "создается с использованием кодов, паролей или иных средств"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:33
+msgid "Усиленная неквалифицированная электронно-цифровая подпись"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:35
+#: ../../2_system_description/functionality/eds.rst:41
+msgid "для проверки целостности данных"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:37
+msgid "создается с использованием средств электронной подписи"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:39
+msgid "Усиленная квалифицированная электронно-цифровая подпись"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:43
+msgid "для создания и проверки электронной подписи используются средства электронной подписи, получившие подтверждение соответствия требованиям законодательства"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:46
+msgid "Специфика работы"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:48
+msgid "Работает утилита ЭЦП на основе КриптоПро, поэтому он должен быть установлен на одном компьютере:"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:51
+msgid "ставим `крипто про <https://www.cryptopro.ru/products/csp/downloads>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:52
+msgid "ставим `плагин <https://www.cryptopro.ru/products/cades/plugin>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:53
+msgid "для тестирования, выпускаем `сертификат <https://www.cryptopro.ru/certsrv/certrqma.asp>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:56
+msgid "Реализация"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:58
+msgid "ЭЦП можно отнести к утилитам для приложения, так как основная ее реализация находится в приложении. Обычно реализация ЭЦП находиться в папке приложения ``lib/digest`` (на примере приложения project-management):"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:61
+msgid "``lib/digest/digestData.js`` - проверка при загрузке формы объекта на необходимость в электронной подписи (_applicable) и процесс подписи при выполнении перехода БП (_process)"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:62
+msgid "``lib/digest/signSaver.js`` - прикрепление подписи к объекту"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:64
+msgid "Для того, чтобы статус ЭП запрашивался/отображался, для registry добавляем в ``deploy`` настройку signedClasses."
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:67
+#: ../../2_system_description/functionality/eds.rst:82
+msgid "Пример"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:79
+msgid "В БП ``workflows/indicatorValueBasic.wf.json`` добавляем переход со свойством ``\"signBefore\": true``."
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:106
+msgid "`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/2_system_description/functionality/eds.md>`_   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/functionality/eds.rst:116
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights reserved."
+msgstr ""

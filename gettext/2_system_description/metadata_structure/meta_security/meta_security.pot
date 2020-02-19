@@ -1,0 +1,229 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:5
+msgid "Мета безопасности"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:7
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:9
+msgid "Предыдущая страница: `Переходы бизнес-процесса </docs/ru/2_system_description/metadata_structure/meta_workflows/transitions_wf.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:12
+msgid "Описание"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:14
+msgid "**Мета безопасности** - регулирует настройку прав безопасности на объекты системы. Можно разделить на статическую и динамическую безопасность:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:16
+msgid "**Статическая безопасность** - регулирует права доступа на объекты системы для определенной роли."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:18
+msgid "**Динамическая безопасность** - регулирует права доступа на объекты системы для конкретной персоны, в соответствии с какими-либо условиями, в то время как групповая динамическая безопасность - это права для группы безопасности."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:20
+msgid "Настройка динамической безопасности производится в файле ``deploy.json``\\ , а также в файле ``acl/resources-and-roles.yml``. Статическая безопасность задается только в файле ``acl/resources-and-roles.yml``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:23
+msgid "Правила формирования идентификаторов ресурсов"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:26
+msgid "узел навигации - ``n:::namespace@code``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:27
+msgid "класс - ``c:::classname@namespace``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:28
+msgid "объект - ``i:::classname@namespace@id``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:29
+msgid "атрибут - ``a:::classname@namespace.propertyname``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:30
+msgid "геомета:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:32
+msgid "узел навигации: geonav:::код узла@namespace"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:33
+msgid "слой: geolayer:::код слоя@namespace"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:34
+msgid "данные: geodata:::код слоя@namespace@индекс запроса"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:36
+msgid "пути (модулей):"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:38
+msgid "модуль portal: ``sys:::url:portal/*``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:39
+msgid "модуль geomap: ``sys:::url:geomap/*``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:42
+msgid "Типы прав"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:45
+msgid "Чтение ``read``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:47
+msgid "``read`` - это право на просмотр информации по объектам класса. Задает разрешение просматривать объекты класса только для чтения и запрещает их создание/редактирование."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:59
+msgid "Запись ``write``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:61
+msgid "``write`` - это право на создание объектов класса. Задает разрешение на создание новых объектов класса, но запрещает редактирование существующих."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:73
+msgid "Использование ``use``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:75
+msgid "``use`` - это право на создание объектов класса. Задает разрешение на создание объектов класса, и использование объектов класса в ссылках и коллекциях."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:77
+msgid "Без ``use`` - ссылки тоже отображаются в коллекции. Если есть ``read``\\ , но нет ``use``\\ , то нельзя выбрать объект и поместить его в коллекцию."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:89
+msgid "Удаление ``delete``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:91
+msgid "``delete`` - это право на удаление объектов класса."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:94
+msgid "Полный доступ ``full``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:96
+msgid "``full`` - это право на полный доступ к объектам класса."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:111
+msgid "Если у проекта в ``stakeholders.id`` есть значение ассоциированное с текущим пользователем (настроено подтягивание организации как глобальной роли пользователя), то стоит учитывать текущего пользователя ``PROJECT_BENEFITIAR`` и проверить права на ресурс ``pm:project`` - эти права и будут правами на проект."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:113
+msgid "``pm:project`` - это некий виртуальный ресурс безопасности. Необходимо абстрагировать настройки доступа от проверяемого объекта для разных ролей, можно разные ресурсы указать на один класс и наоборот."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:116
+msgid "Если ресурс не указать, то будут проверяться права на класс объекта. Тогда эту роль можно использовать как статическую, то есть выдавать статические права динамически."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:147
+msgid "При указании ``sids`` каждый уровень вложенности массивов значений меняет вид операции ``И``\\ /\\ ``ИЛИ``. На первом уровне применяется ``ИЛИ``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:153
+msgid "Регистрируем пользователя с полным административным доступом - ``admin``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:154
+msgid "Под ``admin`` в ``registry`` в разделе Безопасность.Подразделения заводим иерархию подразделений (код подразделения = идентификатор безопасности)."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:155
+msgid "Регистрируем пользователя без прав - ``user``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:156
+msgid "Под админ в ``registry`` в разделе Безопасность.Сотрудники заводим Сотрудника, указываем у него в атрибуте Пользователь пользователя без прав. Привязываем сотрудника к самому нижестоящему подразделению."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:157
+msgid "Заходим под ``user`` -  прав нет ни на что."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:158
+msgid "Заходим под ``admin`` и даем роли (соответствующей самому вышестоящему подразделению) права на произвольные классы и узлы навигации."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:159
+msgid "Заходим под ``user`` - есть доступ к объектам, к которым есть доступ у подразделения."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:160
+msgid "Аналогично проверяем применение разрешений по всей иерархии подразделений."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:163
+msgid "Пример настройки в ``deploy.json``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:204
+msgid "Модель отображения атрибутов и объектов в соответствии с заданными правами"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:206
+msgid "Есть класс [Проекты], в нем содержится атрибут с типом \"Коллекция\" - [Мероприятия]. Если для класса [Мероприятия] нет прав на чтение, то атрибут этого класса не показывается на форме класса [Проекты]."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:209
+msgid "Если для класса есть динамическая безопасность - то независимо есть или нет права на чтение класса [Мероприятия] - атрибут на форме класса [Проекты] будет показан, но сами объекты мероприятий будут показаны только если на них есть права."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:211
+msgid "**NB:** Для отображения атрибута и объектов необходимо задавать как статическую, так и динамическую безопасность на класс по ссылке атрибута."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:213
+msgid "Если есть статическое право на чтение на класс, то пользователь увидит все объекты этого класса вне зависимости от динамических прав, и дополнительно будет делаться выборка объектов, на которые настроена динамическая безопасность и они будут отображаться для пользователя в соответствии с настройками в ней."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:216
+msgid "Следующая страница: `Мета отчета </docs/ru/2_system_description/metadata_structure/meta_report/meta_report.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:221
+msgid "`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/2_system_description/metadata_structure/meta_security/meta_security.md>`_   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_security/meta_security.rst:231
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights reserved."
+msgstr ""

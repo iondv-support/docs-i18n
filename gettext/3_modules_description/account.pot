@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../3_modules_description/account.rst:5
+msgid "Личный кабинет"
+msgstr ""
+
+#: ../../3_modules_description/account.rst:7
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/account.rst:9
+msgid "Назад: `Модули <modules.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/account.rst:11
+msgid "**Личный кабинет**\\ - нужен для отображения различных \"инструментальных\" форм, т.е. в приложениях мы заводим навигацию (или сами формы-страницы), модуль считывает их, формирует на основании них навигацию, и логику отображения этих страниц."
+msgstr ""
+
+#: ../../3_modules_description/account.rst:14
+msgid "Настройка модуля"
+msgstr ""
+
+#: ../../3_modules_description/account.rst:17
+msgid "В приложении в некую директорию кладем html-страницы."
+msgstr ""
+
+#: ../../3_modules_description/account.rst:18
+msgid "В deploy.json в настройках модуля ЛК прописываем эту директорию, а также опционально хеш-массив соответствия между именем файла и отображаемым названием."
+msgstr ""
+
+#: ../../3_modules_description/account.rst:19
+msgid "ЛК считывает эти настройки и в мастер-шаблоне отображает меню навигации ЛК."
+msgstr ""
+
+#: ../../3_modules_description/account.rst:20
+msgid "По клику на пункте меню в рабочей области окна ЛК отображается соответствующая разметка из html-файла."
+msgstr ""
+
+#: ../../3_modules_description/account.rst:21
+msgid "Также в deploy.json в настройках модуля ЛК указывается страница-инструмент по умолчанию, если не указан берется первый считанный по порядку."
+msgstr ""
+
+#: ../../3_modules_description/account.rst:23
+msgid "Также есть возможность структурирования меню посредством вложенности директорий."
+msgstr ""
+
+#: ../../3_modules_description/account.rst:28
+msgid "`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/3_modules_description/account.md>`_ &ensp;"
+msgstr ""
+
+#: ../../3_modules_description/account.rst:38
+msgid "Copyright (c) 2018 **LLC \"ION DV\".**\\ :raw-html-m2r:`<br>` All rights reserved."
+msgstr ""

@@ -1,0 +1,260 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:5
+msgid "Мета отчёта"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:7
+msgid "`Оглавление <index>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:9
+msgid "Предыдущая страница: `Мета безопасности </docs/ru/2_system_description/metadata_structure/meta_security/meta_security.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:12
+msgid "Описание"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:14
+msgid "**Мета отчёта** - предназначена для построения *шахты данных*\\ , содержащей аналитическую информацию по данным из меты системы, организованную в виде таблиц. В мете модуля отчетов указываются источники данных, на основе которых формируется информация для построения отчета, и в дальнейшем формирование колонок таблицы отчета, с указанием ресурса на данные из метаклассов системы."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:16
+msgid "Мета модуля отчетов находится в папке ``bi`` проекта в формате YML."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:18
+msgid "**NB:** Определение \"Шахта данных\""
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:28
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:150
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:206
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:311
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:359
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:396
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:419
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:438
+msgid "Пример YML"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:86
+msgid "Описание примера"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:88
+msgid "**Отчет тестовый** содержит в себе данные из класса *\"sourceClass\"*. Источник данных *\"dataSource\"* извлекает данные из меты соответствующего класса, которые указаны в свойстве ``results:`` . Далее подраздел *\"test\"* на основе данных, полученных из источника, указанного в свойстве ``source:`` формирует и преобразовывает данные для корректного отображения в таблицах отчета. Свойство ``joins:`` задает атрибут, который является идентификатором для построения отчета (в данном случае id объекта)."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:90
+msgid "Далее система формирует таблицы отчета, на основе преобразованных данных из источника, в разделе ``reports:``. Свойство ``rangeFilters:`` содержит информацию о фильтрах, настраиваемых для отчета (в данном случае необходимо указать диапазон дат, в соответствии с данными из класса). В модуле фильтр по диапазону задается через параметры запроса: ``?rangeFld[]=0&rangeFld[]=5``\\ , где rangeFld - это поле по которому ищем. Если идет поиск по датам - дату передавать в формате локали, которая передается в http-заголовке ``'accept-language'``\\ , либо в формате ``ISO8601``. Свойство ``columns:`` позволяет формировать колонки таблицы (порядковые номера фактические)."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:92
+msgid "Результат: таблица из двух колонок (Дата и Наименование), в которой будут выводится объекты класса из источника _\"dataSource\"_ , в соответствии с фильтром по датам, настроенном в `rangeFilters:`, а количество объектов в таблице будет равно количеству значений идентификатора, настроенном в свойстве `joins:`."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:94
+msgid "Пример простого полного отчета можно посмотреть по `здесь <example.md>`_."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:97
+msgid "Настройка строгости сравнения"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:99
+msgid "Настройка строгости сравнения на границах интервала ``rangeFilters`` в отчете:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:111
+msgid "``both`` - обе границы могут быть равны искомым значениям\\ :raw-html-m2r:`<br>` ``left`` - левая граница (меньшая) может быть равна искомым значениям\\ :raw-html-m2r:`<br>` ``right`` - правая граница (большая) может быть равна искомым значениям"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:115
+msgid "Если ``inclusive`` не указан - сравнение строгое на обоих границах."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:118
+msgid "Иерархическая сборка"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:120
+msgid "Настройка иерархической сборки необходима для обработки исходных данных при сборке шахты:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:123
+msgid "Чтобы сделать в одном источнике данных выгрузку данных по всей иерархии в базе"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:124
+msgid "Чтобы вывести данные по первому столбцу с отступами в зависимости от глубины вложенности"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:127
+msgid "Настройка иерархической сборки в шахте данных:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:129
+msgid "В конфигурации источника настройка ``\"hierarchyBy\"`` представляет собой объект с набором свойств: ``id``\\ , ``parent``\\ , ``level``\\ , ``order``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:139
+msgid "где ``id`` - атрибут в данных, идентифицирующий элемент иерархии"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:141
+msgid "``parent`` - атрибут в данных, содержащий идентификатор родительского элемента"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:143
+msgid "``level`` - атрибут в результирующем источнике, куда будет записан уровень вложенности элемента"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:145
+msgid "``order`` - атрибут в результирующем источнике, куда будет записано значение для упорядочивания иерархии при отображении."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:147
+msgid "Поля ``objLevel`` и ``objOrder`` это поля для записи значения (их не надо считать, агрегировать и т.д.)"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:181
+msgid "**NB:** Иерархическая сборка возможна только на основе источника и невозможна на основе класса."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:184
+msgid "Алгоритм сборки:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:187
+msgid "Создаем результирующий источник."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:188
+msgid "Делаем выборку корневых элементов, у которых пустое поле ``parent``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:189
+msgid "Перебираем и записываем элементы в результирующий источник (при этом в спецатрибут ``element_id`` - идентификатор (id) обьекта, в ``level`` - значение 0, в ``order`` - приведенный к строке порядковый номер элемента в выборке, дополненный до длины 6 символов лидирующими нолями)."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:190
+msgid "Итеративно делаем выборки следующих уровней вложенности (начиная с 0), до тех пор пока на очередной итерации не будет извлечено 0 объектов. Выборки делаются путем объединения исходного источника с результирующим по связи ``parent = element_id`` и ограничению ``level=текущий уровень`` вложенности."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:191
+msgid "На каждой итерации перебираем и записываем элементы в результирующий сорс, при этом:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:193
+msgid "в спецатрибут ``element_id`` пишем идентфикатор (id) обьекта,"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:194
+msgid "в ``level`` пишем текущий уровень вложенности,"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:195
+msgid "в ``order`` пишем конкатенацию order родительского элемента и приведенного к строке порядкового номера элемента в выборке, дополненного до длины 6 символов лидирующими нолями."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:198
+msgid "Настройка скрытия объектов"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:200
+msgid "Настройка скрытия всех объектов, если табличные фильтры не заданы. Чтобы при открытии отчета все объекты скрывались, пока не будет выбрано значение из списка в фильтре необходимо для него применить настройку ``\"needFilterSet: true\"``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:203
+msgid "Отображение в заголовке отчета параметров выборки посредством паттернов"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:308
+msgid "Стилизация строк отчета на основании данных"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:356
+msgid "Возможность использования комбобоксов в параметрах и фильтрах"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:393
+msgid "Настройка обработки параметров в фильтре на странице отчета"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:409
+msgid "Значение года в атрибуте ``$yearStart`` равно значению года из даты в атрибуте ``:dateSelect``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:412
+msgid "Настройка пагинатора ``\"pageSize\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:414
+msgid "**NB:** Применяется для отчетов с типом ``type: list``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:416
+msgid "Для случаев, когда отчет содержит в себе много объектов и на станицах нужно выводить строки постранично, чтобы не нагружать браузер тяжелой обработкой данных."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:433
+msgid "Настройка вывода построчно"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:435
+msgid "Настройка вывода вложенных данных в отчете построчно настраивается следующим образом:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:458
+msgid "Настройка инкрементальной загрузки"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:460
+msgid "Для настройки инкрементальной загрузки данных в источник при сборке шахты необходимо выставить параметр:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:466
+msgid "Он необходим для подгрузки статистики за день в шахту, чтоб не пересчитывать весь объем исходных данных и иметь историю по периодам."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:469
+msgid "Особенности сортировки объектов"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:471
+msgid "Учитывая функционал агрегации MongoDB - сортировка возможна только по результирующим полям. Это значит, что для обратной совместимости поля результата, по которым сортируем, необходимо называть так же, как и поля в источнике данных."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:474
+msgid "Пример сортировки (свойство ``sort``\\ ):"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:491
+msgid "Следующая страница: `Конфигурация платформы - deploy.json </docs/ru/2_system_description/platform_configuration/deploy.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:496
+msgid "`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/2_system_description/metadata_structure/meta_report/meta_report.md>`_   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_report/meta_report.rst:506
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights reserved."
+msgstr ""

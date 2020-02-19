@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../2_system_description/metadata_structure/meta_class/metaversion.rst:3
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/metaversion.rst:6
+msgid "Предыдущая страница: `Признак абстрактности для класса <abstract.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/metaversion.rst:9
+msgid "Версионирование"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/metaversion.rst:11
+msgid "**Версионирование** - позволяет хранить в системе сразу несколько версий метаданных. В каждый объект при изменении и сохранении проставляется его версия. Таким образом, версионирование предоставляет возможность работы с различными версиями одних объектов."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/metaversion.rst:13
+msgid "Версионирование задается в поле ``\"version\"`` основной части меты классов. Чтобы изменить версию меты, необходимо добавить атрибут  ``version``\\ (\"version\" : 2)."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/metaversion.rst:16
+msgid "Механизм работы"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/metaversion.rst:18
+msgid "При загрузке метаданных если есть атрибут  version (\"version\" : 2), то будет закачена мета с версией, иначе версия = 1"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/metaversion.rst:65
+msgid "Работа в коде"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/metaversion.rst:67
+msgid "При считывании меты классов, данные разделяются по версиям.  Имена версионированных классов имеют имена следующего вида “<имя\\ *класса>*\\ <номер версии>”. Например ion_filter_1, ion_filter_2 – Класс ion_filter версии 1 и 2 соответственно."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/metaversion.rst:69
+msgid "При выборке объектов, данные берутся с учётом версии. Версия объекта передаётся в виде параметра ``version`` запроса на открытие объекта."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/metaversion.rst:72
+msgid "Следующая страница: `Родительский класс <ancestor.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/metaversion.rst:77
+msgid "`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/2_system_description/metadata_structure/meta_class/metaversion.md>`_   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/metaversion.rst:87
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**. All rights reserved."
+msgstr ""

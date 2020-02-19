@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_cached_true.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_cached_true.rst:9
+msgid "Предыдущая страница: `Вычислимые поля <atr_formula.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_cached_true.rst:12
+#: ../../2_system_description/metadata_structure/meta_class/atr_cached_true.rst:33
+msgid "Кеширование значения вычисляемого атрибута"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_cached_true.rst:15
+msgid "Описание функционала"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_cached_true.rst:17
+msgid "При применении функционала кеширования, значения атрибутов рассчитываются при создании и изменении объекта. При выборках берутся ранее рассчитанные значения."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_cached_true.rst:19
+msgid "Если есть два вычисляемых атрибута A и B обращающиеся к коллекции C, и при этом на A настроено кеширование, а на B не настроено, то при редактировании коллекция C будет выдергиваться 2 раза - один раз для атрибута B на уровне ``securedDataRepo`` для проверки доступа, второй раз для атрибута A при его пересчете уже в ``dataRepo``. При чтении объекта из БД в данном случае кеш атрибута A просто не имеет смысла, так как коллекция в любом случае будет выбираться для атрибута B."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_cached_true.rst:22
+msgid "Кеширование семантик"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_cached_true.rst:24
+msgid "Для кеширования семантик объектов в мете класса необходимо указать параметр:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_cached_true.rst:30
+msgid "Для атрибутов используемых в кешируемых семантиках не выполняется предварительная выборка объектов загрузки. Также в таких семантиках не рекомендуется использовать даты, т.к. они не будут приведены к формату часового пояса пользователя, так как кешируются при редактировании объекта на уровне ``DBAL``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_cached_true.rst:35
+msgid "Для кеширования значения вычисляемого атрибута в его мете указываем:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_cached_true.rst:41
+msgid "Кроме того, реализована возможность обновлять кеши у объектов по ссылкам при редактировании основного объекта."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_cached_true.rst:43
+msgid "Для этого в мете класса указываем настройку:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_cached_true.rst:49
+msgid "В настройке необходимо указать ссылки и коллекции, кеши объектов в которых необходимо обновить при редактировании объекта данного класса. Обновления выполняестя рекурсивно, то есть если в классе объекта в ``refAttr1`` настроено обновление кешей, оно будет запущено. Настройка наследуется в классах наследниках."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_cached_true.rst:52
+msgid "Пример настройки:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_cached_true.rst:87
+msgid "Кешируется значение данного атрибута, получаемое из формулы. Дополнительно для обновления значения при редактирования объекта необходимо обновлять кеши объектов по ссылке: для это в мете класса каждого объекта по ссылке указываем ``cacheDependencies:``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_cached_true.rst:90
+msgid "Пример:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_cached_true.rst:115
+msgid "Следующая страница: `Типы атрибутов <property_types.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_cached_true.rst:120
+msgid "`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/2_system_description/metadata_structure/meta_class/atr_cached_true.md>`_     &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/atr_cached_true.rst:130
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights reserved."
+msgstr ""

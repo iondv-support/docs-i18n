@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../7_develop/app-utils/button.rst:6
+msgid "Утилиты для кнопок действия"
+msgstr ""
+
+#: ../../7_develop/app-utils/button.rst:8
+msgid "Назад: `Функциональные утилиты приложения <./readme.md>`_"
+msgstr ""
+
+#: ../../7_develop/app-utils/button.rst:10
+msgid "Утилиты для кнопок действия предназначены для автоматизации выполнения некоторых действий при нажатии кнопки в веб-форме. Кнопка подключается для веб-формы создания и редактирования объекта через массив ``commands`` основого объекта формы:"
+msgstr ""
+
+#: ../../7_develop/app-utils/button.rst:49
+msgid "На этой форме доступно три кнопки: ``SAVE``\\ , ``SAVEANDCLOSE`` и ``CREATE_INDICATOR_VALUE``.\\ :raw-html-m2r:`<br>` Пользовательские кнопки перед подключением к форме необходимо задать в ``deploy.json`` в объекте ``modules.registry.globals.di.actions.options.actions``\\ :"
+msgstr ""
+
+#: ../../7_develop/app-utils/button.rst:76
+msgid "А также указать параметры используемого кнопкой модуля-обработчика:"
+msgstr ""
+
+#: ../../7_develop/app-utils/button.rst:98
+msgid "В этом примере нажатие на кнопку ``CREATE_INDICATOR_VALUE`` запускает скрипт ``./applications/sakh-pm/lib/actions/createIndicatorValueHandler.js``."
+msgstr ""
+
+#: ../../7_develop/app-utils/button.rst:100
+msgid "Содержание скрипта:"
+msgstr ""

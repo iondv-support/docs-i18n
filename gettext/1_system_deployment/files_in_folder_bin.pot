@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:3
+msgid "Файлы в папке \"bin\""
+msgstr ""
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:5
+msgid "В папке содержаться скрипты запуска приложения, реализованного на IONDV. Framework, такие как:"
+msgstr ""
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:8
+msgid "`acl.js </docs/ru/1_system_deployment/files_in_folder_bin.md#acljs>`_"
+msgstr ""
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:9
+msgid "`export.js </docs/ru/1_system_deployment/files_in_folder_bin.md#exportjs>`_"
+msgstr ""
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:10
+msgid "`import.js и import-data.js </docs/ru/1_system_deployment/files_in_folder_bin.md#importjs-%D0%B8-import-datajs>`_"
+msgstr ""
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:11
+msgid "`setup.js </docs/ru/1_system_deployment/files_in_folder_bin.md#setupjs>`_"
+msgstr ""
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:18
+msgid "acl.js"
+msgstr ""
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:20
+msgid "Шаблон команды запуска: ``node %NODE_PATH%\\bin\\acl.js --d %NODE_PATH%\\applications\\%IONAPP%\\acl`` где, ``NODE_PATH`` - путь к директории платформы, ``%IONAPP%`` - наименование приложения."
+msgstr ""
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:23
+msgid "Добавляет права на объекты системы, указанные в папке acl."
+msgstr ""
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:25
+msgid "Так же доступны команды для создания роли и прав для нее в системе, в случае если в приложении отсутствуют настройки в папке **acl**\\ :"
+msgstr ""
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:29
+msgid "[x] Настройка логина и пароль - ``node bin/adduser.js --name admin --pwd 123``"
+msgstr ""
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:32
+msgid "[x] Настройка доступа - ``node bin/acl.js --u admin@local --role admin --p full``"
+msgstr ""
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:35
+msgid "[x] Права на генерацию токена для сервиса rest/token - ``node bin/acl.js --role admin --p USE --res ws:::gen-ws-token``"
+msgstr ""
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:42
+msgid "export.js"
+msgstr ""
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:44
+msgid "Шаблон команды запуска: ``node bin/export --ns %IONAPP%`` где, ``NODE_PATH`` - путь к директории платформы, ``%IONAPP%`` - наименование приложения (namespace)."
+msgstr ""
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:47
+msgid "Выполняет экспорт данных и меты из приложения, которое в данный момент собрано и запущено локально. Файлы экспорта формируются в структуру папок, которые расположены на одном уровне с директорией платформы в папке *out*."
+msgstr ""
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:51
+msgid "import.js и import-data.js"
+msgstr ""
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:53
+msgid "При импорте меты, по умолчанию, импорт данных не выполняется. Поэтому, для импорта меты вместе с данными вызываем команду:"
+msgstr ""
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:56
+msgid "``node bin/import.js --src %NODE_PATH%/applications/%IONAPP% --with-data --ns %IONAPP%`` где, ``NODE_PATH`` - путь к директории платформы, ``%IONAPP%`` - наименование приложения (namespace)."
+msgstr ""
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:59
+msgid "А для импорта непосредственно данных вызываем:"
+msgstr ""
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:61
+msgid "``node %NODE_PATH%/bin/import-data.js --src %NODE_PATH%/applications/%IONAPP%/data --ns %IONAPP%``"
+msgstr ""
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:63
+msgid "При этом, если импортируем мету и данные, указываем директорию приложения (при этом данные для импорта будут искаться в поддиректории data), если импортируем данные, нужно указывать непосредственно директорию с данными."
+msgstr ""
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:66
+msgid "setup.js"
+msgstr ""
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:68
+msgid "Шаблон команды запуска: ``node %NODE_PATH%\\bin\\setup %IONAPP%`` где, ``NODE_PATH`` - путь к директории платформы, ``%IONAPP%`` - наименование приложения."
+msgstr ""
+
+#: ../../1_system_deployment/files_in_folder_bin.rst:71
+msgid "Выполняет установку приложения, запускает скрипт развертывания приложения, что включает в себя импорт и запись в базу данных меты модулей приложения."
+msgstr ""

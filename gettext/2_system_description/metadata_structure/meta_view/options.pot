@@ -1,0 +1,214 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:9
+msgid "Предыдущая страница: `Теги <tags.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:12
+msgid "Опции"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:14
+msgid "**Опции** - предназначены для установления дополнительных параметров атрибута. Интерпретация настроек выполняется конкретной специфической реализацией модуля."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:16
+msgid "На данный момент в модуле ``registry`` поддерживаются следующие настройки:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:29
+msgid "``cssClasses`` - классы css, которые нужно применить к полю (в стандартном шаблоне)"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:30
+msgid "``cssStyles`` - css стили, которые нужно применить к полю (в стандартном шаблоне)"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:31
+msgid "``template`` - имя шаблона, который будет использован для отрисовки поля. Будет выполнен поиск ejs-шаблона с таким именем в стандартной теме, а в директриях указанных в настройке templates модуля."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:33
+msgid "В кастомном шаблоне доступны все переменные, передаваемые в стандартные шаблоны атрибутов:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:36
+msgid "``item`` - объект отображаемый формой"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:37
+msgid "``prop`` - свойство объекта представляемое полем (если есть)"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:38
+msgid "``field``\\ - мета-объект поля"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:39
+msgid "``id`` - идентификатор поля, сформированный по стандартному алгоритму"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:42
+msgid "Сортировка - ``\"reorderable\": true``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:44
+msgid "Применимо для атрибутов типа \"Коллекция\". Определяет возможность сортировки элементов коллекции стрелками вверх и вниз, меняет порядковые номера между двумя элементами коллекции."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:53
+msgid "Подключение шаблона библиотеки ``template``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:56
+msgid "Подключение кастомного шаблона атрибута"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:58
+msgid "Указываем значение пути к шаблону - располагаются в папке проекта ``.\\templates\\registry\\``. Пример для шаблона ниже ``./templates/registry/attrs/project/stateView.ejs``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:66
+msgid "Шаблону передается элемент ``item`` с основными командами ``${item.getItemId()}``\\ :"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:69
+msgid "получения значения элемента ``item.property('stage').getValue()``\\ ,"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:70
+msgid "идентификатора ``item.getItemId()``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:71
+msgid "имени класса ``item.getClassName()`` Элемент объекта ``prop``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:73
+msgid "имени (кода) свойства ``prop.getName()``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:74
+msgid "вычислении значения атрибута (если формула) ``prop.evaluate()``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:75
+msgid "значения атрибута ``prop.getValue()``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:76
+msgid "ссылки на класс ``prop.meta.refClass``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:78
+msgid "Также передаются пути модуля ``${module}`` для подключения шаблонов , например ``<% stylesheet(``\\ ${module}/app-static/css/styles.css\\ ``) -%>``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:81
+msgid "Подключение для коллекции иерархии ``treegrid``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:100
+msgid "Представление в списке объектов для цветных иконок"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:102
+msgid "По тому же принципу что и в мете представлений создания/редактирования можно задавать переопределяющие шаблоны для меты представлений списков для каждой колонки:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:112
+msgid "[пример] (https://ion-dv.atlassian.net/browse/MODREGISTR-404)"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:115
+msgid "Подключение для цифровых полей слайдера/бегунка slider"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:127
+msgid "Подключение для целочисленных полей бегунка ``range``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:129
+msgid "Задается в представлении для свойства ``\"options\"``\\ :"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:151
+msgid "Пример ``\"options\"`` атрибута \"Таблица\""
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:185
+msgid "``\"inplaceInsertionClass\"`` указываем в том случае, если при создании объекта нужно выбирать класс (если есть наследники)."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:220
+msgid "По умолчанию колонка даты имеет ширину 110 пикселей и выравнивание по центру."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:222
+msgid "Возможные опции атрибута:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:242
+msgid "Можно настраивать CSS поля либо через ``tags``\\ , либо через ``options``. В регистри есть соответствующие стандартные css-классы с нужным поведением: nolabel, toplabel, fill."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:244
+msgid "Для атрибута в мете представлений css-классы назначаются так:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:247
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:267
+msgid "В свойстве ``options``\\ :"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:256
+msgid "В свойстве ``tags`` (обратная совместимость)"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:262
+msgid "Помимо классов можно напрямую задавать и стили (они будут применены только к контейнеру)."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:264
+msgid "Задаем стили для атрибута в мете представлений:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:279
+msgid "В свойстве ``tags``\\ :"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:285
+msgid "Описание выше относится только к стандартным шаблонам полей из стандартной темы оформления."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:288
+msgid "Следующая страница: `Проектные документы <fileshare.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:293
+msgid "`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/2_system_description/metadata_structure/meta_view/options.md>`_   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_view/options.rst:303
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights reserved."
+msgstr ""

@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:5
+msgid "Способы конфигурации параметров:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:7
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:9
+msgid "Предыдущая страница: `Зависмости в package.json <docs/ru/2_system_description/platform_configuration/package.md>`_"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:11
+msgid "через ini-файлы"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:12
+msgid "через переменную окружения"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:14
+msgid "**NB:** Приоритетной является настройка, заданная через переменные окружения, а не через ini-файлы. При этом настройки /config/setup.ini не влияют на настройки деплой приложения - они используются только для ядра и модулей. Deploy.json чаще всего параметризируеются через ini в дирректории приложения, например файл deploy.ini."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:19
+msgid "Пример конфигурации параметров ownCloud, вместе с учетной записью"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:21
+msgid "Для начала необходимо задать в ``deploy.json`` параметрические настройки хранилища:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:36
+msgid "Конфигурация параметров deploy через ini-файлы:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:38
+msgid "В ini-файле ``deploy.ini`` рядом c deploy.json задать параметры следующего вида:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:47
+msgid "Конфигурация параметров deploy через переменную окружения:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:49
+msgid "В переменных окружения для ноды при конфигурации приложения задать параметры следующего вида:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:58
+msgid "Настройка ограничения"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:60
+msgid "Настройка ограничения переключения по пунктам системного меню для анонимного пользователя. Системное меню формируется с учетом контроля доступа к страницам модулей, т.е. нет прав на страницу модуля - не отображается пункт меню, для перехода на данный модуль, в системном меню. В ini-файле приложения необходимо выставить ``auth.checkUrlAccess=true`` чтобы задать настройку ограничения."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:63
+msgid "Изменение всех ссылок на относительные"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:65
+msgid "Чтобы изменить все ссылки на относительные, в ini-файле проекта укажите:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:71
+msgid "Если путь не указан то считается по умолчанию '/'."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:74
+msgid "Настройка в модуле админа блока управления запуском заданий по расписанию"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:76
+msgid "Для отображения пункта меню необходимо добавить в ini-файл проекта настройку:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:82
+msgid "Она включит шедулер (англ. scheduler) в процессе веб-сервера, что даст возможность управлять джобами из модуля админа ."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:84
+msgid "**Шедулер** — управляет таймерами запуска задач"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:86
+msgid "**Джоб** — конкретная задача, запускаемая по таймеру"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:89
+msgid "Настройка кеширования данных на уровне ядра"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:91
+msgid "Настройка кеширования данных на уровне ядра - позволяет корректно восстановливать из кеша жаднозагружаемые ссылочные атрибуты и коллекции, а также файлы и вычисляемые атрибуты. Корректно кешируются списки. Внедрено кеширование в геомодуле. Настройка раз и навсегда решает проблему циклических ссылок при сериализации объектов."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:93
+msgid "В ini-файле прописываем:"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:100
+msgid "Настройка временных ограничений"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:102
+msgid "``connectTimeOut`` - максимальное время установления соединения."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:104
+msgid "``operTimeOut`` - максимальное время выполнения операции."
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:112
+msgid "Настройка минимальной длины пароля"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:118
+msgid "Переопределить настройку для отдельного приложения можно в файле `deploy.json <https://github.com/iondv/framework/blob/masterdeploy_globals.md#%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%BC%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D0%B4%D0%BB%D0%B8%D0%BD%D1%8B-%D0%BF%D0%B0%D1%80%D0%BE%D0%BB%D1%8F-%D0%B4%D0%BB%D1%8F-%D0%B2%D1%85%D0%BE%D0%B4%D0%B0-%D0%B2-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%83>`_"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:121
+msgid "Следующая страница: `Функциональность приложения </docs/ru/2_system_description/functionality/functionality.md>`_"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:126
+msgid "`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/2_system_description/platform_configuration/ini_files.md>`_   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/platform_configuration/ini_files.rst:136
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights reserved."
+msgstr ""

@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../3_modules_description/rest/methods_crud.rst:3
+msgid "Отправка запросов с файлами в CRUD сервисе"
+msgstr ""
+
+#: ../../3_modules_description/rest/methods_crud.rst:5
+msgid "Отправка и прием файлов осуществляется двумя способами:"
+msgstr ""
+
+#: ../../3_modules_description/rest/methods_crud.rst:8
+msgid "данные принимаются в формате ``json``\\ , тогда контент файла передается как строка в формате *Base64*"
+msgstr ""
+
+#: ../../3_modules_description/rest/methods_crud.rst:9
+msgid "данные принимаются как ``FormData`` (application/x-www-form-urlencoded), тогда файлы передаются как *multipart*"
+msgstr ""
+
+#: ../../3_modules_description/rest/methods_crud.rst:11
+msgid "Корректный прием файловых атрибутов в случае отправки таких запросов осуществляется методами ``POST``\\ , ``PUT`` и ``PATCH`` в CRUD сервисе."
+msgstr ""
+
+#: ../../3_modules_description/rest/methods_crud.rst:13
+msgid "Так же возможна передача ссылок и коллекций по примеру, описанному для `soap модуля <https://github.com/iondv/soap>`_."
+msgstr ""

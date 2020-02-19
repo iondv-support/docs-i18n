@@ -1,0 +1,356 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:9
+msgid "Таблица соответствия типов атрибутов типам представлений"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:14
+msgid "Код типа атрибута"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:15
+msgid "Наименование типа атрибута"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:16
+msgid "Код основного типа представления"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:17
+msgid "Наименование основного типа представления"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:18
+msgid "Предпочитаемый тип отображения для основного типа представления"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:19
+msgid "Допустимые типы представлений (выборочно)"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:20
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:118
+msgid "0"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:21
+msgid "Строка"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:22
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:26
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:94
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:130
+msgid "1"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:23
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:95
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:131
+msgid "Текстовое"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:25
+msgid "7 - Многострочный текст, 8 - Форматированный текст"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:27
+msgid "Текст"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:28
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:62
+msgid "7"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:29
+msgid "Многострочный текст"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:31
+msgid "1 - Текстовое, 8 - Форматированный текст"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:32
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:100
+msgid "2"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:33
+msgid "HTML"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:34
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:68
+msgid "8"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:35
+msgid "Форматированный текст"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:37
+msgid "1 - Текстовое, 7 -Многострочный текст"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:38
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:106
+msgid "3"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:39
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:41
+msgid "URL"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:40
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:122
+msgid "17"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:44
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:82
+msgid "4"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:45
+msgid "Изображение"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:46
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:98
+msgid "13"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:47
+msgid "Выбор изображения"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:50
+msgid "5"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:51
+msgid "Файл"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:52
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:86
+msgid "11"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:53
+msgid "Выбор файла"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:56
+msgid "6"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:57
+msgid "Целое"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:58
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:104
+msgid "14"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:59
+msgid "Редактор целых чисел"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:63
+msgid "Действительное"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:64
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:70
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:110
+msgid "15"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:65
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:71
+msgid "Редактор вещественных чисел"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:69
+msgid "Десятичное"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:74
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:112
+msgid "9"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:75
+msgid "Дата/Время"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:76
+msgid "120"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:77
+msgid "Выбор даты"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:79
+msgid "6 - Выбор даты-времени"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:80
+msgid "10"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:81
+msgid "Логический"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:83
+msgid "Флаг"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:87
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:89
+msgid "Пароль"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:88
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:92
+msgid "12"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:93
+msgid "Глобальный идентификатор"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:99
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:101
+msgid "Ссылка"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:102
+msgid "1 - Ссылка"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:105
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:107
+msgid "Коллекция"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:108
+msgid "3 - Таблица"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:111
+msgid "Множество"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:113
+msgid "Альтернативный выбор"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:115
+msgid "10 - Множественный выбор"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:116
+msgid "16"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:117
+msgid "Структура"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:119
+msgid "Группа"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:123
+msgid "Пользовательский тип"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:125
+msgid "*не определено, зависит от базового типа*"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:128
+msgid "18"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:129
+msgid "Пользователь"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:134
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:136
+msgid "60"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:135
+msgid "Период"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:137
+msgid "Выбор периода"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:140
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:142
+msgid "100"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:141
+msgid "Геоданные"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:143
+msgid "Геообъект"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:144
+msgid "0 - Карта"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:146
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:148
+msgid "110"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:147
+msgid "Коллекция файлов"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:149
+msgid "Набор файлов"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:157
+msgid "`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/2_system_description/metadata_structure/correspondance_table.md>`_   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/correspondance_table.rst:167
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights reserved."
+msgstr ""

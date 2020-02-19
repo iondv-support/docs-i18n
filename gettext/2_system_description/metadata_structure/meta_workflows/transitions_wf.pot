@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:9
+msgid "Предыдущая страница: `Статус бизнес-процесса <status_wf.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:12
+msgid "Переходы бизнес-процесса"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:15
+msgid "JSON"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:39
+msgid "Поле"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:40
+msgid "Описание"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:41
+msgid "``\"name\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:42
+msgid "Системное имя статуса."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:43
+msgid "``\"caption\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:44
+msgid "Логическое имя статуса."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:45
+msgid "``\"startState\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:46
+msgid "Начальный статус для осуществления перехода по БП."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:47
+msgid "``\"finishState\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:48
+msgid "Конечный статус по завершению перехода по БП."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:49
+msgid "``\"signBefore\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:50
+msgid "Логическое значение \"Подписать до начала перехода\"."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:51
+msgid "``\"signAfter\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:52
+msgid "Логическое значение \"Подписать по завершению перехода\"."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:53
+msgid "``\"roles\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:54
+msgid "Список ролей, с правами на осуществление перехода."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:55
+msgid "``\"assignments\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:56
+msgid "Присвоение значения атрибутам после осуществления перехода по БП."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:57
+msgid "``\"conditions\"``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:58
+msgid "Условия, выполняемые для осуществления перехода по БП. Задаются аналогично \"Условиям отбора допустимых значений\"."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:64
+msgid "Задается через свойство ``\"assignments\"`` в переходе БП."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:67
+msgid "Пример"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:80
+msgid "По ссылке атрибута типа \"Ссылка\" [resolution], для атрибута [stateRemPet] присвоить значение \"end\" - при выполнении данного перехода по БП."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:83
+msgid "Следующая страница: `Мета безопасности </docs/ru/2_system_description/metadata_structure/meta_security/meta_security.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:88
+msgid "`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/2_system_description/metadata_structure/meta_workflows/transitions_wf.md>`_   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:98
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights reserved."
+msgstr ""

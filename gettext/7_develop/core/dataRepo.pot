@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../7_develop/core/dataRepo.rst:3
+msgid "Ключевые функции ядра: dataRepo"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:5
+msgid "//dataRepo info from"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:9
+msgid "core\\impl\\datarepository\\ionDataRepository.js"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:10
+msgid "core\\interfaces\\DataRepository\\DataRepository.js"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:11
+msgid "core\\interfaces\\MetaRepository\\MetaRepository.js"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:12
+msgid "core\\impl\\meta\\DsMetaRepository.js"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:13
+msgid "#. core\\iterfaces\\DataSource.js #."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:15
+msgid "core\\impl\\datasource\\mongodb.js // supported calls:"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:20
+msgid "wrap(className, data, [version], [options]) supported options: user ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:26
+msgid "setValidators(validators[]) ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:30
+msgid "getCount(obj, [options]) supported options: filter"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:34
+msgid "Возвращает количество объектов класса obj в базе данных. ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:38
+msgid "getList(obj, [options]) supported options: filter offset count sort countTotal nestingDepth env user"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:49
+msgid "Возвращает список объектов класса obj в базе данных. ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:53
+msgid "getIterator(obj, [options]) supported options: filter offset count sort countTotal nestingDepth env user"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:64
+msgid "предположительно https://docs.mongodb.com/manual/tutorial/iterate-a-cursor/ ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:68
+msgid "aggregate(className, [options]) supported options: user expressions filter groupBy"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:75
+msgid "предположительно https://docs.mongodb.com/manual/aggregation/"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:77
+msgid "..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:81
+msgid "rawData(className, [options]) supported options: user filter attributes distinct"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:88
+msgid "https://docs.mongodb.com/manual/reference/method/db.collection.find/ ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:93
+msgid "getItem(obj, [id], [options]) supported options: filter nestingDepth user ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:101
+msgid "createItem(className, data, [version], [changeLogger], [options]) supported options: nestingDepth skipResult adjustAutoInc user ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:110
+msgid "editItem(className, id, data, [changeLogger], [options]) supported options: nestingDepth skipResult adjustAutoInc user ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:119
+msgid "saveItem(className, id, data, [version], [changeLogger], [options]) supported options: nestingDepth autoAssign skipResult adjustAutoInc user ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:129
+msgid "deleteItem(className, id, [changeLogger], [options]) supported options: user ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:135
+msgid "put(master, collection, details, [changeLogger], [options]) supported options: user ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:141
+msgid "eject(master, collection, details, [changeLogger], [options]) supported options: user ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:147
+msgid "getAssociationsList(master, collection, [options]) supported options: filter offset count sort countTotal nestingDepth user ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:159
+msgid "getAssociationsCount(master, collection, [options]) supported options: filter offset count sort countTotal nestingDepth user ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:171
+msgid "bulkEdit(classname, data, [options]) supported options: filter nestingDepth forceEnrichment user ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:180
+msgid "bulkDelete(classname, [options]) supported options: filter user"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:186
+msgid "recache(item, [options]) ..."
+msgstr ""

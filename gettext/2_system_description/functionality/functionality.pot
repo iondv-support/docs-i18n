@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../2_system_description/functionality/functionality.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:9
+msgid "Предыдущая страница: `ini-файлы </docs/ru/2_system_description/platform_configuration/ini_files.md>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:12
+msgid "Функциональность"
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:14
+msgid "**Функциональность приложения** - это набор возможностей (функций), которые реализуются отдельно и независимо от метаданных, но в рамках приложения."
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:19
+msgid "Наименование"
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:20
+msgid "Описание"
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:21
+msgid "`\\ **Шаблоны модулей** <module_templates.md>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:22
+msgid "Разделяются на системные и проектные шаблоны."
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:23
+msgid "`\\ **Печатные формы** <printed_forms.md>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:24
+msgid "Передача форматирования в прописном виде."
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:25
+msgid "`\\ **Задания по рассписанию** <schedule.md>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:26
+msgid "Подсистемы запуска заданий по расписанию."
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:27
+msgid "`\\ **Уведомления** <notifications.md>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:28
+msgid "Лента новых уведомлений."
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:29
+msgid "`\\ **Кеширование данных** <cached.md>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:30
+msgid "Кеширование данных обеспечивает быстрый доступ к запрашиваемой информации."
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:31
+msgid "`\\ **Фильтры на форме** <filter.md>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:32
+msgid "Запрос для фильтра на форме представления списка."
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:33
+msgid "`\\ **Связь двух неймспейсов** <namespace.md>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:34
+msgid "Для связывания двух проектов."
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:35
+msgid "`\\ **ЭЦП** <eds.md>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:36
+msgid "Электронно-цифровая подпись."
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:37
+msgid "`\\ **Виртуальные атрибуты** <virtual_attr.md>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:38
+msgid "Специальный тип атрибутов, который позволяет выводить полный код и наименование класса."
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:39
+msgid "`\\ **Утилиты** <utilities.md>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:40
+msgid "Дополнительные программы для более специализированного применения"
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:44
+msgid "Следующая страница: `Описание модулей <../3_modules_description/modules.md>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:49
+msgid "`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/2_system_description/functionality/functionality.md>`_   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/functionality/functionality.rst:59
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights reserved."
+msgstr ""

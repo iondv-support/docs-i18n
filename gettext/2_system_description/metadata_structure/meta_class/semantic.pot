@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:3
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:6
+msgid "Предыдущая страница: `Ключевой атрибут <key.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:9
+msgid "Семантика"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:11
+msgid "**Семантика** - используется для вывода объекта класса в качестве одной строки заголовка класса."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:13
+msgid "В мете классов поле ``\"semantic\"`` встречается дважды:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:16
+msgid "в общей части меты класса, где формирует строковое представление для данного класса,"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:17
+msgid "в мете атрибута класса, где формирует строкове представление объектов класса на который ссылается атрибут, т.е. используется для ссылочных атрибутов."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:20
+msgid "Цель использования"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:22
+msgid "Используется для корректировки отображения атрибутов и значений атрибутов в списке. В атрибутах, которые выводят табличные данные, семантика используется для ограничения вывода колонок."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:25
+msgid "Примеры использования в ссылочных атрибутах"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:27
+msgid "Например, есть класс ``class``\\ , у которого есть атрибуты: ``id``\\ , ``name``\\ , ``link``\\ , ``date``. Есть второй класс ``classTable``\\ , у которого есть ссылочный атрибут ``table`` на класс ``class``. Без использования семантики в объектах класса ``classTable`` в атрибуте ``table`` будут выводится значения идентификаторов объектов класса ``class``. Атрибуты, используемые как идентификаторы, указаны в мете класса ``class``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:31
+msgid "Чтобы вывести значения атрибутов ``name`` и ``link`` в атрибуте ``table``\\ , а не значения идентификаторов, нужно прописать ``\"semantic\": \"name|link\"``. В зависимости от типа атрибута результат будет разный:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:34
+msgid "Если атрибут ``table`` является ссылкой, то в нем будут заполнены значения атрибутов ``name`` и ``link`` через пробел. Тут можно использовать дополнительные слова и выражения через знак ``|``\\ , например ``\"semantic\": \"name|,  |link\"`` или ``\"semantic\": \"У объекта есть 2 атрибута:|name|,  |link\"``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:36
+msgid "Если атрибут ``table`` является коллекцией объектов класса ``class``\\ , то в нем будут выведеные колонки ``name`` и ``link``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:39
+msgid "Формат отображения в семантике"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:42
+msgid "Можно обрезать вывод с помощью: ``[]``. .. code-block::"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:47
+msgid "Доступно разыменование через ``.``  т.е. доступ во вложенный объект. .. code-block::"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:54
+msgid "Отображение семантики на форме"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:58
+msgid "В списках первого уровня (открываемые непосредственно по узлу навигации) в качестве заголовка выводим только значение из поля \"caption\" узла навигации."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:61
+msgid "В списках выбора в заголовок выводим только значение из поля \"caption\" класса объектов списка."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:64
+msgid "В форме редактирования в заголовок выводим только семантику объекта."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:67
+msgid "В форме создания в заголовок выводим только значение из поля \"caption\" класса."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:70
+msgid "В списках выбора над заголовком мелким шрифтом выводим строку \"Выбор значения атрибута <...> объекта <...>\"."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:73
+msgid "В форме создания, если создается объект в коллекции или ссылке, над заголовком мелким шрифтом выводим строку \"Создание объекта в коллекции/по ссылке <...> объекта <...>\"."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:76
+msgid "Следующая страница: `Признак абстрактности для класса <abstract.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:81
+msgid "`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/2_system_descriptionmetadata_structure/meta_class/semantic.md>`_ &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/semantic.rst:91
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**. All rights reserved."
+msgstr ""

@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../2_system_description/metadata_structure/meta_class/binding.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/binding.rst:9
+msgid "Предыдущая страница: `Ключевой атрибут <key.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/binding.rst:12
+msgid "Основание коллекции"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/binding.rst:14
+msgid "**Основание коллекции** - атрибут в объекте, по значению которого выполняется поиск объектов в коллекции на основании сравнения с атрибутом обратной ссылки."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/binding.rst:17
+msgid "Цель использования"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/binding.rst:19
+msgid "Основание коллекции может быть использовано для создания динамичных коллекций, когда объекты в коллекции могут быть загружены в зависимости от введенных данных или расчитанных по формуле значений, в отличие от обычных обратных ссылок с поиском только по ключевым атрибутам."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/binding.rst:22
+msgid "Пример"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/binding.rst:24
+msgid "Для примера в проекте develop-and-test заведены два класса:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/binding.rst:27
+msgid "``searchRefs`` - в нем добавлен атрибут-строка ``code_binding`` в качестве обратной ссылки для ``binding``. .. code-block::"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/binding.rst:61
+msgid "``backref_searchRefs`` - в этом классе используются атрибуты ``backref_searchRefs_binding`` и ``backref_searchRefs_text``. ``backref_searchRefs_binding`` является динамичной коллекцией, а ``backref_searchRefs_text`` используется в качестве фильтра для коллекции ``backref_searchRefs_binding``. Выборка в коллекцию ``backref_searchRefs_binding`` идет по равенству значений ``backref_searchRefs_text`` из класса ``backref_searchRefs`` и ``code_binding`` из класса ``searchRefs``. При добавлении объектов в коллекцию вручную автоматически заполняется атрибут ``code_binding``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/binding.rst:125
+msgid "Следующая страница: `Признак абстрактности для класса <abstract.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/binding.rst:130
+msgid "`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/2_system_descriptionmetadata_structure/meta_class/binding.md>`_ &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/binding.rst:140
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights reserved."
+msgstr ""

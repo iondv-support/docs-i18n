@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../3_modules_description/portal.rst:5
+msgid "Структура модуля портала"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:7
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:9
+msgid "Назад: `Модули <modules.md>`_"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:11
+msgid "**Модуль портала (portal)** – модуль, предназначенный для отображения произвольных шаблонов данных. Модуль портала выполняет функцию отображения дизайна различной информации с помощью языка разметки *Markdown* и *HTML*."
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:14
+msgid "Состав"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:16
+msgid "Слой представления - отвечает за отображение данных:"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:19
+msgid "``Adapter Provider`` - выполняет функцию связи между данными и отображением их на портале (настройка через файл 'deploy.json')"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:20
+msgid "``File Adapter`` - возвращает ресурсы типа \"Файл\" (остается в памяти приложения)"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:21
+msgid "``Class Adapter`` - предназначен для отображения данных из базы через репозиторий данных (каждый раз обновляются)"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:24
+msgid "Логика отображения данных на портале"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:27
+msgid "Стили портала"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:29
+msgid "Для описания/оформления внешнего вида страниц портала применяются CSS (каскадные таблицы стилей) Пример оформления страницы портала в Dnt - /develop-and-test/portal/view/static/css/style.css"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:32
+msgid "Возможные варианты для применения стилей задаются в папке *portal/view/static/style.css*."
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:47
+msgid "Страницы портала"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:49
+msgid "Шаблоны страниц портала настраиваются в папке *portal/view/templates*."
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:51
+msgid "Расположение объектов на странице описывается в формате языка разметки HTML:"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:72
+msgid "Содержание тега ``<head>`` включает в себя отображение стилей оформления внешнего вида портала."
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:75
+msgid "В тег ``<body>`` включается информация об объектах, отображаемых на странице портала."
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:78
+msgid "Тег ``<script>`` содержит в себе информацию в виде ссылки на программу или ее текст на определенном языке. Скрипты могут располагаться во внешнем файле и связываться с любым HTML-документом, что позволяет использовать одни и те же функции на нескольких веб-страницах, тем самым ускоряя их загрузку. В данном случае тег ``<script>`` применяется с атрибутом ``src``\\ , который указывает на адрес скрипта из внешнего файла для импорта в текущий документ."
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:81
+msgid "Навигация портала"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:83
+msgid "Мета навигации портала представляет собой набор узлов навигации, у каждого из которых указан тип ресурса."
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:85
+msgid "Пример создания секции навигации:"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:97
+msgid "code - системной имя объекта"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:98
+#: ../../3_modules_description/portal.rst:116
+msgid "caption - логическое имя объекта"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:99
+msgid "itemType - тип отображения объекта"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:100
+msgid "subNodes - массив узлов навигации, содержащихся в данной секции"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:102
+msgid "Пример создания узла навигации:"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:115
+msgid "code - системное имя объекта"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:117
+msgid "resources - превращение данных в контент портала"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:118
+msgid "PageSize - размер страницы"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:119
+msgid "itemType -  тип отображения объекта"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:122
+msgid "Оформление данных"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:126
+msgid "Формат разбиения информации на страницы"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:158
+msgid "Формат корректного отображения текста ошибок"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:169
+msgid "Формат преобразования данных в контент портала"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:201
+msgid "Формат отображения текста"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:232
+msgid "`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/3_modules_description/portal.md>`_ &ensp;"
+msgstr ""
+
+#: ../../3_modules_description/portal.rst:242
+msgid "Copyright (c) 2018 **LLC \"ION DV\".**\\ :raw-html-m2r:`<br>` All rights reserved."
+msgstr ""

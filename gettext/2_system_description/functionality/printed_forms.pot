@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../2_system_description/functionality/printed_forms.rst:5
+msgid "Печатные формы"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:7
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:9
+msgid "Назад: `Функциональность <functionality.md>`_"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:12
+msgid "Печатные формы Word"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:15
+msgid "Используется библиотека docxtemplater"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:16
+msgid "Примеры подключения и использования docxtemplater `здесь <http://javascript-ninja.fr/docxtemplater/v1/examples/demo.html>`_."
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:19
+msgid "Параметры передачи форматирования"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:21
+msgid "Для ``table_col`` параметр для передачи форматирования см. правила/примеры `здесь <https://momentjs.com/docs/#/displaying/>`_."
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:23
+msgid "вид:"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:29
+msgid "пример:"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:35
+msgid "результат:"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:41
+msgid "В формате допускается использование символа ``:``."
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:44
+msgid "Вывод значения суммы в прописном варианте"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:46
+msgid "Для docx-шаблонов есть фильтр *toWords*\\ , который по умолчанию преобразует просто в текст, если добавить вторым параметром true, то будет добавляться рублевый формат (рубли - копейки)."
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:49
+msgid "Пример:"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:55
+msgid "В результате значение атрибута \"costExp\" = **345,52**. Результат в печатной форме будет = **Триста сорок пять рублей пятьдесят две копейки**."
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:58
+msgid "Преобразования между датой и строкой"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:60
+msgid "Доступны к применению следующие функции:"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:63
+msgid "date - преобразование строки в дату"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:64
+msgid "upper - строку к верхнему регистру"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:65
+msgid "lower - строку к нижнему регистру"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:67
+msgid "В экспорте в docx в выражениях доступны фильтры:"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:70
+msgid "lower - к нижнему регистру"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:71
+msgid "upper - к верхнему регистру"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:72
+msgid "dateFormat - дата к строке, примеры применения:"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:74
+msgid "{now | dateFormat:\\ ``ru``\\ }"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:75
+msgid "{since | dateFormat:\\ ``ru``\\ }"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:76
+msgid "{date | dateFormat:`ru`:`YYYYMMDD`}"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:78
+msgid "toDate - строка к дате"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:81
+msgid "Значение текущей даты ``_now``"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:88
+msgid "Настройка для отображения значения полей из массива объектов"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:90
+msgid "Если необходимо отобразить поля из массива объектов (коллекция например) используется тэг:"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:96
+msgid "По умолчанию значения будут объеденины через точку с запятой. Чтобы указать другой разделитель, укажите его после второго двоеточия:"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:105
+msgid "`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/2_system_description/functionality/printed_forms.md>`_   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/functionality/printed_forms.rst:115
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights reserved."
+msgstr ""

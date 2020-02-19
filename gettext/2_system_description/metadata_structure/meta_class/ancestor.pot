@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:6
+msgid "`Оглавление </docs/ru/index.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:9
+msgid "Предыдущая страница: `Версионирование <metaversion.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:12
+msgid "Наследование"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:14
+msgid "**Наследование** - позволяет создать новый класс на основе уже существующего (родительского), при этом атрибуты родительского класса заимствуются новым классом. Родительский класс может иметь несколько наследников с различным атрибутивным составом. Каждый наследник может включать в себя свой индивидуальный состав атрибутов + атрибуты родительского класса."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:17
+msgid "Атрибутивный состав"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:19
+msgid "В мете родительского класса атрибутивный состав формируется таким образом, чтобы каждый из них можно было использовать для какого-либо из классов наследников. В то время как в мете класса наследника атрибутивный состав для каждого свой и применяется только на класс, в котором находится."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:22
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:178
+msgid "Пример:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:24
+msgid "*Родительский класс* :"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:46
+msgid "*Класс наследник* :"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:68
+msgid "``\"id\"`` - является уникальным идентификатором для всех его наследников. Хранится в родительском классе."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:70
+msgid "``\"name\"`` - в классе есть атрибут \"Наименование\", который может отображаться в любом из наследников, или в одном из них. То есть, если атрибут ``\"name\"`` задается в родительском классе, то он может отображаться в любом из наследников. Но если ``\"name\"`` задается в классе наследнике, то отображается только в том классе, в котором он был задан."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:75
+msgid "Если для родительского класса задан `признак абстрактности <abstract.md>`_\\ , то представление для него задавать не обязательно."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:77
+msgid "Представления класса задается для каждого наследника по отдельности, с указанием необходимого атрибутивного состава (из класса, для которого создается + необходимые из родительского класса)."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:82
+msgid "Задается в мете класса для атрибута типа ``\"Ссылка\"``\\ /\\ ``\"Коллекция\"`` после указания ссылочного класса/класса коллекции:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:92
+msgid "``itemsClass`` - коллекция на базовый класс ``[event]``"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:94
+msgid "``Subclasses1`` - дочерний класс базого класса ``[event]``\\ , который будет отображаться в списке, при создании объекта по ссылке (далее перечисляем все дочерние классы, которые нужно отображать в списке)."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:98
+msgid "NB. Если данная настройка не задана - при создании, в списке отображаются все дочерние классы."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:102
+msgid "Условия для применения настройки:"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:105
+msgid "Тип атрибута \"Коллекция\" или \"Ссылка\"."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:106
+msgid "Для атрибута типа \"Коллекция\", \"Ссылка\" указан класс ссылки/коллекции на родительский (базовый) класс (при создании объекта ссылочного класса выводиться окно выбора нескольких классов)  ."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:107
+msgid "Помимо `скрытия базового класса <abstract.md>`_\\ , при создании объекта не нужно отображать все дочерние классы в списке выбора классов для создания объекта по ссылке."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:110
+msgid "Пример"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:112
+msgid "Родительский класс [Мероприятия] имеет несколько классов наследников ([Мероприятие1], [Мероприятие3], [Мероприятие2]). В классе [Проект] есть атрибут типа \"Коллекция\", который ссылается на родительский класс [Мероприятие] :"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:169
+msgid "В случае, если для класса задана `настройка абстрактности <abstract.md>`_\\ , то при создании объекта класса [Мероприятие] в коллекцию, в списке выбора отобразятся те наследники класса [event], которые указаны в свойстве ``\"allowedSubclasses\"``. То есть, исходя из примера, в коллекцию \"Мероприятия\" можно создать только объекты класса \"Мероприятие1\" и \"Мероприятие2\"."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:174
+msgid "Дочерние классы могут унаследовать атрибутивный состав не только от своих прямых родительских классов, но и от тех, которые находятся выше по иерархии наследования."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:180
+msgid "``[basicObj]`` - родительский класс  ->> ``[eventBasic]`` - наследник класса [basicObj] ->> ``[eventBlock]`` - наследник класса ``[eventBasic]``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:246
+msgid "Наследник ``[eventBlock]`` будет так же наследовать атрибутивный состав родительского класса ``[basicObj]``\\ , как и наследник ``[eventBasic]``."
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:249
+msgid "Следующая страница: `Метка времени создания <time_user_tracker.md>`_"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:254
+msgid "`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/2_system_description/metadata_structure/meta_class/ancestor.md>`_   &ensp;"
+msgstr ""
+
+#: ../../2_system_description/metadata_structure/meta_class/ancestor.rst:264
+msgid "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights reserved."
+msgstr ""
