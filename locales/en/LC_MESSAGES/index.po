@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-02-19 07:52+0000\n"
-"PO-Revision-Date: 2020-02-20 06:51+0000\n"
+"PO-Revision-Date: 2020-02-20 07:46+0000\n"
 "Last-Translator: IONDV Weblate Admin <weblate@iondv.com>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/intro/index/en/>\n"
 "Language: en\n"
@@ -26,11 +26,11 @@ msgstr "Contents:"
 
 #: ../../index.rst:7
 msgid "Документация по платформе IONDV.Framework"
-msgstr ""
+msgstr "IONDV. Framework Documents"
 
 #: ../../index.rst:76
 msgid "This page in `English </README.md/>`_"
-msgstr ""
+msgstr "This page in `English </README.md/>`_"
 
 #: ../../index.rst:88
 msgid ""
